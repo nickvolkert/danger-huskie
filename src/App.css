@@ -1,38 +1,52 @@
-.App {
+body {
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #5B5E6B; }
+
+.btn {
+  width: 220px;
+  height: 50px;
+  font-weight: 800;
+  font-size: 1.4rem;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  border-radius: 6px;
+  text-decoration: none;
+  float: left;
+  transition: .4s; }
+  .btn-primary {
+    background-color: #FF2C5D;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 15px 0 0 0; }
+    .btn-primary:visited {
+      background-color: #E51646;
+      color: #FFF; }
+    .btn-primary:hover {
+      background-color: #60AAFF;
+      color: #FFF; }
+  .btn-secondary-red {
+    background-color: #FFF;
+    color: #FF2C5D;
+    border: 3px solid #FF2C5D;
+    padding: 12px 0 0 0; }
+    .btn-secondary-red:visited {
+      color: #E51646;
+      border: 3px solid #E51646; }
+    .btn-secondary-red:hover {
+      color: #FFF;
+      background-color: #60AAFF;
+      border: 3px solid #60AAFF; }
+  .btn-secondary-blue {
+    background-color: #FFF;
+    color: #60AAFF;
+    border: 3px solid #60AAFF;
+    padding: 12px 0 0 0; }
+    .btn-secondary-blue:visited {
+      color: #A2B4C9;
+      border: 3px solid #A2B4C9; }
+    .btn-secondary-blue:hover {
+      color: #FFF;
+      background-color: #60AAFF;
+      border: 3px solid #60AAFF; }

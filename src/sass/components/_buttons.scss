@@ -1,0 +1,62 @@
+.btn{
+    width: $button-width;
+    height: 50px;
+    font-weight: 800;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: $border-radius;
+    text-decoration: none;
+    float:left;
+    transition: .4s;
+
+    &-primary {
+        background-color: $color-primary;
+        color: $color-white;
+        text-transform: uppercase;
+        padding: 15px 0 0 0;
+
+        &:visited{
+          background-color: $color-primary-dark;
+          color: $color-white;
+          }
+
+        &:hover{
+        background-color: $color-a-tag;
+        color: $color-white;
+        }
+    }
+    &-secondary-red {
+        background-color: $color-white;
+        color: $color-primary;
+        border: 3px solid $color-primary;
+        padding: 12px 0 0 0;
+
+        &:visited {
+          color: $color-primary-dark;
+          border: 3px solid $color-primary-dark;
+        }
+
+        &:hover {
+            color: $color-white;
+            background-color:$color-a-tag;
+            border: 3px solid $color-a-tag;
+          }
+      }
+      &-secondary-blue {
+        background-color: $color-white;
+        color: $color-a-tag;
+        border: 3px solid $color-a-tag;
+        padding: 12px 0 0 0;
+
+        &:visited {
+          color: $color-a-visited;
+          border: 3px solid $color-a-visited;
+        }
+
+        &:hover {
+            color: $color-white;
+            background-color:$color-a-tag;
+            border: 3px solid $color-a-tag;
+          }
+      }
+  }

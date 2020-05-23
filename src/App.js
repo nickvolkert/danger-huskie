@@ -1,26 +1,57 @@
+//React Table Stakes
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import {Helmet} from "react-helmet";
+import ScrollMemory from 'react-router-scroll-memory';
+//import VectorWorks from "./json/VectorWorks.json"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+//Components
+import Wrapper from "./components/Wrapper"
+import ContentWrapper from "./components/ContentWrapper"
+import Navigation from "./components/Navigation"
+import Footer from "./components/Footer"
+
+//Pages
+import Home from "./pages/Home"
+
+//404
+import Page404 from "./pages/Page404/Page404";
+
+const App = () => (
+  <Router>
+    <Wrapper>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta name="description" content="Personal portfolio of Chicagoland based UX/UI Designer and Illustrator Nick Volkert"></meta>
+        <meta name="keywords" content="Nick Volkert, ux, user experience, user interface design, ux design,
+        ui design, CSS, HTML, javascript, freelance artist, powerpoint, illustrator, illustration, chicago,
+        illinois, IL, website coding, website production, artist, painting, abstract art, tee shirt design,
+        album art, album design, comics, gone clean wholesome fun, GCWF, thursday treat, nickv47, greater chicagoland,
+        chicago, schaumburg, elk grove village, elmhurst"></meta>
+        <meta name="copyright" content="©2001-2020 Nick Volkert"></meta>
+        <meta name="author" content="Nick Volkert"></meta>
+        <meta name="email" content="nick@nickvolkert.com"></meta>
+      </Helmet>
+      <Navigation />
+      <ContentWrapper>
+      {/*<ScrollToTop />*/}
+      <ScrollMemory />
+        <Switch>
+          {/* Redirects */}
+          <Redirect status={301} from="/portfolio/" to="/" />
+          <Redirect status={301} from="/img/" to="/" />
+
+          {/* Core Site */}
+          <Route exact path="/" component={Home} />
+
+          {/* 404 and No Match */}
+          <Route component={Page404} />
+          </Switch>
+      </ContentWrapper>
+      <Footer />
+      </Wrapper>
+  </Router>
+)
 
 export default App;
