@@ -1,7 +1,7 @@
 //React Table Stakes
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {Helmet} from "react-helmet";
 import ScrollMemory from 'react-router-scroll-memory';
 //import VectorWorks from "./json/VectorWorks.json"
@@ -9,7 +9,6 @@ import ScrollMemory from 'react-router-scroll-memory';
 //Components
 import Wrapper from "./components/Wrapper"
 import ContentWrapper from "./components/ContentWrapper"
-import Navigation from "./components/Navigation"
 import Footer from "./components/Footer"
 
 //Pages
@@ -33,14 +32,10 @@ const App = () => (
         <meta name="author" content="Nick Volkert"></meta>
         <meta name="email" content="nick@nickvolkert.com"></meta>
       </Helmet>
-      <Navigation />
       <ContentWrapper>
       {/*<ScrollToTop />*/}
       <ScrollMemory />
         <Switch>
-          {/* Redirects */}
-          <Redirect status={301} from="/portfolio/" to="/" />
-          <Redirect status={301} from="/img/" to="/" />
 
           {/* Core Site */}
           <Route exact path="/" component={Home} />
