@@ -48,13 +48,14 @@ h4 {
   text-transform: uppercase; }
 
 p {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Roboto Mono', monospace; }
 
 @media only screen and (min-width: 768px) {
   h1 {
     margin: 0 auto 4.0rem auto;
     width: 800px;
-    height: 195px; }
+    height: 220px; }
   h4 {
     font-size: 7.0rem;
     padding: 0 0 1.2rem 0;
@@ -187,7 +188,7 @@ footer .sociallinks {
     width: 800px;
     top: 30%;
     left: 50%;
-    height: 215px; } }
+    height: 244px; } }
 
 @media only screen and (max-width: 767px) {
   #splash-wrapper {

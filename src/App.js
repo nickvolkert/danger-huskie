@@ -47,7 +47,7 @@ const App = () => (
           <Route component={Page404} />
 
           {/* Links Page */}
-          <Route exact path="/links" component={Links} />
+          <Route exact path="/danger-links" component={Links} />
           </Switch>
       </ContentWrapper>
       <Footer />

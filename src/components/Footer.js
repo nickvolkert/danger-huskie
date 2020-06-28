@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SocialLinks from "./SocialLinks";
 
 const Footer = () => (
@@ -6,7 +7,7 @@ const Footer = () => (
         <div id="footer-center">
             <div id="footer-top">
                 <h4>Danger Huskie</h4>
-                <p>Coming Fall 2020  |  <a href="/links">My Links</a></p>
+                <p>Coming Fall 2020  |  <Link to="/danger-links">My Links</Link></p>
             </div>
             <SocialLinks/>
             <div id="copyright">
