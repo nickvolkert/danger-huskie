@@ -11,10 +11,12 @@ h4{
 }
 h1{
     padding:0;
-    text-indent: -9999px;
     background-image: url("https://www.nickvolkert.com/dangerhuskie/img/danger-huskie-onnavy.svg");
     background-repeat: no-repeat;
     filter: drop-shadow($dropshadow);
+}
+h1 span{
+    display: none;
 }
 h4{
     margin:0;
@@ -24,6 +26,7 @@ h4{
 p{
     text-align:center;
 }
+
 
 @media only screen and (min-width: 768px) {
     h1{

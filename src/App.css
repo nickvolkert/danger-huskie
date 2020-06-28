@@ -35,10 +35,12 @@ h4 {
 
 h1 {
   padding: 0;
-  text-indent: -9999px;
   background-image: url("https://www.nickvolkert.com/dangerhuskie/img/danger-huskie-onnavy.svg");
   background-repeat: no-repeat;
   filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7)); }
+
+h1 span {
+  display: none; }
 
 h4 {
   margin: 0;
@@ -170,7 +172,7 @@ footer .sociallinks {
   background: linear-gradient(#EE283B, #0A2240);
   width: 100%;
   margin: 0 auto;
-  height: 70vh; }
+  height: 75vh; }
 
 #splash-wrapper {
   width: 800px;
@@ -181,7 +183,14 @@ footer .sociallinks {
   margin: 0 auto;
   height: 215px; }
 
+#footer span {
+  padding-right: 12px;
+  display: inline-block; }
+
 @media only screen and (max-width: 600px) {
+  #home p span::before {
+    content: "\A";
+    white-space: pre; }
   #footer span::before {
     content: "\A";
     white-space: pre; } }

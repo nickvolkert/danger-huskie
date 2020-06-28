@@ -10,7 +10,7 @@ const Footer = () => (
             </div>
             <SocialLinks/>
             <div id="copyright">
-                <p><span className="copyright__danger">Danger Huskie is</span> <span className="copyright__link">©2020 Nick Volkert | <a href="https://nickvolkert.com/" target="_blank" alt="nick volkert portfolio link" rel="noopener noreferrer">nickvolkert.com</a></span></p>
+                <p><span>Danger Huskie is</span> <span>©2020 Nick Volkert | <a href="https://nickvolkert.com/" target="_blank" alt="nick volkert portfolio link" rel="noopener noreferrer">nickvolkert.com</a></span></p>
             </div>
         </div>
     </footer>
