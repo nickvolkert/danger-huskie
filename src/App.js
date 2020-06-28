@@ -26,14 +26,11 @@ const App = () => (
       <Helmet>
         <meta charSet="utf-8" />
         <meta name="description" content="Personal portfolio of Chicagoland based UX/UI Designer and Illustrator Nick Volkert"></meta>
-        <meta name="keywords" content="Nick Volkert, ux, user experience, user interface design, ux design,
-        ui design, CSS, HTML, javascript, freelance artist, powerpoint, illustrator, illustration, chicago,
-        illinois, IL, website coding, website production, artist, painting, abstract art, tee shirt design,
-        album art, album design, comics, gone clean wholesome fun, GCWF, thursday treat, nickv47, greater chicagoland,
-        chicago, schaumburg, elk grove village, elmhurst"></meta>
-        <meta name="copyright" content="©2001-2020 Nick Volkert"></meta>
+        <meta name="keywords" content="Nick Volkert, vector art, vector graphics, adobe illustrator artist, illustration, nickv47, greater chicagoland,
+        chicago, schaumburg, elk grove village, elmhurst, illinois, illinois artist"></meta>
+        <meta name="copyright" content="©2020 Nick Volkert"></meta>
         <meta name="author" content="Nick Volkert"></meta>
-        <meta name="email" content="nick@nickvolkert.com"></meta>
+        <meta name="email" content="dangerhuskie@nickvolkert.com"></meta>
       </Helmet>
       <ContentWrapper>
       {/*<ScrollToTop />*/}
