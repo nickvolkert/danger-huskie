@@ -9,7 +9,7 @@ const SocialLinks = () => (
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/volkertstoons/" className="sociallinks__facebook" target="_blank" alt="facebook social icon" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/dangerhuskie/" className="sociallinks__facebook" target="_blank" alt="facebook social icon" rel="noopener noreferrer">
             <span>facebook social icon</span>
           </a>
         </li>
