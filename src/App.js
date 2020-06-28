@@ -14,11 +14,11 @@ import Footer from "./components/Footer"
 //Pages
 import Home from "./pages/Home"
 
+//Links page
+import LinksPage from "./pages/LinksPage/LinksPage"
+
 //404
 import Page404 from "./pages/Page404/Page404";
-
-//Links page
-import Links from "./pages/Links/Links"
 
 const App = () => (
   <Router>
@@ -43,11 +43,11 @@ const App = () => (
           {/* Core Site */}
           <Route exact path="/" component={Home} />
 
+          {/* Links Page */}
+          <Route exact path="/links" component={LinksPage} />
+
           {/* 404 and No Match */}
           <Route component={Page404} />
-
-          {/* Links Page */}
-          <Route exact path="/danger-links" component={Links} />
           </Switch>
       </ContentWrapper>
       <Footer />

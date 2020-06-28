@@ -12,7 +12,8 @@ html {
 
 body {
   box-sizing: border-box;
-  /*removes padding and margin to height and width*/ }
+  /*removes padding and margin to height and width*/
+  background-color: #0A2240; }
 
 a {
   color: #FFF;
@@ -33,15 +34,6 @@ h1,
 h4 {
   font-family: 'Anton', sans-serif; }
 
-h1 {
-  padding: 0;
-  background-image: url("https://www.nickvolkert.com/dangerhuskie/img/danger-huskie-onnavy.svg");
-  background-repeat: no-repeat;
-  filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7)); }
-
-h1 span {
-  display: none; }
-
 h4 {
   margin: 0;
   text-align: center;
@@ -52,25 +44,33 @@ p {
   font-family: 'Roboto Mono', monospace; }
 
 @media only screen and (min-width: 768px) {
-  h1 {
+  #splash-logo {
     margin: 0 auto 4.0rem auto;
     width: 800px;
     height: 220px; }
-  h4 {
+  h1 {
     font-size: 7.0rem;
+    padding: 0 0 1.2rem 0;
+    letter-spacing: 0.7rem; }
+  h4 {
+    font-size: 5.0rem;
     padding: 0 0 1.2rem 0;
     letter-spacing: 0.7rem; } }
 
 @media only screen and (max-width: 767px) {
-  h1 {
+  #splash-logo {
     margin: 0 auto 2.0rem auto;
     width: 300px;
     height: 75px;
     background-size: 100%; }
-  h4 {
-    font-size: 4.4rem;
+  h1 {
+    font-size: 4.0rem;
     padding: 0 0 1.2rem 0;
     letter-spacing: 0.4rem; }
+  h4 {
+    font-size: 3.0rem;
+    padding: 0 0 1.2rem 0;
+    letter-spacing: 0.3rem; }
   p {
     font-size: 1.2rem;
     margin: 0 0 12px 0; }
@@ -78,7 +78,7 @@ p {
     content: "\A";
     white-space: pre; } }
 
-.btn {
+.btn__link {
   width: 220px;
   height: 50px;
   font-weight: 800;
@@ -88,41 +88,45 @@ p {
   text-decoration: none;
   float: left;
   transition: .4s; }
-  .btn-primary {
+  .btn__link-primary {
     background-color: #EE283B;
     color: #FFF;
     text-transform: uppercase;
     padding: 15px 0 0 0; }
-    .btn-primary:visited {
-      background-color: #E51646;
+    .btn__link-primary:visited {
+      background-color: #EE283B;
       color: #FFF; }
-    .btn-primary:hover {
-      background-color: #D1E6F7;
+    .btn__link-primary:hover {
+      background-color: rgba(238, 40, 59, 0.6);
       color: #FFF; }
-  .btn-secondary-red {
+  .btn__link-secondary-red {
     background-color: #FFF;
     color: #EE283B;
     border: 3px solid #EE283B;
     padding: 12px 0 0 0; }
-    .btn-secondary-red:visited {
+    .btn__link-secondary-red:visited {
       color: #E51646;
       border: 3px solid #E51646; }
-    .btn-secondary-red:hover {
+    .btn__link-secondary-red:hover {
       color: #FFF;
       background-color: #D1E6F7;
       border: 3px solid #D1E6F7; }
-  .btn-secondary-blue {
+  .btn__link-secondary-blue {
     background-color: #FFF;
     color: #D1E6F7;
     border: 3px solid #D1E6F7;
     padding: 12px 0 0 0; }
-    .btn-secondary-blue:visited {
+    .btn__link-secondary-blue:visited {
       color: #D1E6F7;
       border: 3px solid #D1E6F7; }
-    .btn-secondary-blue:hover {
+    .btn__link-secondary-blue:hover {
       color: #FFF;
       background-color: #D1E6F7;
       border: 3px solid #D1E6F7; }
+
+.btn__wrapper {
+  width: 220px;
+  margin: 0 auto; }
 
 .sociallinks {
   width: 127px;
@@ -179,6 +183,14 @@ footer .sociallinks {
   position: absolute;
   transform: translate(-50%, -50%); }
 
+#splash-logo {
+  padding: 0;
+  background-image: url("https://www.nickvolkert.com/dangerhuskie/img/danger-huskie-onnavy.svg");
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7)); }
+  #splash-logo span {
+    display: none; }
+
 #footer span {
   padding-right: 12px;
   display: inline-block; }
@@ -188,14 +200,20 @@ footer .sociallinks {
     width: 800px;
     top: 30%;
     left: 50%;
-    height: 244px; } }
+    height: 330px; }
+  #splash-logo {
+    width: 800px;
+    height: 196px; } }
 
 @media only screen and (max-width: 767px) {
   #splash-wrapper {
     width: 300px;
-    height: 75px;
+    height: 204px;
     top: 30%;
     left: 50%; }
+  #splash-logo {
+    width: 300px;
+    height: 75px; }
   #home p span::before {
     content: "\A";
     white-space: pre; }

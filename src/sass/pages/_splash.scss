@@ -16,6 +16,16 @@
     position: absolute;
     transform: translate(-50%, -50%);
 }
+#splash-logo{
+    padding:0;
+    background-image: url("https://www.nickvolkert.com/dangerhuskie/img/danger-huskie-onnavy.svg");
+    background-repeat: no-repeat;
+    filter: drop-shadow($dropshadow);
+
+    span{
+        display: none;
+    }
+}
 #footer span{
     padding-right:12px;
     display: inline-block;
@@ -26,15 +36,23 @@
         width: 800px;
         top:30%;
         left: 50%;
-        height: 244px;
+        height: 330px;
+    }
+    #splash-logo{
+        width: 800px;
+        height: 196px;
     }
 }
 @media only screen and (max-width: 767px) {
     #splash-wrapper{
         width:300px;
-        height: 75px;
+        height: 204px;
         top:30%;
         left: 50%;
+    }
+    #splash-logo{
+        width:300px;
+        height: 75px;
     }
     #home p span{
         &::before {

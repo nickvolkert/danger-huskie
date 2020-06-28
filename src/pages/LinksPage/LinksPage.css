@@ -9,18 +9,20 @@ html{
     font-size:62.5%; /* This Defines 1rem */
   }
 body{
-    font-family: objektiv-mk1, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     font-style: normal;
     box-sizing: border-box; /*removes padding and margin to height and width*/
     text-align: center;
-    background-color:#0A2240;
 }
 p{
     color:#FFF;
     padding:0;
 }
 /*Pre heads*/
+#header{
+  padding-top:20px;
+}
 .prehead{
     color:#FFF;
     font-weight: 800;
@@ -32,7 +34,9 @@ h1{
     text-transform: uppercase;
     font-weight: 900;
     margin:0;
-    line-height: 30px;
+    background:none;
+    width:auto;
+    height: auto;
 }
 #wrapper{
     padding: 20px 20px 30px 20px;
@@ -49,12 +53,11 @@ h1{
     }
     .prehead{
         font-size:1.4rem;
-        margin:0 0 4px 0;
+        margin:0 0 14px 0;
       }
-    h1{
-        font-size:3.6rem;
-        padding:0 0 22px 0;
-    }
+      h1{
+        line-height: 64px;
+      }
     p{
         font-size: 1.6rem;
         margin:0 0 20px 0;
@@ -62,10 +65,10 @@ h1{
 }
 @media only screen and (max-width: 600px) {
     #wrapper,
-	#header,
-	#link-tree,
-	#footer{
-        width:100%;
+	  #link-tree,
+	  #footer{
+    width: 96%;
+    margin: 0 auto;
     }
 	
 	#header{
@@ -74,11 +77,10 @@ h1{
     }
     .prehead{
         font-size:1.2rem; 
-        margin:0;
+        margin:0 0 10px 0;
     }
     h1{
-        font-size:1.65rem;
-        padding:0 0 8px 0;
+      line-height: 30px;
     }
     p{
         font-size: 1.1rem;
@@ -86,9 +88,8 @@ h1{
     }
     #footer span::before {
             content: "\A";
-            white-space: pre;
-          }      
-    
+            white-space: pre;  
+    }
 }
 
 a{
@@ -115,7 +116,7 @@ a.btn{
     color:#EE283B;
     border: 2px solid #EE283B;
     padding: 12px 0 0 0;
-    margin:0 0 12px 0;
+    margin:0 0 16px 0;
     transition: all .2s;
 }
 a.btn:visited{
@@ -154,7 +155,7 @@ a.primary:hover{
 }
 #dangerhuskie{
     width: 130px;
-    height: 130px;
+    height: 148px;
     display: inline-block;
     margin:0 auto;
     padding-top:18px;

@@ -1,13 +1,15 @@
 import React from "react";
 import {Helmet} from "react-helmet";
-import "./Links.css";
+import BodyClassName from 'react-body-classname';
+import { Link } from "react-router-dom";
+import "./LinksPage.css";
 
-const Links = () => (
-  <div id="links-page">
-    <Helmet>
-      <title>Danger Huskie Links</title>
-    </Helmet>
-      <div id="wrapper">
+const LinksPage = () => (
+    <div id="LinksPage">
+       <Helmet>
+        <title>Danger Huskie | ALL the Links</title>
+      </Helmet>
+      <BodyClassName className="link-page"></BodyClassName>
           <div id="header">
               <p class="prehead">All the links</p>
               <h1>Danger Huskie!</h1>
@@ -36,10 +38,10 @@ const Links = () => (
               <p><span>Danger Huskie | Greater Chicago, IL</span><span>Email: <a href="mailto:dangerhuskie@nickvolkert.com" rel="noopener noreferrer">dangerhuskie@nickvolkert.com</a></span></p>
           </div>
           <div id="dangerhuskie">
-              <img src="dangerhuskie_logo.png" alt="danger huskie logo" title="danger huskie logo"/>
+              <Link to="/"><img src="https://nickvolkert.com/dangerhuskie/dangerhuskie_logo.png" alt="danger huskie logo" title="danger huskie logo"/></Link>
           </div>
       </div>
-    </div>
+
     );
 
-export default Links;
+export default LinksPage;
