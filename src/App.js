@@ -17,6 +17,9 @@ import Home from "./pages/Home"
 //404
 import Page404 from "./pages/Page404/Page404";
 
+//Links page
+import Links from "./pages/Links/Links"
+
 const App = () => (
   <Router>
     <Wrapper>
@@ -42,6 +45,9 @@ const App = () => (
 
           {/* 404 and No Match */}
           <Route component={Page404} />
+
+          {/* Links Page */}
+          <Route exact path="/links" component={Links} />
           </Switch>
       </ContentWrapper>
       <Footer />
