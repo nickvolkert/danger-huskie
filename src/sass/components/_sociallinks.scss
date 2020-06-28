@@ -1,0 +1,52 @@
+.sociallinks{
+    width:127px;
+    height: 28px;
+
+    ul{
+      margin:0;
+      padding:0;
+      width:127px;
+      height: 28px;
+  
+      li{
+        display:inline-block;
+        margin-right:10px;
+  
+        a{
+          display:block;
+  
+          span{
+            display:none;
+          }
+        }
+      }
+    }
+      ul li,
+      ul li a{
+      width:20px;
+      height:20px;
+    }
+   }
+   .sociallinks ul li a.sociallinks{
+  
+      &__twitter{
+        background: url("https://nickvolkert.com/img/_sitegraphics/social/twitter.svg") no-repeat center 2px;
+        background-size: 100%;
+      }
+      &__tumblr{
+        background: url("https://nickvolkert.com/img/_sitegraphics/social/tumblr.svg") no-repeat center top;
+        background-size: 57%;
+      }
+      &__facebook{
+        background: url("https://nickvolkert.com/img/_sitegraphics/social/facebook.svg") no-repeat center top;
+        background-size: 50%;
+      }
+      &__dribbble{
+        background: url("https://nickvolkert.com/img/_sitegraphics/social/dribbble.svg") no-repeat center top;
+        background-size: 100%;
+      }
+  }
+  footer .sociallinks{
+      margin:2.2rem auto 8.4rem auto;
+
+  }

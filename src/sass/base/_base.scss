@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before{
+  margin:0;
+  padding:0;
+  box-sizing: inherit; /*inherits body box-sizing declaration*/
+}
+html{
+  font-size:62.5%; /* This Defines 1rem */
+}
+
+body{
+  box-sizing: border-box; /*removes padding and margin to height and width*/
+}
+
+a{
+    color:$color-white;
+    text-decoration: none;
+}
+a:hover{
+    color:$color-a-hover;
+    text-decoration: underline;
+}

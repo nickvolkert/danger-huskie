@@ -6,13 +6,13 @@ import "./Page404.css";
 const Page404 = () => (
     <div id="Page404">
         <Helmet>
-            <title>404 | Nick Volkert</title>
+            <title>Danger! Danger!</title>
         </Helmet>
         <div id="hero" className="Page404-image">
           <h1>404</h1>
         </div>
-		<h2>What in da hell?!... </h2>
-        <p>Sorry, we couldn't find that. Prob because I'm a react noob. <Link to="/">Go back home</Link></p>
+		<h2>Don't venture here little pup!</h2>
+        <p>Get back to safety: <Link to="/">Go back home</Link></p>
     </div>
     );
 

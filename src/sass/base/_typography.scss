@@ -1,7 +1,63 @@
 body{
-    font-family: objektiv-mk1, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.6rem;
-    color: $color-gray-dark;
+    font-size: 1.4rem;
+    color: $color-white;
+}
+h1,
+h4{
+    font-family: 'Anton', sans-serif;
+}
+h1{
+    padding:0;
+    text-indent: -9999px;
+    background-image: url("https://www.nickvolkert.com/dangerhuskie/img/danger-huskie-onnavy.svg");
+    background-repeat: no-repeat;
+    filter: drop-shadow($dropshadow);
+}
+h4{
+    margin:0;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    text-align:center;
+}
+
+@media only screen and (min-width: 768px) {
+    h1{
+        margin:0 auto 4.0rem auto;
+        width:800px;
+        height: 195px;
+    }
+    h4{
+        font-size:7.0rem;
+        padding:0 0 1.2rem 0;
+        letter-spacing: 0.7rem;
+    }
+}
+@media only screen and (max-width: 767px) {
+    
+    h1{
+        margin:0 auto 2.0rem auto;
+        width:300px;
+        height: 75px;
+        background-size: 100%;
+    }
+    h4{
+        font-size:4.4rem;
+        padding:0 0 1.2rem 0;
+        letter-spacing: 0.4rem;
+    }
+    p{
+        font-size: 1.2rem;
+        margin:0 0 12px 0;
+    }
+    #footer span{
+        &::before {
+            content: "\A";
+            white-space: pre;
+          }      
+    }
 }

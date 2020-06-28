@@ -11,7 +11,7 @@ const Home = () => (
       <BodyClassName className="home-page"></BodyClassName>
       <div id="splash-wrapper">
           <h1>Welcome To Danger Huskie</h1>
-          <p>A vector art project by Nick Volkert / nickv47</p>
+          <p>A vector art project by Nick Volkert / nickv47 / Coming Fall 2020</p>
           <Clearfix />
       </div>
     </div>
