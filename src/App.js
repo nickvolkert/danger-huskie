@@ -12,7 +12,7 @@ import ContentWrapper from "./components/ContentWrapper"
 import Footer from "./components/Footer"
 
 //Pages
-import Home from "./pages/Home"
+import Splash from "./pages/Splash"
 
 //Links page
 import LinksPage from "./pages/LinksPage/LinksPage"
@@ -38,7 +38,7 @@ const App = () => (
         <Switch>
 
           {/* Core Site */}
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Splash} />
 
           {/* Links Page */}
           <Route exact path="/links" component={LinksPage} />
