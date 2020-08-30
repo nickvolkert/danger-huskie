@@ -25,7 +25,7 @@ const App = () => (
     <Wrapper>
       <Helmet>
         <meta charSet="utf-8" />
-        <meta name="description" content="Personal portfolio of Chicagoland based UX/UI Designer and Illustrator Nick Volkert"></meta>
+        <meta name="description" content="Danger Huskie: A vector art project by Chicagoland artist Nick Volkert aka nickv47"></meta>
         <meta name="keywords" content="Nick Volkert, vector art, vector graphics, adobe illustrator artist, illustration, nickv47, greater chicagoland,
         chicago, schaumburg, elk grove village, elmhurst, illinois, illinois artist"></meta>
         <meta name="copyright" content="©2020 Nick Volkert"></meta>
