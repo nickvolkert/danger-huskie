@@ -1,0 +1,170 @@
+.projectrow{
+    padding-bottom:30px;
+}
+
+.project{
+    width:100%;
+    font-size:1.2rem;
+    .btn{
+        width: 100%;
+        margin-bottom:12px;
+    }
+}
+.projectImage,
+.projectImage img{
+    float: left;
+    background-color:$color-off-white;
+}
+.projectImage,
+.projectImage img{
+    border-radius: $border-radius;
+}
+.second-image{
+    margin-top:10px;
+}
+.projectInfo{
+    float: left;
+    .projectDesc{
+        margin-bottom:20px;
+    }
+    h1{
+        font-size:2rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        line-height: 2.2rem;
+        padding-bottom:4px;
+    }
+    p{
+        line-height: 1.6rem;
+        font-size:1.4rem;
+        &.projectYear{
+            font-size: 1.0rem;
+            color:$color-a-visited;
+            line-height: 1.2rem;
+            margin-bottom:20px;
+        }
+        &.illoDescriptionTitle{
+            font-weight:bold;
+        }
+        &.illoDescription{
+            font-size: 1.6rem;
+            padding-bottom:10px;
+            line-height: 2.2rem;
+        }
+        &.projectSkills{
+            font-size: 1.2rem;
+        }
+        &.purchasePrint{
+            font-weight:bold;
+        }
+    }
+    a[href='#'] {
+        display: none;
+      }
+}
+.projectLinks{
+    padding-top:10px;
+}
+.projectTags{
+    font-size:1rem;
+    clear: both;
+    padding: 10px 0 0 0;
+
+    .projectTagTitle{
+        font-weight: bold;
+    }
+}
+.card{
+    background:$color-white;
+    border-radius:$border-radius;
+    padding:10px 10px 14px 10px;
+    float: left;
+    box-shadow: $card-drop-shadow;
+    &:hover{
+        box-shadow: $card-drop-shadow-hover;
+        transition: 0.2s;
+    }
+    p{
+        text-align:left;
+        color: $color-dark-navy;
+        line-height: 1.9rem;
+        font-size:1.6rem;
+    }
+    .cardTitleLink{
+        font-size:1.8rem;
+        padding-bottom:10px;
+    }
+    .cardMiniInfo{
+        font-size:1.2rem;
+        padding-bottom:5px;
+    }
+    a{
+        font-weight: 700;
+        color:$color-navy;
+    }
+    img{
+        border-radius: $border-radius;
+    }
+    .cardImage{
+        border-radius: $border-radius;
+        margin:0 0 6px 0;
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+    .card{
+        width:320px;
+        margin: 0 40px 20px 0;
+
+        &:nth-child(3n + 1){
+            clear: both;
+        }
+        &:nth-child(3n){
+            margin-right: 0;
+        }
+    }
+    .card img{
+        width:300px;
+    }
+    .projectInfo{
+        width: 350px;
+        padding: 0 0 0 40px;
+    }
+    .projectImage{
+        width:600px;
+        min-height: 300px;
+    }
+    .projectImage img{
+        width:600px;
+    }
+}
+@media only screen and (max-width: 1039px) {
+    .projectImage,
+    .projectImage img{
+        margin:0 auto;
+        float: none;
+        width:600px;
+    }
+    .card{
+        width:47%;
+        margin: 0 20px 20px 0;
+        &:nth-child(2n){
+            margin-right: 0;
+        }
+    }
+    .projectInfo{
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    .card img{
+        width:100%;
+        height: auto;
+        }
+}
+@media only screen and (max-width: 768px){
+    .projectImage,
+    .projectImage img{
+    width:100%;
+    min-height: 100px;
+    }
+}

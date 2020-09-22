@@ -4,18 +4,27 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {Helmet} from "react-helmet";
 import ScrollMemory from 'react-router-scroll-memory';
-//import VectorWorks from "./json/VectorWorks.json"
+import DangerHuskie from './json/DangerHuskie';
 
 //Components
-import Wrapper from "./components/Wrapper"
-import ContentWrapper from "./components/ContentWrapper"
-import Footer from "./components/Footer"
+import Wrapper from "./components/Wrapper";
+import ContentWrapper from "./components/ContentWrapper";
+import Footer from "./components/Footer";
 
-//Pages
-import Splash from "./pages/Splash"
+//Core Site
+import Home from "./pages/Home";
+import Splash from "./pages/Splash";
+
+//Artworks
+import AnnoyedSasquatch from "./pages/Works/AnnoyedSasquatch";
+import AnnoyedYeti from "./pages/Works/AnnoyedYeti";
+import HappyRainbow from "./pages/Works/HappyRainbow";
+import JoyousRainbow from "./pages/Works/JoyousRainbow";
+import PencilBear from "./pages/Works/PencilBear";
+import VarsityPumpkin from "./pages/Works/VarsityPumpkin";
 
 //Links page
-import LinksPage from "./pages/LinksPage/LinksPage"
+import LinksPage from "./pages/LinksPage";
 
 //404
 import Page404 from "./pages/Page404/Page404";
@@ -38,7 +47,16 @@ const App = () => (
         <Switch>
 
           {/* Core Site */}
+          <Route exact path="/home" component={Home} />
           <Route exact path="/" component={Splash} />
+
+          {/* Works */}
+          <Route exact path={DangerHuskie[2].link} component={AnnoyedSasquatch} />
+          <Route exact path={DangerHuskie[1].link} component={AnnoyedYeti} />
+          <Route exact path={DangerHuskie[4].link} component={HappyRainbow} />
+          <Route exact path={DangerHuskie[5].link} component={JoyousRainbow} />
+          <Route exact path={DangerHuskie[0].link} component={PencilBear} />
+          <Route exact path={DangerHuskie[3].link} component={VarsityPumpkin} />
 
           {/* Links Page */}
           <Route exact path="/links" component={LinksPage} />

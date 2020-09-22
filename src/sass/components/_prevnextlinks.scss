@@ -1,0 +1,82 @@
+#prevNext{
+    height: auto;
+    a {
+        height: auto;
+        padding: 10px;
+        display:inline-block;
+        background-color: $color-white;
+        color: $color-a-tag;
+        border: 3px solid $color-off-white;
+        border-radius: $border-radius;
+
+        &:visited{
+            border: 3px solid $color-off-white;
+
+            p{
+                color: $color-a-visited;
+            }
+        }
+
+        &:hover{
+            border: 3px solid $color-a-tag;
+        }
+
+        &#prevLink{
+            text-align: left;
+            
+            img{
+                float: left;
+                margin-right: 20px;
+            }
+        }
+        &#nextLink{
+            text-align: right;
+            img{
+                float: right;
+                margin-left: 20px;
+            }
+        }
+
+        img{
+            width: 120px;
+            // height: 120px;
+            border-radius: $border-radius;
+        }
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+    #prevNext{
+        margin: 0 auto 60px auto;
+        width: 1020px;
+        a{
+            width: 48%;
+
+            &#prevLink{
+                float: left;
+            }
+            &#nextLink{
+                float: right;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1039px) {
+    #prevNext{
+        margin: 0 auto 40px auto;
+        width: $section-width-mobile;
+
+        a{
+            width: 100%;
+
+            &#prevLink{
+                float:left;
+            }
+            &#nextLink{
+                margin-top: 10px;
+                float:left;
+                clear: left;
+            }
+        }
+    }
+}

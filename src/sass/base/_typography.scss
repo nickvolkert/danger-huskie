@@ -1,13 +1,42 @@
+*,
+*::after,
+*::before{
+  margin:0;
+  padding:0;
+  box-sizing: inherit; /*inherits body box-sizing declaration*/
+}
+html{
+    font-size:62.5%; /* This Defines 1rem */
+  }
 body{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Epilogue', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4rem;
-    color: $color-white;
+    box-sizing: border-box; /*removes padding and margin to height and width*/
+    text-align: center;
+    font-size:1.4rem;
+}
+body.link-page,
+body.splash-page{
+    font-family: 'Roboto Mono', monospace;
+    p{
+        font-size: 1.6rem;
+        margin:0 0 20px 0;
+        font-family: 'Roboto Mono', monospace;
+    }
 }
 h1,
+h2,
 h4{
     font-family: 'Anton', sans-serif;
+    color:$color-white;
+}
+h2{
+    font-size:2.8rem;
+}
+h3{
+    color:$color-white;
+    font-size:1.6rem;
 }
 h4{
     margin:0;
@@ -16,7 +45,7 @@ h4{
 }
 p{
     text-align:center;
-    font-family: 'Roboto Mono', monospace;
+    color: $color-white;
 }
 
 

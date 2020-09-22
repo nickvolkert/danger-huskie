@@ -2,10 +2,9 @@ import React from "react";
 import {Helmet} from "react-helmet";
 import BodyClassName from 'react-body-classname';
 import { Link } from "react-router-dom";
-import "./LinksPage.css";
 
 const LinksPage = () => (
-    <div id="LinksPage">
+    <div id="linkspage">
        <Helmet>
         <title>Danger Huskie | ALL the Links</title>
       </Helmet>

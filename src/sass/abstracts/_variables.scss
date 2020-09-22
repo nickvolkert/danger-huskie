@@ -8,6 +8,7 @@ $color-primary-dark: #E51646;
 $color-white:#FFF;
 $color-black:#000;
 $color-navy: #0A2240;
+$color-dark-navy:#252A3F;
 
 //Links
 $color-a-tag:#D1E6F7;
@@ -17,12 +18,44 @@ $color-a-visited:#D1E6F7;
 //Font
 $default-font-size: 1.6rem;
 $font-heavy-weight:900;
+$color-gray-dark: #5B5E6B;
+$color-gray-medium:#D9D9D9;
+$color-pre-head: #A2B4C9;
+$color-heading:#6585AA;
+$color-white:#FFF;
+$color-off-white:#F8FBFD;
 
 //Border Radium
-$border-radius:6px;
+$border-radius:3px;
 
 //Button Width
 $button-width: 220px;
 
 //Splash logo dropshadow
 $dropshadow:0 .25rem 1rem rgba($color-navy, .7);
+
+//Border Radium
+$border-radius:6px;
+
+//Card Dropshadow
+$card-drop-shadow-color:#72859B;
+
+//Dropshadow
+$hero-text-shadow:0 .25rem 1rem rgba($color-navy, .5);
+$button-shadow:0 .25rem 1rem rgba($color-navy, .5);
+$dark-dropshadow:0 .25rem 1rem rgba($color-dark-navy, .5);
+$card-drop-shadow:0 0.2rem 0.4rem rgba($card-drop-shadow-color, .4);
+$card-drop-shadow-hover:0 0.6rem 0.9rem rgba($card-drop-shadow-color, .4);
+
+//Navigation Curtain
+$navigation-curtain: rgba($color-navy, 0.8);
+$mobile-curtain: rgba($color-navy, 0.925);
+
+//Button Width
+$button-width: 330px;
+$button-width-inline: 220px;
+$button-width-mobile: 336px;
+
+//Section Width
+$section-width-desktop:1040px;
+$section-width-mobile:90%;

@@ -1,0 +1,104 @@
+#linkspage{
+    /*Pre heads*/
+    #header{
+    padding-top:20px;
+    }
+    .prehead{
+        color:#FFF;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding:0;
+    }
+    h1{
+        color:#FFF;
+        text-transform: uppercase;
+        font-weight: 900;
+        margin:0;
+        background:none;
+        width:auto;
+        height: auto;
+    }
+    #wrapper{
+        padding: 20px 20px 30px 20px;
+        width:100%;
+    }
+
+    @media only screen and (min-width: 768px) {
+        #wrapper,
+        #header,
+        #link-tree,
+        #footer{
+            margin:0 auto;
+            width:680px;
+        }
+        .prehead{
+            font-size:1.4rem;
+            margin:0 0 14px 0;
+        }
+        h1{
+            line-height: 64px;
+        }
+        p{
+            font-size: 1.6rem;
+            margin:0 0 20px 0;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        #wrapper,
+        #link-tree,
+        #footer{
+        width: 96%;
+        margin: 0 auto;
+        }
+        
+        #header{
+            padding-bottom:10px;
+            width:100%;
+        }
+        .prehead{
+            font-size:1.2rem; 
+            margin:0 0 10px 0;
+        }
+        h1{
+        line-height: 30px;
+        }
+        p{
+            font-size: 1.1rem;
+            margin:0 0 12px 0;
+        }
+        #footer span::before {
+                content: "\A";
+                white-space: pre;  
+        }
+    }
+
+    a{
+        color:#EE283B;
+        text-decoration: none;
+    }
+    a:hover{
+        color:#418ADF;
+        text-decoration: none;
+    }
+    a:visited{
+        color:#A2B4C9;
+        text-decoration:underline;
+    }
+    #footer{
+        padding-top:12px;
+    }
+    #footer span{
+        padding-right:12px;
+        display: inline-block;
+    }
+    #footer p {
+        text-align: center;
+    }
+    #dangerhuskie{
+        width: 130px;
+        height: 148px;
+        display: inline-block;
+        margin:0 auto;
+        padding-top:18px;
+    }
+}
