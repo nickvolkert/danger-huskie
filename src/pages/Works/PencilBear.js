@@ -1,6 +1,5 @@
 import React from "react";
 import DangerHuskieIllo from "../../components/DangerHuskieIllo";
-import Content from "../../components/Content"
 import DangerHuskie from "../../json/DangerHuskie.json";
 import NextandPrev from "../../json/NextandPrev.json";
 import NextPrev from "../../components/NextPrev";
@@ -13,8 +12,9 @@ let source = DangerHuskie;
 
 const PencilBear = () => (
     <div id="danger-huskie-illo">
-        <Content>
+        
         <DangerHuskieIllo
+                illoID={source[y].id}
                 illoImage={source[y].image}
                 illoTitle={source[y].title}
                 illoAlt={source[y].alttext}
@@ -31,7 +31,6 @@ const PencilBear = () => (
                 illoTags={source[y].tags}
                 illoBackGroundColor={source[y].backgroundcolor}
             />
-        </Content>
         <NextPrev
             prevLink={source[prev].link}
             prevImage={source[prev].preview} 

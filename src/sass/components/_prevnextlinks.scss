@@ -47,8 +47,8 @@
 
 @media only screen and (min-width: 1040px) {
     #prevNext{
-        margin: 0 auto 60px auto;
-        width: 1020px;
+        margin: 20px auto;
+        width: 1040px;
         a{
             width: 48%;
 
@@ -63,7 +63,7 @@
 }
 @media only screen and (max-width: 1039px) {
     #prevNext{
-        margin: 0 auto 40px auto;
+        margin: 20px auto;
         width: $section-width-mobile;
 
         a{

@@ -42,7 +42,6 @@ const App = () => (
         <meta name="email" content="dangerhuskie@nickvolkert.com"></meta>
       </Helmet>
       <ContentWrapper>
-      {/*<ScrollToTop />*/}
       <ScrollMemory />
         <Switch>
 

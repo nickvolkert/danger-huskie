@@ -9,6 +9,14 @@
         width: 100%;
         margin-bottom:12px;
     }
+    h1{
+        font-size:50px;
+        font-weight:900;
+        line-height: 51px;
+        color:$color-white;
+        text-shadow: $hero-text-shadow;
+        text-transform: uppercase;
+      }
 }
 .projectImage,
 .projectImage img{
@@ -24,15 +32,13 @@
 }
 .projectInfo{
     float: left;
+    background-color:rgba($color-white, .7);
+    border-radius: $border-radius;
+    h2{
+        text-align: left;
+    }
     .projectDesc{
         margin-bottom:20px;
-    }
-    h1{
-        font-size:2rem;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        line-height: 2.2rem;
-        padding-bottom:4px;
     }
     p{
         line-height: 1.6rem;
@@ -127,8 +133,9 @@
         width:300px;
     }
     .projectInfo{
-        width: 350px;
-        padding: 0 0 0 40px;
+        width: 320px;
+        padding: 10px 20px 40px 20px;
+        margin-left: 60px;
     }
     .projectImage{
         width:600px;

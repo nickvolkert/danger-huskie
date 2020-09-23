@@ -18,6 +18,10 @@
         width:auto;
         height: auto;
     }
+    p{
+        text-align: center;
+        color:$color-white;
+    }
     #wrapper{
         padding: 20px 20px 30px 20px;
         width:100%;
@@ -100,5 +104,26 @@
         display: inline-block;
         margin:0 auto;
         padding-top:18px;
+    }
+}
+.link-page,
+.splash-page{
+    footer{
+        h4{
+            margin:0;
+            text-align: center;
+            text-transform: uppercase;
+            color:$color-white;
+        }
+        p{
+            text-align: center;
+            color:$color-white;
+        }
+    }
+}
+.splash-page{
+    p{
+        text-align: center;
+        color:$color-white;
     }
 }

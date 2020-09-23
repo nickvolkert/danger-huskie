@@ -3,10 +3,12 @@ import {Helmet} from "react-helmet";
 import BodyClassName from "react-body-classname";
 import { Link } from "react-router-dom";
 import Clearfix from "./Clearfix";
+import Content from "../components/Content";
 
 
 const Renderedillo = props => (
-    <div id="projectwrapper">
+    <div id="projectwrapper" style={{"backgroundColor": props.illoBackGroundColor}}>
+        <Content>
         <div id="breadcrumb">
                 <ul>
                     <li><Link to="/" className="breadcrumb-home">Home</Link></li>
@@ -25,12 +27,13 @@ const Renderedillo = props => (
                 <meta property="og:type" content="website"/>
             </Helmet>
             <BodyClassName className="dangerhuskie"></BodyClassName>
+            <h1>Danger Huskie #{props.illoID} {props.illoTitle}</h1>
             <div className="projectImage" style={{"backgroundColor": props.illoBackGroundColor}}>
                 <img src={props.illoImage} title={props.illoTitle + " | Danger Huskie by Nick Volkert"} alt={props.illoAlt} />
             </div>
             <div className="projectInfo">
                 <div className="projectDesc">
-                    <h1>{props.illoTitle}</h1>
+                    <h2>{props.illoTitle}</h2>
                     <p className="projectYear">{props.illoDate}</p>
                     <p className="illoDescriptionTitle">About This Image:</p>
                     <p className="illoDescription">{props.illoDescription}</p>
@@ -54,6 +57,7 @@ const Renderedillo = props => (
             </div>
             <Clearfix />
         </div>
+        </Content>
     </div>
 );
 

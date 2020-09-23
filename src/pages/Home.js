@@ -5,10 +5,12 @@ import BodyClassName from "react-body-classname";
 import Clearfix from "../components/Clearfix";
 import DangerHuskie from "../json/DangerHuskie.json";
 import Basiccard from "../components/Basiccard";
+import Hero from "../components/Hero";
 
 let source = DangerHuskie;
 let pagename = DangerHuskie[0].title;
 let y = 0;
+let x = 0; //Pencil Bear
 
 const Home = () => (
   <div id="home">
@@ -20,6 +22,13 @@ const Home = () => (
         <meta property="og:type" content="website"/>
     </Helmet>
     <BodyClassName className="home"></BodyClassName>
+    <Hero
+            heroClass="-dangerhuskie"
+            heroH1={pagename}
+            heroImage={source[x].image}
+            heroDescription={source[x].title}
+            heroLink={source[x].link}
+        />
     <Content>
       <div className="intro-text">
             <h2>Feeling Dangerous?</h2>
