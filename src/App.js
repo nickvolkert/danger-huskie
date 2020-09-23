@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 
 //Core Site
 import Home from "./pages/Home";
+import _WorksLanding from "./pages/Works/_WorksLanding";
 import Splash from "./pages/Splash";
 
 //Artworks
@@ -50,6 +51,7 @@ const App = () => (
           <Route exact path="/" component={Splash} />
 
           {/* Works */}
+          <Route exact path="/works" component={_WorksLanding} />
           <Route exact path={DangerHuskie[2].link} component={AnnoyedSasquatch} />
           <Route exact path={DangerHuskie[1].link} component={AnnoyedYeti} />
           <Route exact path={DangerHuskie[4].link} component={HappyRainbow} />
