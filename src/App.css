@@ -23,11 +23,11 @@ footer {
   background-color: #0A2240; }
 
 a {
-  color: #D1E6F7;
+  color: #418ADF;
   text-decoration: none; }
 
 a:hover {
-  color: #D1E6F7;
+  color: #60AAFF;
   text-decoration: none; }
 
 footer {
@@ -364,20 +364,20 @@ p {
       border: 3px solid #E51646; }
     .btn__link-secondary-red:hover {
       color: #FFF;
-      background-color: #D1E6F7;
-      border: 3px solid #D1E6F7; }
+      background-color: #418ADF;
+      border: 3px solid #418ADF; }
   .btn__link-secondary-blue {
     background-color: #FFF;
-    color: #D1E6F7;
-    border: 3px solid #D1E6F7;
+    color: #418ADF;
+    border: 3px solid #418ADF;
     padding: 12px 0 0 0; }
     .btn__link-secondary-blue:visited {
       color: #D1E6F7;
       border: 3px solid #D1E6F7; }
     .btn__link-secondary-blue:hover {
       color: #FFF;
-      background-color: #D1E6F7;
-      border: 3px solid #D1E6F7; }
+      background-color: #418ADF;
+      border: 3px solid #418ADF; }
 
 .btn__wrapper {
   width: 330px;
@@ -468,7 +468,7 @@ footer .sociallinks {
     padding: 10px;
     display: inline-block;
     background-color: #FFF;
-    color: #D1E6F7;
+    color: #418ADF;
     border: 3px solid #F8FBFD;
     border-radius: 6px; }
     #prevNext a:visited {
@@ -476,7 +476,7 @@ footer .sociallinks {
       #prevNext a:visited p {
         color: #D1E6F7; }
     #prevNext a:hover {
-      border: 3px solid #D1E6F7; }
+      border: 3px solid #418ADF; }
     #prevNext a#prevLink {
       text-align: left; }
       #prevNext a#prevLink img {
@@ -535,8 +535,10 @@ footer .sociallinks {
     bottom: 0;
     height: 45px;
     background: rgba(248, 251, 253, 0.9);
-    font-size: 1.2rem;
-    padding: 10px 20px; }
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    color: #0A2240;
+    font-family: 'Roboto Mono', monospace; }
     .hero .project-info_pipe {
       padding: 0 10px; }
   .hero h1 {
@@ -709,4 +711,11 @@ footer .sociallinks {
 footer {
   background: #0A2240;
   width: 100%;
-  height: 385px; }
+  height: 385px;
+  text-align: center;
+  color: #FFF; }
+  footer p {
+    text-align: center;
+    color: #FFF; }
+  footer #copyright {
+    font-family: 'Roboto Mono', monospace; }

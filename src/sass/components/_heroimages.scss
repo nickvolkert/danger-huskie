@@ -20,8 +20,10 @@
       bottom: 0;
       height: 45px;
       background: rgba($color-off-white, .9);
-      font-size:1.2rem;
+      font-size:1.4rem;
       padding: 10px 20px;
+      color:$color-navy;
+      font-family: 'Roboto Mono', monospace;
 
       &_pipe{
         padding: 0 10px;

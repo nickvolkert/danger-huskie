@@ -8,7 +8,7 @@ import Basiccard from "../components/Basiccard";
 import Hero from "../components/Hero";
 
 let source = DangerHuskie;
-let pagename = DangerHuskie[0].title;
+let pagename = "This is Danger Huskie";
 let y = 0;
 let x = 0; //Pencil Bear
 
