@@ -3,14 +3,18 @@ import { Link } from "react-router-dom";
 
 const Basiccard = props => (
   <div className="card" id={props.cardID}>
-    <div className="cardImage" style={{"backgroundColor": props.cardBackGround}}>
-      <Link to={props.cardLink}><img src={props.cardImage} title={props.cardimageTitle + " | Nick Volkert"} alt={props.cardAlt} /></Link>
+    <Link to={props.cardLink}>
+    <div className="cardWrapper">
+      <div className="cardImage" style={{"backgroundColor": props.cardBackGround}}>
+        <img src={props.cardImage} title={props.cardimageTitle + " | Nick Volkert"} alt={props.cardAlt} />
+      </div>
+      <div className="cardInfo">
+        <p className="cardTitleLink">{props.cardimageTitle}</p>
+        <p className="cardMiniInfo">Created: {props.cardDate} | Role: "Illustrator"</p>
+        <p className="cardDescription">{props.cardDescription}</p>
+      </div>
     </div>
-    <div className="cardInfo">
-      <p className="cardTitleLink"><Link to={props.cardLink}>"{props.cardimageTitle}"</Link></p>
-      <p className="cardMiniInfo">Created: {props.cardDate} | Role: "Illustrator"</p>
-      <p className="cardDescription">{props.cardDescription}</p>
-    </div>
+    </Link>
   </div>
 );
 

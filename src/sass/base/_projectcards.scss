@@ -1,122 +1,167 @@
-.projectrow{
-    padding-bottom:30px;
-}
-
-.project{
-    width:100%;
-    font-size:1.2rem;
-    .btn{
-        width: 100%;
-        margin-bottom:12px;
-    }
-    h1{
-        font-size:50px;
-        font-weight:900;
-        line-height: 51px;
-        color:$color-white;
-        text-shadow: $hero-text-shadow;
-        text-transform: uppercase;
-      }
-}
-.projectImage,
-.projectImage img{
-    float: left;
-    background-color:$color-off-white;
-}
-.projectImage,
-.projectImage img{
-    border-radius: $border-radius;
-}
-.second-image{
-    margin-top:10px;
-}
-.projectInfo{
-    float: left;
-    background-color:rgba($color-white, .7);
-    border-radius: $border-radius;
-    h2{
-        text-align: left;
-    }
-    .projectDesc{
-        margin-bottom:20px;
-    }
-    p{
-        line-height: 1.6rem;
-        font-size:1.4rem;
-        &.projectYear{
-            font-size: 1.0rem;
-            color:$color-a-visited;
-            line-height: 1.2rem;
-            margin-bottom:20px;
-        }
-        &.illoDescriptionTitle{
-            font-weight:bold;
-        }
-        &.illoDescription{
-            font-size: 1.6rem;
-            padding-bottom:10px;
-            line-height: 2.2rem;
-        }
-        &.projectSkills{
-            font-size: 1.2rem;
-        }
-        &.purchasePrint{
-            font-weight:bold;
-        }
-    }
-    a[href='#'] {
-        display: none;
-      }
-}
-.projectLinks{
-    padding-top:10px;
-}
-.projectTags{
-    font-size:1rem;
-    clear: both;
-    padding: 10px 0 0 0;
-
-    .projectTagTitle{
-        font-weight: bold;
-    }
-}
 .card{
-    background:$color-white;
-    border-radius:$border-radius;
-    padding:10px 10px 14px 10px;
+    width:330px;
+    height: auto;
+    display:inline-block;
     float: left;
-    box-shadow: $card-drop-shadow;
+    background-color:$color-primary;
+
     &:hover{
-        box-shadow: $card-drop-shadow-hover;
-        transition: 0.2s;
-    }
-    p{
-        text-align:left;
-        color: $color-dark-navy;
-        line-height: 1.9rem;
-        font-size:1.6rem;
-    }
-    .cardTitleLink{
-        font-size:1.8rem;
-        padding-bottom:10px;
-    }
-    .cardMiniInfo{
-        font-size:1.2rem;
         padding-bottom:5px;
     }
-    a{
-        font-weight: 700;
-        color:$color-navy;
-    }
-    img{
-        border-radius: $border-radius;
+    .cardWrapper{
+        background-color:$color-navy;
+
+        &:hover{
+            margin-top:-5px;
+        }
     }
     .cardImage{
-        border-radius: $border-radius;
-        margin:0 0 6px 0;
+        width:100%;
+
+        a{
+            color:$color-white;
+            padding:0;
+
+            &:hover{
+                border-bottom:none;
+            }
+        }
+        img{
+            width:100%;
+            height: auto;
+
+        }
+    }
+    .cardInfo{
+        padding:27px 20px 22px;
+        width:100%;
+        .cardTitleLink{
+            font-family: $font-heading-copy;
+            font-size: 2.0rem;
+            line-height: 2.4rem;
+            letter-spacing: 0.4rem;
+            padding-bottom:5px;
+            text-transform: uppercase;
+
+            a{
+                color:$color-white;
+                padding:0;
+
+                &:hover{
+                    border-bottom:none;
+                }
+            }
+        }
+        .cardMiniInfo{
+            font-size:1.0rem;
+            font-family: $font-link-copy;
+            line-height: 1.6rem;
+            letter-spacing: 0.16rem;
+            padding-bottom:10px;
+        }
     }
 }
-
+#projectwrapper{
+    #breadcrumb{
+        padding:0;
+        font-size:11px;
+        ul{
+            text-decoration: none;
+            margin:0;
+            padding: 0;
+            li{
+                display:inline-block;
+                padding-right:10px;
+            }
+        }
+    }
+    .workPrehead{
+        font-size: 1.1rem;
+        letter-spacing: 0.5rem;
+        font-family: $font-link-copy;
+        line-height: 2.2rem;
+    }
+    h1{
+        text-transform: uppercase;
+        font-size:3.8rem;
+        line-height: 4.4rem;
+        letter-spacing: .62rem;
+    }
+    p{
+        font-size:1.4rem;
+        line-height: 1.8rem;
+    }
+    .projectYear{
+        font-size: 1.1rem;
+        letter-spacing: 0.3rem;
+        font-family: $font-link-copy;
+        line-height: 2.2rem;
+        padding-bottom:16px;
+    }
+    &.dark{
+        h1{
+            text-shadow: $hero-text-shadow;
+        }
+        h1,
+        p,
+        #breadcrumb{
+            color:$color-white;
+        }
+        #breadcrumb a{
+            color:$color-white;
+            border-bottom:1px solid $color-white;
+        }
+    }
+    &.light{
+        h1,
+        p,
+        #breadcrumb{
+            color:$color-navy;
+        }
+        #breadcrumb a{
+            color:$color-navy;
+            text-decoration: underline;
+            border-bottom:1px solid $color-navy;
+        }
+    }
+    .projectImage{
+        width:600px;
+        margin-bottom:30px;
+        float: left;
+        min-height: 400px;
+        img{
+            width:100%;
+        }
+    }
+    .projectInfo{
+        float: left;
+        width: 330px;
+        margin:12px 0 0 88px;
+    }
+    .illoDescription{
+        padding-bottom:13px;
+    }
+    .projectSkills{
+        font-size: 1.1rem;
+        letter-spacing: 0.13rem;
+        font-family: $font-link-copy;
+        line-height: 2.2rem;
+        padding-bottom:30px;
+    }
+    .purchasePrint{
+        font-size:1.3rem;
+        font-weight: bold;
+        padding-bottom:30px;
+    }
+    .projectTags{
+        p{
+        font-size: 1.1rem;
+        letter-spacing: 0.13rem;
+        font-family: $font-link-copy;
+        line-height: 1.8rem;
+        }
+    }
+}
 @media only screen and (min-width: 1040px) {
     .card{
         width:320px;
@@ -129,49 +174,22 @@
             margin-right: 0;
         }
     }
-    .card img{
-        width:300px;
-    }
-    .projectInfo{
-        width: 320px;
-        padding: 10px 20px 40px 20px;
-        margin-left: 60px;
-    }
-    .projectImage{
-        width:600px;
-        min-height: 300px;
-    }
-    .projectImage img{
-        width:600px;
-    }
 }
 @media only screen and (max-width: 1039px) {
-    .projectImage,
-    .projectImage img{
-        margin:0 auto;
-        float: none;
-        width:600px;
-    }
     .card{
         width:47%;
-        margin: 0 20px 20px 0;
+        margin: 0 20px 23px 0;
         &:nth-child(2n){
             margin-right: 0;
         }
     }
-    .projectInfo{
-        width: 100%;
-        padding: 20px 0 0 0;
-    }
-    .card img{
-        width:100%;
-        height: auto;
-        }
 }
 @media only screen and (max-width: 768px){
-    .projectImage,
-    .projectImage img{
-    width:100%;
-    min-height: 100px;
+    .card{
+        width:100%;
+        margin: 0 0 20px 0;
     }
+    .projectInfo{
+            margin:0 auto;
+        }
 }

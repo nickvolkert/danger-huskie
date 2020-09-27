@@ -7,7 +7,7 @@ import Content from "../components/Content";
 
 
 const Renderedillo = props => (
-    <div id="projectwrapper" style={{"backgroundColor": props.illoBackGroundColor}}>
+    <div id="projectwrapper" style={{"backgroundColor": props.illoBackGroundColor}} className={props.illoBackgroundType}>
         <Content>
         <div id="breadcrumb">
                 <ul>
@@ -27,15 +27,16 @@ const Renderedillo = props => (
                 <meta property="og:type" content="website"/>
             </Helmet>
             <BodyClassName className="dangerhuskie"></BodyClassName>
-            <h1>Danger Huskie #{props.illoID} {props.illoTitle}</h1>
             <div className="projectImage" style={{"backgroundColor": props.illoBackGroundColor}}>
                 <img src={props.illoImage} title={props.illoTitle + " | Danger Huskie by Nick Volkert"} alt={props.illoAlt} />
+                <a href={props.DeviantArt} className="btn-secondary-blue btn linkDevArt" target="_blank" rel="noopener noreferrer">Like on Deviant Art</a>
+                <a href={props.Tumblr} className="btn-secondary-blue btn linkTumblr" target="_blank" rel="noopener noreferrer">Like on Tumblr</a>
             </div>
             <div className="projectInfo">
                 <div className="projectDesc">
-                    <h2>{props.illoTitle}</h2>
-                    <p className="projectYear">{props.illoDate}</p>
-                    <p className="illoDescriptionTitle">About This Image:</p>
+                    <p className="workPrehead">Danger Huskie #{props.illoID}</p>
+                    <h1>{props.illoTitle}</h1>
+                    <p className="projectYear">Created: {props.illoDate}</p>
                     <p className="illoDescription">{props.illoDescription}</p>
                     <p className="projectSkills">Skills: Adobe Illustrator, Vector Art</p>
                 </div>
@@ -47,8 +48,6 @@ const Renderedillo = props => (
                     <a href={props.TeePublic} className="btn-secondary-blue btn linkTeePublic" target="_blank" rel="noopener noreferrer">Tee Public</a>
                     <a href={props.Threadless} className="btn-secondary-blue btn linkThreadless" target="_blank" rel="noopener noreferrer">Threadless</a>
                     <a href={props.Teespring} className="btn-secondary-blue btn linkTeespring" target="_blank" rel="noopener noreferrer">Tee Spring</a>
-                    <a href={props.DeviantArt} className="btn-secondary-blue btn linkDevArt" target="_blank" rel="noopener noreferrer">Deviant Art</a>
-                    <a href={props.Tumblr} className="btn-secondary-blue btn linkTumblr" target="_blank" rel="noopener noreferrer">Like this on Tumblr</a>
                 </div>
                 <div className="projectTags">
                     <p className="projectTagTitle">Tags:</p>

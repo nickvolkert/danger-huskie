@@ -1,5 +1,6 @@
 import React from "react";
 import {Helmet} from "react-helmet";
+import { Link } from "react-router-dom";
 import Content from "../components/Content";
 import BodyClassName from "react-body-classname";
 import Clearfix from "../components/Clearfix";
@@ -30,10 +31,9 @@ const Home = () => (
             heroLink={source[x].link}
         />
     <Content>
-      <div className="intro-text">
-            <h2>Feeling Dangerous?</h2>
-            <h3>DangerHuskie is a side project of vector illustrations I started during the covid pandemic lockdown in the Spring of our Discontent, the Year of our Lord, Year of Danger, 2020.</h3>
-            <p>Get daily updates at: <a href="http://dangerhuskie.tumblr.com/" target="_blank" rel="noopener noreferrer">Tumblr</a> or <a href="https://instagram.com/dangerhuskie/" target="_blank" rel="noopener noreferrer">Instagram</a> or visit: <a href="https://www.dangerhuskie.com" target="_blank" rel="noopener noreferrer">DangerHuskie.com</a></p>
+      <div id="intro-text">
+            <p>DangerHuskie is a side project of vector illustrations created by Chicagoland artist Nick Volkert. The project started during the covid pandemic lockdown in the Spring of our Discontent, the Year of our Lord, Year of Danger, 2020. <Link to="/about">Learn more.</Link></p>
+            <div className="pipe"></div>
         </div>
     </Content>
 

@@ -47,19 +47,12 @@ footer {
 .projectwrapper {
   margin: 0 auto; }
 
-/*Breadcrumb*/
-#breadcrumb {
-  padding-bottom: 40px;
-  font-size: 11px; }
-  #breadcrumb ul {
-    text-decoration: none;
-    margin: 0;
-    padding: 0; }
-    #breadcrumb ul li {
-      display: inline-block;
-      padding-right: 10px; }
-      #breadcrumb ul li.breadcrumb-divider {
-        color: #A2B4C9; }
+.pipe {
+  width: 320px;
+  height: 3px;
+  background-color: #C4DAEC;
+  display: block;
+  margin: 34px auto 0 auto; }
 
 /*Sections*/
 .sectionWrapper {
@@ -73,7 +66,7 @@ footer {
   .sectionWrapper {
     width: 1040px; }
   .content {
-    padding: 20px 0; }
+    padding: 10px 0; }
   section {
     padding: 40px 0 60px 0; }
   section .content {
@@ -87,106 +80,143 @@ footer {
     width: 90%; }
   .content,
   section {
-    padding: 15px 0 40px 0; }
+    padding: 10px 0 40px 0; }
   #breadcrumb {
     padding-bottom: 20px; } }
 
-.projectrow {
+.card {
+  width: 330px;
+  height: auto;
+  display: inline-block;
+  float: left;
+  background-color: #EE283B; }
+  .card:hover {
+    padding-bottom: 5px; }
+  .card .cardWrapper {
+    background-color: #0A2240; }
+    .card .cardWrapper:hover {
+      margin-top: -5px; }
+  .card .cardImage {
+    width: 100%; }
+    .card .cardImage a {
+      color: #FFF;
+      padding: 0; }
+      .card .cardImage a:hover {
+        border-bottom: none; }
+    .card .cardImage img {
+      width: 100%;
+      height: auto; }
+  .card .cardInfo {
+    padding: 27px 20px 22px;
+    width: 100%; }
+    .card .cardInfo .cardTitleLink {
+      font-family: "Anton", sans-serif;
+      font-size: 2.0rem;
+      line-height: 2.4rem;
+      letter-spacing: 0.4rem;
+      padding-bottom: 5px;
+      text-transform: uppercase; }
+      .card .cardInfo .cardTitleLink a {
+        color: #FFF;
+        padding: 0; }
+        .card .cardInfo .cardTitleLink a:hover {
+          border-bottom: none; }
+    .card .cardInfo .cardMiniInfo {
+      font-size: 1.0rem;
+      font-family: "Roboto Mono", monospace;
+      line-height: 1.6rem;
+      letter-spacing: 0.16rem;
+      padding-bottom: 10px; }
+
+#projectwrapper #breadcrumb {
+  padding: 0;
+  font-size: 11px; }
+  #projectwrapper #breadcrumb ul {
+    text-decoration: none;
+    margin: 0;
+    padding: 0; }
+    #projectwrapper #breadcrumb ul li {
+      display: inline-block;
+      padding-right: 10px; }
+
+#projectwrapper .workPrehead {
+  font-size: 1.1rem;
+  letter-spacing: 0.5rem;
+  font-family: "Roboto Mono", monospace;
+  line-height: 2.2rem; }
+
+#projectwrapper h1 {
+  text-transform: uppercase;
+  font-size: 3.8rem;
+  line-height: 4.4rem;
+  letter-spacing: .62rem; }
+
+#projectwrapper p {
+  font-size: 1.4rem;
+  line-height: 1.8rem; }
+
+#projectwrapper .projectYear {
+  font-size: 1.1rem;
+  letter-spacing: 0.3rem;
+  font-family: "Roboto Mono", monospace;
+  line-height: 2.2rem;
+  padding-bottom: 16px; }
+
+#projectwrapper.dark h1 {
+  text-shadow: 0 0.25rem 1rem rgba(10, 34, 64, 0.5); }
+
+#projectwrapper.dark h1,
+#projectwrapper.dark p,
+#projectwrapper.dark #breadcrumb {
+  color: #FFF; }
+
+#projectwrapper.dark #breadcrumb a {
+  color: #FFF;
+  border-bottom: 1px solid #FFF; }
+
+#projectwrapper.light h1,
+#projectwrapper.light p,
+#projectwrapper.light #breadcrumb {
+  color: #0A2240; }
+
+#projectwrapper.light #breadcrumb a {
+  color: #0A2240;
+  text-decoration: underline;
+  border-bottom: 1px solid #0A2240; }
+
+#projectwrapper .projectImage {
+  width: 600px;
+  margin-bottom: 30px;
+  float: left;
+  min-height: 400px; }
+  #projectwrapper .projectImage img {
+    width: 100%; }
+
+#projectwrapper .projectInfo {
+  float: left;
+  width: 330px;
+  margin: 12px 0 0 88px; }
+
+#projectwrapper .illoDescription {
+  padding-bottom: 13px; }
+
+#projectwrapper .projectSkills {
+  font-size: 1.1rem;
+  letter-spacing: 0.13rem;
+  font-family: "Roboto Mono", monospace;
+  line-height: 2.2rem;
   padding-bottom: 30px; }
 
-.project {
-  width: 100%;
-  font-size: 1.2rem; }
-  .project .btn {
-    width: 100%;
-    margin-bottom: 12px; }
-  .project h1 {
-    font-size: 50px;
-    font-weight: 900;
-    line-height: 51px;
-    color: #FFF;
-    text-shadow: 0 0.25rem 1rem rgba(10, 34, 64, 0.5);
-    text-transform: uppercase; }
+#projectwrapper .purchasePrint {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 30px; }
 
-.projectImage,
-.projectImage img {
-  float: left;
-  background-color: #F8FBFD; }
-
-.projectImage,
-.projectImage img {
-  border-radius: 6px; }
-
-.second-image {
-  margin-top: 10px; }
-
-.projectInfo {
-  float: left;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 6px; }
-  .projectInfo h2 {
-    text-align: left; }
-  .projectInfo .projectDesc {
-    margin-bottom: 20px; }
-  .projectInfo p {
-    line-height: 1.6rem;
-    font-size: 1.4rem; }
-    .projectInfo p.projectYear {
-      font-size: 1.0rem;
-      color: #3F74B7;
-      line-height: 1.2rem;
-      margin-bottom: 20px; }
-    .projectInfo p.illoDescriptionTitle {
-      font-weight: bold; }
-    .projectInfo p.illoDescription {
-      font-size: 1.6rem;
-      padding-bottom: 10px;
-      line-height: 2.2rem; }
-    .projectInfo p.projectSkills {
-      font-size: 1.2rem; }
-    .projectInfo p.purchasePrint {
-      font-weight: bold; }
-  .projectInfo a[href='#'] {
-    display: none; }
-
-.projectLinks {
-  padding-top: 10px; }
-
-.projectTags {
-  font-size: 1rem;
-  clear: both;
-  padding: 10px 0 0 0; }
-  .projectTags .projectTagTitle {
-    font-weight: bold; }
-
-.card {
-  background: #FFF;
-  border-radius: 6px;
-  padding: 10px 10px 14px 10px;
-  float: left;
-  box-shadow: 0 0.2rem 0.4rem rgba(114, 133, 155, 0.4); }
-  .card:hover {
-    box-shadow: 0 0.6rem 0.9rem rgba(114, 133, 155, 0.4);
-    transition: 0.2s; }
-  .card p {
-    text-align: left;
-    color: #252A3F;
-    line-height: 1.9rem;
-    font-size: 1.6rem; }
-  .card .cardTitleLink {
-    font-size: 1.8rem;
-    padding-bottom: 10px; }
-  .card .cardMiniInfo {
-    font-size: 1.2rem;
-    padding-bottom: 5px; }
-  .card a {
-    font-weight: 700;
-    color: #0A2240; }
-  .card img {
-    border-radius: 6px; }
-  .card .cardImage {
-    border-radius: 6px;
-    margin: 0 0 6px 0; }
+#projectwrapper .projectTags p {
+  font-size: 1.1rem;
+  letter-spacing: 0.13rem;
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.8rem; }
 
 @media only screen and (min-width: 1040px) {
   .card {
@@ -195,42 +225,21 @@ footer {
     .card:nth-child(3n + 1) {
       clear: both; }
     .card:nth-child(3n) {
-      margin-right: 0; }
-  .card img {
-    width: 300px; }
-  .projectInfo {
-    width: 320px;
-    padding: 10px 20px 40px 20px;
-    margin-left: 60px; }
-  .projectImage {
-    width: 600px;
-    min-height: 300px; }
-  .projectImage img {
-    width: 600px; } }
+      margin-right: 0; } }
 
 @media only screen and (max-width: 1039px) {
-  .projectImage,
-  .projectImage img {
-    margin: 0 auto;
-    float: none;
-    width: 600px; }
   .card {
     width: 47%;
-    margin: 0 20px 20px 0; }
+    margin: 0 20px 23px 0; }
     .card:nth-child(2n) {
-      margin-right: 0; }
-  .projectInfo {
-    width: 100%;
-    padding: 20px 0 0 0; }
-  .card img {
-    width: 100%;
-    height: auto; } }
+      margin-right: 0; } }
 
 @media only screen and (max-width: 768px) {
-  .projectImage,
-  .projectImage img {
+  .card {
     width: 100%;
-    min-height: 100px; } }
+    margin: 0 0 20px 0; }
+  .projectInfo {
+    margin: 0 auto; } }
 
 *,
 *::after,
@@ -251,11 +260,13 @@ body {
   box-sizing: border-box;
   /*removes padding and margin to height and width*/
   text-align: left;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  letter-spacing: 0.16rem;
+  line-height: 2.8rem; }
 
 body.link-page,
 body.splash-page {
-  font-family: 'Roboto Mono', monospace; }
+  font-family: "Roboto Mono", monospace; }
   body.link-page nav,
   body.splash-page nav {
     display: none; }
@@ -263,7 +274,7 @@ body.splash-page {
   body.splash-page p {
     font-size: 1.6rem;
     margin: 0 0 20px 0;
-    font-family: 'Roboto Mono', monospace; }
+    font-family: "Roboto Mono", monospace; }
 
 h1,
 h2,
@@ -282,7 +293,8 @@ h3 {
 h4 {
   margin: 0;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 9.5rem; }
 
 p {
   color: #FFF; }
@@ -299,6 +311,12 @@ a {
     color: #EE283B;
     border-bottom: 2px solid #EE283B;
     text-decoration: none; }
+
+#intro-text {
+  width: 540px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 60px; }
 
 @media only screen and (min-width: 768px) {
   #splash-logo {
@@ -350,7 +368,8 @@ a {
   border-radius: 6px;
   text-decoration: none;
   float: left;
-  transition: .4s; }
+  transition: .4s;
+  line-height: 18px; }
   .btn__link-primary {
     background-color: #EE283B;
     color: #FFF;
@@ -393,37 +412,51 @@ a {
 
 a.btn {
   width: 100%;
-  height: 50px;
-  font-weight: 800;
+  height: 36px;
+  font-weight: bold;
   font-size: 1.4rem;
-  border-radius: 6px;
   text-decoration: none;
   display: block;
   background-color: #FFF;
   color: #EE283B;
-  border: 2px solid #EE283B;
-  padding: 12px 0 0 0;
+  border: 1px solid #EE283B;
+  padding: 11px 0 0 0;
   margin: 0 0 16px 0;
   transition: all .2s;
-  text-align: center; }
+  text-align: center;
+  line-height: 1rem; }
   a.btn:visited {
-    border: 2px solid #3F74B7;
+    border: 1px solid #3F74B7;
     color: #3F74B7; }
   a.btn:hover {
     color: #FFF;
     background-color: #EE283B;
-    border: 2px solid #EE283B; }
+    border: 1px solid #FFF; }
+  a.btn.btn-primary,
   a.btn .primary {
     background-color: #EE283B;
     color: #FFF;
     text-transform: uppercase; }
+    a.btn.btn-primary:visited,
     a.btn .primary:visited {
       background-color: #EE283B;
-      border: 2px solid #EE283B;
+      border: 1px solid #EE283B;
       color: #FFF; }
+    a.btn.btn-primary:hover,
     a.btn .primary:hover {
       background-color: #EE283B;
-      border: 2px solid #EE283B;
+      border: 1px solid #FFF;
+      color: #FFF; }
+  a.btn.btn-secondary-blue {
+    color: #0A2240;
+    border: 1px solid #0A2240; }
+    a.btn.btn-secondary-blue:visited {
+      color: #3F74B7;
+      border: 1px solid #3F74B7;
+      background-color: #FFF; }
+    a.btn.btn-secondary-blue:hover {
+      background-color: #EE283B;
+      border: 1px solid #EE283B;
       color: #FFF; }
 
 .page404page .hero {
@@ -450,7 +483,8 @@ a.btn {
       padding: 10px 20px;
       font-size: 1.2rem;
       color: #0A2240;
-      letter-spacing: 5px; }
+      letter-spacing: 5px;
+      line-height: 14px; }
     .hero .project-info_pipe {
       padding: 0 10px; }
   .hero h1 {
@@ -469,6 +503,24 @@ a.btn {
   .hero-varsitypumpkin {
     background: #53616e url(https://nickvolkert.com/img/dangerhuskie/works/004_varpump.jpg) no-repeat center -150px; }
 
+#logo_wrapper {
+  margin: 0 auto;
+  padding-top: 25px; }
+
+#logo_wrapper,
+#nav-logo {
+  width: 420px;
+  height: 103px; }
+
+#nav-logo {
+  padding: 0;
+  background-image: url("https://www.nickvolkert.com/dangerhuskie/img/danger-huskie-onnavy.svg");
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
+  display: block; }
+  #nav-logo span {
+    display: none; }
+
 nav {
   width: 100%;
   top: 0;
@@ -480,11 +532,6 @@ nav {
     width: 100%;
     position: relative;
     height: 180px; }
-  nav #logo_wrapper {
-    width: 420px;
-    height: 103px;
-    left: 50%;
-    transform: translate(-50%, 0%); }
   nav #link_ribbon {
     width: 100%;
     height: 30px;
@@ -496,7 +543,7 @@ nav {
     nav #link_ribbon ul {
       list-style: none;
       margin: 0;
-      padding: 4px 0 0 0; }
+      padding: 0; }
       nav #link_ribbon ul li {
         margin: 0;
         padding: 0;
@@ -505,7 +552,11 @@ nav {
           font-weight: bold;
           font-size: 1.6rem;
           letter-spacing: 6px;
-          color: #0A2240; }
+          color: #0A2240;
+          padding: 0 0 0 5px; }
+          nav #link_ribbon ul li a:hover {
+            border-bottom: 2px solid #0A2240;
+            margin-bottom: 2px; }
         nav #link_ribbon ul li.spacer {
           padding: 0 46px 0 44px; }
 
@@ -674,6 +725,10 @@ footer .sociallinks {
     display: block;
     margin: 0 auto;
     padding-top: 18px; }
+    #linkspage #dangerhuskie a {
+      border-bottom: none; }
+      #linkspage #dangerhuskie a:hover {
+        border-bottom: none; }
 
 .link-page footer h4,
 .splash-page footer h4 {

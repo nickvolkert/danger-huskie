@@ -12,13 +12,6 @@ nav{
         height: 180px;
     }
 
-    #logo_wrapper{
-        width:420px;
-        height: 103px;
-        left: 50%;
-        transform: translate(-50%, 0%);
-    }
-
     #link_ribbon{
         width:100%;
         height: 30px;
@@ -31,7 +24,7 @@ nav{
         ul{
             list-style: none;
             margin:0;
-            padding:4px 0 0 0;
+            padding:0;
             
             li{
                 margin:0;
@@ -42,6 +35,12 @@ nav{
                     font-size: 1.6rem;
                     letter-spacing: 6px;
                     color:$color-navy;
+                    padding:0 0 0 5px;
+
+                    &:hover{
+                        border-bottom:2px solid $color-navy;
+                        margin-bottom:2px;
+                    }
                 }
                 &.spacer{
                     padding:0 46px 0 44px;

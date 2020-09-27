@@ -15,15 +15,17 @@ body{
     box-sizing: border-box; /*removes padding and margin to height and width*/
     text-align: left;
     font-size:1.6rem;
+    letter-spacing: 0.16rem;
+    line-height: 2.8rem;
 }
 body.link-page,
 body.splash-page{
-    font-family: 'Roboto Mono', monospace;
+    font-family: $font-link-copy;
     nav{display:none}
     p{
         font-size: 1.6rem;
         margin:0 0 20px 0;
-        font-family: 'Roboto Mono', monospace;
+        font-family: $font-link-copy;
     }
 }
 h1,
@@ -44,6 +46,7 @@ h4{
     margin:0;
     text-align: center;
     text-transform: uppercase;
+    line-height: 9.5rem;
 }
 p{
     color:$color-white;
@@ -62,6 +65,12 @@ a{
         border-bottom:2px solid $color-a-tag;
         text-decoration: none;
     }
+}
+#intro-text{
+    width:540px;
+    height: auto;
+    margin:0 auto;
+    padding-top:60px;
 }
 
 

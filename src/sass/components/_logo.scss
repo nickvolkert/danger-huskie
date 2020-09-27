@@ -1,0 +1,22 @@
+#logo_wrapper{
+    margin: 0 auto;
+    padding-top:25px;
+}
+
+#logo_wrapper,
+#nav-logo{
+    width:420px;
+    height: 103px;
+}
+
+#nav-logo{
+    padding:0;
+    background-image: url("https://www.nickvolkert.com/dangerhuskie/img/danger-huskie-onnavy.svg");
+    background-repeat: no-repeat;
+    filter: drop-shadow($dropshadow);
+    display: block;
+
+    span{
+        display: none;
+    }
+}

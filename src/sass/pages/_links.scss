@@ -92,6 +92,13 @@
         display: block;
         margin:0 auto;
         padding-top:18px;
+        a{
+            border-bottom: none;
+
+            &:hover{
+                border-bottom: none;
+            }
+        }
     }
 }
 .link-page,

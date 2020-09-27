@@ -47,26 +47,12 @@ footer{
     margin:0 auto;
 }
 
-/*Breadcrumb*/
-#breadcrumb{
-    padding-bottom:40px;
-    font-size:11px;
-    ul{
-        text-decoration: none;
-        margin:0;
-        padding: 0;
-        li{
-            display:inline-block;
-            padding-right:10px;
-            
-            &.breadcrumb-divider{
-                color:$color-pre-head;
-            }
-            // &.breadcrumb-home{
-
-            // }
-        }
-    }
+.pipe{
+    width:320px;
+    height: 3px;
+    background-color:$color-lt-blue;
+    display: block;
+    margin:34px auto 0 auto;
 }
 /*Sections*/
 .sectionWrapper{
@@ -82,7 +68,7 @@ footer{
     width:$section-width-desktop;
     }
     .content{
-        padding:20px 0;
+        padding:10px 0;
     }
     section{
         padding:40px 0 60px 0;
@@ -100,7 +86,7 @@ footer{
     }
     .content,
     section{
-        padding:15px 0 40px 0;
+        padding:10px 0 40px 0;
     }
     #breadcrumb{
         padding-bottom:20px;

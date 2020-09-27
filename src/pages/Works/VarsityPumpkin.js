@@ -29,6 +29,7 @@ const VarsityPumpkin = () => (
                 Tumblr={source[y].tumblr}
                 illoTags={source[y].tags}
                 illoBackGroundColor={source[y].backgroundcolor}
+                illoBackgroundType={source[y].backgroundtype}
             />
         <NextPrev
             prevLink={source[prev].link}

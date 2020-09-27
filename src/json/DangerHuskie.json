@@ -21,6 +21,7 @@
         "alttext": "A bear with a stocking cap and sweater is walking by with a giant number 2 pencil.",
         "series": "Bears, Pencils",
         "backgroundcolor": "#ffc758",
+        "backgroundtype":"light",
         "link": "/works/pencil-bear"
       },
       {
@@ -45,6 +46,7 @@
         "alttext": "A yeti is annoyed by a singing bird that landed on it's head.",
         "series": "Yeti, Birds, Cryptozoological",
         "backgroundcolor": "#44c5f7",
+        "backgroundtype":"light",
         "link": "/works/annoyed-yeti"
       },
       {
@@ -69,6 +71,7 @@
         "alttext": "A sasqutach is annoyed by a flower that landed on it's head.",
         "series": "Sasquatch, Bigfood, Flowers, Cryptozoological",
         "backgroundcolor": "#6ab6a3",
+        "backgroundtype":"light",
         "link": "/works/annoyed-sasquatch"
       },
       {
@@ -93,6 +96,7 @@
         "alttext": "A man with a jack o' lantern head is marching by in a varsity jacket in the dark.",
         "series": "Halloween, Pumpkins",
         "backgroundcolor": "#53616e",
+        "backgroundtype":"dark",
         "link": "/works/varsity-pumpkin"
       },
       {
@@ -117,6 +121,7 @@
         "alttext": "A happy rainbow touching two clouds.",
         "series": "Rainbow, Cute",
         "backgroundcolor": "#4ac7e5",
+        "backgroundtype":"light",
         "link": "/works/happy-rainbow"
       },
       {
@@ -141,6 +146,7 @@
         "alttext": "A joyous rainbow touching two clouds.",
         "series": "Rainbow, Cute",
         "backgroundcolor": "#a2dcf9",
+        "backgroundtype":"light",
         "link": "/works/joyous-rainbow"
       }
 ]
