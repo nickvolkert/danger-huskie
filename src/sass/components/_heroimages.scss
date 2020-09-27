@@ -18,20 +18,21 @@
       position: absolute;
       right: 0;
       bottom: 0;
-      height: 45px;
+      height: 32px;
       background: rgba($color-off-white, .9);
-      font-size:1.4rem;
-      padding: 10px 20px;
-      color:$color-navy;
-      font-family: 'Roboto Mono', monospace;
-
+        p{
+        padding: 10px 20px;
+        font-size:1.2rem;
+        color:$color-navy;
+        letter-spacing:5px;
+      }
       &_pipe{
         padding: 0 10px;
       }
     }
   
     h1{
-      font-size:50px;
+      font-size:12.0rem;
       font-weight:900;
       line-height: 51px;
       color:$color-white;

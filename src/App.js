@@ -8,6 +8,7 @@ import DangerHuskie from './json/DangerHuskie';
 
 //Components
 import Wrapper from "./components/Wrapper";
+import Navigation from "./components/Navigation";
 import ContentWrapper from "./components/ContentWrapper";
 import Footer from "./components/Footer";
 
@@ -42,6 +43,7 @@ const App = () => (
         <meta name="author" content="Nick Volkert"></meta>
         <meta name="email" content="dangerhuskie@nickvolkert.com"></meta>
       </Helmet>
+      <Navigation />
       <ContentWrapper>
       <ScrollMemory />
         <Switch>

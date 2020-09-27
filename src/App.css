@@ -22,14 +22,6 @@ nav,
 footer {
   background-color: #0A2240; }
 
-a {
-  color: #418ADF;
-  text-decoration: none; }
-
-a:hover {
-  color: #60AAFF;
-  text-decoration: none; }
-
 footer {
   clear: both; }
 
@@ -141,7 +133,7 @@ footer {
     font-size: 1.4rem; }
     .projectInfo p.projectYear {
       font-size: 1.0rem;
-      color: #D1E6F7;
+      color: #3F74B7;
       line-height: 1.2rem;
       margin-bottom: 20px; }
     .projectInfo p.illoDescriptionTitle {
@@ -253,17 +245,20 @@ html {
   /* This Defines 1rem */ }
 
 body {
-  font-family: 'Epilogue', sans-serif;
+  font-family: 'Exo 2', sans-serif;
   font-weight: 400;
   font-style: normal;
   box-sizing: border-box;
   /*removes padding and margin to height and width*/
-  text-align: center;
-  font-size: 1.4rem; }
+  text-align: left;
+  font-size: 1.6rem; }
 
 body.link-page,
 body.splash-page {
   font-family: 'Roboto Mono', monospace; }
+  body.link-page nav,
+  body.splash-page nav {
+    display: none; }
   body.link-page p,
   body.splash-page p {
     font-size: 1.6rem;
@@ -290,7 +285,20 @@ h4 {
   text-transform: uppercase; }
 
 p {
-  text-align: left; }
+  color: #FFF; }
+
+a {
+  color: #EE283B;
+  text-decoration: none;
+  margin-bottom: 2px; }
+  a:visited {
+    color: #3F74B7;
+    border-bottom: 2px solid #3F74B7;
+    text-decoration: none; }
+  a:hover {
+    color: #EE283B;
+    border-bottom: 2px solid #EE283B;
+    text-decoration: none; }
 
 @media only screen and (min-width: 768px) {
   #splash-logo {
@@ -364,20 +372,20 @@ p {
       border: 3px solid #E51646; }
     .btn__link-secondary-red:hover {
       color: #FFF;
-      background-color: #418ADF;
-      border: 3px solid #418ADF; }
+      background-color: #EE283B;
+      border: 3px solid #EE283B; }
   .btn__link-secondary-blue {
     background-color: #FFF;
-    color: #418ADF;
-    border: 3px solid #418ADF;
+    color: #EE283B;
+    border: 3px solid #EE283B;
     padding: 12px 0 0 0; }
     .btn__link-secondary-blue:visited {
-      color: #D1E6F7;
-      border: 3px solid #D1E6F7; }
+      color: #3F74B7;
+      border: 3px solid #3F74B7; }
     .btn__link-secondary-blue:hover {
       color: #FFF;
-      background-color: #418ADF;
-      border: 3px solid #418ADF; }
+      background-color: #EE283B;
+      border: 3px solid #EE283B; }
 
 .btn__wrapper {
   width: 330px;
@@ -422,44 +430,88 @@ a.primary:hover {
   border: 2px solid #EE283B;
   color: #FFF; }
 
-.sociallinks {
-  width: 127px;
-  height: 28px; }
-  .sociallinks ul {
-    margin: 0;
-    padding: 0;
-    width: 127px;
-    height: 28px; }
-    .sociallinks ul li {
-      display: inline-block;
-      margin-right: 10px; }
-      .sociallinks ul li a {
-        display: block; }
-        .sociallinks ul li a span {
-          display: none; }
-  .sociallinks ul li,
-  .sociallinks ul li a {
-    width: 20px;
-    height: 20px; }
+.page404page .hero {
+  height: 600px;
+  padding: 234px 0 0 0; }
 
-.sociallinks ul li a.sociallinks__twitter {
-  background: url("https://nickvolkert.com/img/_sitegraphics/social/twitter.svg") no-repeat center 2px;
-  background-size: 100%; }
+.hero {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  padding: 167px 0 0 0;
+  position: relative; }
+  .hero .project-info {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 32px;
+    background: rgba(248, 251, 253, 0.9); }
+    .hero .project-info p {
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      color: #0A2240;
+      letter-spacing: 5px; }
+    .hero .project-info_pipe {
+      padding: 0 10px; }
+  .hero h1 {
+    font-size: 12.0rem;
+    font-weight: 900;
+    line-height: 51px;
+    color: #FFF;
+    text-shadow: 0 0.25rem 1rem rgba(10, 34, 64, 0.5); }
+  .hero h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #FFF;
+    line-height: 39px; }
+  .hero-dangerhuskie {
+    background: #ffc758 url(https://nickvolkert.com/img/dangerhuskie/works/001-thepencilbear.jpg) no-repeat center -150px; }
+  .hero-varsitypumpkin {
+    background: #53616e url(https://nickvolkert.com/img/dangerhuskie/works/004_varpump.jpg) no-repeat center -150px; }
 
-.sociallinks ul li a.sociallinks__tumblr {
-  background: url("https://nickvolkert.com/img/_sitegraphics/social/tumblr.svg") no-repeat center top;
-  background-size: 57%; }
-
-.sociallinks ul li a.sociallinks__facebook {
-  background: url("https://nickvolkert.com/img/_sitegraphics/social/facebook.svg") no-repeat center top;
-  background-size: 50%; }
-
-.sociallinks ul li a.sociallinks__dribbble {
-  background: url("https://nickvolkert.com/img/_sitegraphics/social/dribbble.svg") no-repeat center top;
-  background-size: 100%; }
-
-footer .sociallinks {
-  margin: 2.2rem auto 8.4rem auto; }
+nav {
+  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  z-index: 99; }
+  nav #nav_wrapper {
+    width: 100%;
+    position: relative;
+    height: 180px; }
+  nav #logo_wrapper {
+    width: 420px;
+    height: 103px;
+    left: 50%;
+    transform: translate(-50%, 0%); }
+  nav #link_ribbon {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: #EE283B;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase; }
+    nav #link_ribbon ul {
+      list-style: none;
+      margin: 0;
+      padding: 4px 0 0 0; }
+      nav #link_ribbon ul li {
+        margin: 0;
+        padding: 0;
+        display: inline; }
+        nav #link_ribbon ul li a {
+          font-weight: bold;
+          font-size: 1.6rem;
+          letter-spacing: 6px;
+          color: #0A2240; }
+        nav #link_ribbon ul li.spacer {
+          padding: 0 46px 0 44px; }
 
 #prevNext {
   height: auto; }
@@ -468,15 +520,15 @@ footer .sociallinks {
     padding: 10px;
     display: inline-block;
     background-color: #FFF;
-    color: #418ADF;
+    color: #EE283B;
     border: 3px solid #F8FBFD;
     border-radius: 6px; }
     #prevNext a:visited {
       border: 3px solid #F8FBFD; }
       #prevNext a:visited p {
-        color: #D1E6F7; }
+        color: #3F74B7; }
     #prevNext a:hover {
-      border: 3px solid #418ADF; }
+      border: 3px solid #EE283B; }
     #prevNext a#prevLink {
       text-align: left; }
       #prevNext a#prevLink img {
@@ -515,47 +567,44 @@ footer .sociallinks {
         float: left;
         clear: left; } }
 
-.page404page .hero {
-  height: 600px;
-  padding: 234px 0 0 0; }
+.sociallinks {
+  width: 127px;
+  height: 28px; }
+  .sociallinks ul {
+    margin: 0;
+    padding: 0;
+    width: 127px;
+    height: 28px; }
+    .sociallinks ul li {
+      display: inline-block;
+      margin-right: 10px; }
+      .sociallinks ul li a {
+        display: block; }
+        .sociallinks ul li a span {
+          display: none; }
+  .sociallinks ul li,
+  .sociallinks ul li a {
+    width: 20px;
+    height: 20px; }
 
-.hero {
-  width: 100%;
-  height: 400px;
-  text-align: center;
-  color: #FFF;
-  text-transform: uppercase;
-  padding: 167px 0 0 0;
-  position: relative; }
-  .hero .project-info {
-    width: auto;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 45px;
-    background: rgba(248, 251, 253, 0.9);
-    font-size: 1.4rem;
-    padding: 10px 20px;
-    color: #0A2240;
-    font-family: 'Roboto Mono', monospace; }
-    .hero .project-info_pipe {
-      padding: 0 10px; }
-  .hero h1 {
-    font-size: 50px;
-    font-weight: 900;
-    line-height: 51px;
-    color: #FFF;
-    text-shadow: 0 0.25rem 1rem rgba(10, 34, 64, 0.5); }
-  .hero h2 {
-    font-size: 30px;
-    font-weight: 900;
-    color: #FFF;
-    line-height: 39px; }
-  .hero-dangerhuskie {
-    background: #ffc758 url(https://nickvolkert.com/img/dangerhuskie/works/001-thepencilbear.jpg) no-repeat center -150px; }
-  .hero-varsitypumpkin {
-    background: #53616e url(https://nickvolkert.com/img/dangerhuskie/works/004_varpump.jpg) no-repeat center -150px; }
+.sociallinks ul li a.sociallinks__twitter {
+  background: url("https://nickvolkert.com/img/_sitegraphics/social/twitter.svg") no-repeat center 2px;
+  background-size: 100%; }
+
+.sociallinks ul li a.sociallinks__tumblr {
+  background: url("https://nickvolkert.com/img/_sitegraphics/social/tumblr.svg") no-repeat center top;
+  background-size: 57%; }
+
+.sociallinks ul li a.sociallinks__facebook {
+  background: url("https://nickvolkert.com/img/_sitegraphics/social/facebook.svg") no-repeat center top;
+  background-size: 50%; }
+
+.sociallinks ul li a.sociallinks__dribbble {
+  background: url("https://nickvolkert.com/img/_sitegraphics/social/dribbble.svg") no-repeat center top;
+  background-size: 100%; }
+
+footer .sociallinks {
+  margin: 2.2rem auto 8.4rem auto; }
 
 #linkspage {
   /*Pre heads*/ }
