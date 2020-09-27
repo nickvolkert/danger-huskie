@@ -73,34 +73,38 @@
     border-radius: 6px;
     text-decoration: none;
     display:block;
-    background-color: #FFF;
-    color:#EE283B;
-    border: 2px solid #EE283B;
+    background-color: $color-white;
+    color:$color-primary;
+    border: 2px solid $color-primary;
     padding: 12px 0 0 0;
     margin:0 0 16px 0;
     transition: all .2s;
-}
-a.btn:visited{
-    border: 2px solid #7A7F99;
-    color: #7A7F99;
-    }
-a.btn:hover {
-        color: #FFF;
-        background-color:#EE283B;
-        border: 2px solid #EE283B;
-    }
-a.primary {
-    background-color: #EE283B;
-    color: #FFF;
+    text-align: center;
+
+    &:visited{
+      border: 2px solid $color-a-visited;
+      color: $color-a-visited;
+      }
+    &:hover {
+      color: $color-white;
+      background-color:$color-primary;
+      border: 2px solid $color-primary;
+  }
+  .primary {
+    background-color: $color-primary;
+    color: $color-white;
     text-transform: uppercase;
+
+    &:visited{
+      background-color: $color-primary;
+      border: 2px solid $color-primary;
+      color: $color-white;
+      }
+
+    &:hover{
+      background-color: $color-primary;
+      border: 2px solid $color-primary;
+      color: $color-white;
+      }
+  }
 }
-a.primary:visited{
-    background-color: #EE283B;
-    border: 2px solid #EE283B;
-    color: #FFF;
-    }
-a.primary:hover{
-    background-color: #EE283B;
-    border: 2px solid #EE283B;
-    color: #FFF;
-    }

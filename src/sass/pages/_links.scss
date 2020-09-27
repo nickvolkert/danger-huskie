@@ -17,6 +17,7 @@
         background:none;
         width:auto;
         height: auto;
+        text-align: center;
     }
     p{
         text-align: center;
@@ -75,19 +76,6 @@
                 white-space: pre;  
         }
     }
-
-    a{
-        color:#EE283B;
-        text-decoration: none;
-    }
-    a:hover{
-        color:#418ADF;
-        text-decoration: none;
-    }
-    a:visited{
-        color:#A2B4C9;
-        text-decoration:underline;
-    }
     #footer{
         padding-top:12px;
     }
@@ -101,7 +89,7 @@
     #dangerhuskie{
         width: 130px;
         height: 148px;
-        display: inline-block;
+        display: block;
         margin:0 auto;
         padding-top:18px;
     }
