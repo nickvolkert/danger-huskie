@@ -128,16 +128,19 @@ footer {
       letter-spacing: 0.16rem;
       padding-bottom: 10px; }
 
-#projectwrapper #breadcrumb {
+#breadcrumb {
   padding: 0;
   font-size: 11px; }
-  #projectwrapper #breadcrumb ul {
+  #breadcrumb ul {
     text-decoration: none;
     margin: 0;
     padding: 0; }
-    #projectwrapper #breadcrumb ul li {
+    #breadcrumb ul li {
       display: inline-block;
-      padding-right: 10px; }
+      padding-right: 10px;
+      color: #FFF; }
+      #breadcrumb ul li a {
+        color: #FFF; }
 
 #projectwrapper .workPrehead {
   font-size: 1.1rem;
@@ -176,7 +179,8 @@ footer {
 
 #projectwrapper.light h1,
 #projectwrapper.light p,
-#projectwrapper.light #breadcrumb {
+#projectwrapper.light #breadcrumb,
+#projectwrapper.light #breadcrumb li {
   color: #0A2240; }
 
 #projectwrapper.light #breadcrumb a {
@@ -300,6 +304,14 @@ h2 {
   text-align: center;
   margin-bottom: 25px; }
 
+.page404 h2 {
+  color: #FFF;
+  font-size: 4.0rem;
+  line-height: 4.4rem;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 25px 0; }
+
 h3 {
   color: #FFF;
   font-size: 1.6rem; }
@@ -313,13 +325,16 @@ h4 {
 p {
   color: #FFF; }
 
+.body-copy p {
+  margin-bottom: 20px; }
+
 a {
   color: #EE283B;
   text-decoration: none;
   margin-bottom: 2px; }
   a:visited {
-    color: #3F74B7;
-    border-bottom: 2px solid #3F74B7;
+    color: #C4DAEC;
+    border-bottom: 2px solid #C4DAEC;
     text-decoration: none; }
   a:hover {
     color: #EE283B;
@@ -331,6 +346,11 @@ a {
   height: auto;
   margin: 0 auto;
   padding-top: 60px; }
+
+.caption {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.0rem;
+  text-align: center; }
 
 @media only screen and (min-width: 768px) {
   #splash-logo {
@@ -526,6 +546,8 @@ a.btn {
       line-height: 14px; }
     .hero .project-info_pipe {
       padding: 0 10px; }
+    .hero .project-info a:visited {
+      color: #3F74B7; }
   .hero h1 {
     font-size: 12.0rem;
     font-weight: 900;
@@ -541,6 +563,8 @@ a.btn {
     background: #ffc758 url(https://nickvolkert.com/img/dangerhuskie/works/001-thepencilbear.jpg) no-repeat center -150px; }
   .hero-varsitypumpkin {
     background: #53616e url(https://nickvolkert.com/img/dangerhuskie/works/004_varpump.jpg) no-repeat center -150px; }
+  .hero-about {
+    background: #EE283B url(https://nickvolkert.com/img/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px; }
 
 #logo_wrapper {
   margin: 0 auto;
@@ -710,6 +734,35 @@ nav {
 footer .sociallinks {
   margin: 2.2rem auto 8.4rem auto; }
 
+#about-images {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 220px 64px 10px 0; }
+
+#about-dangerhuskie {
+  background: url(https://nickvolkert.com/img/spec_mural/bw_setup.jpg) no-repeat -460px -80px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: left;
+  display: block;
+  margin-bottom: 10px; }
+  #about-dangerhuskie span {
+    display: none; }
+
+#about-body {
+  float: left;
+  width: 540px; }
+  #about-body h2 {
+    font-size: 6.0rem;
+    line-height: 6.4rem;
+    letter-spacing: .6rem;
+    color: #FFF;
+    text-transform: uppercase; }
+  #about-body .pipe {
+    margin: 40px 0; }
+
 #linkspage {
   /*Pre heads*/ }
   #linkspage #header {
@@ -865,7 +918,8 @@ footer {
   height: 692px;
   text-align: center;
   color: #FFF;
-  background: linear-gradient(#0A2240, #EE283B); }
+  background: linear-gradient(#0A2240, #EE283B);
+  clear: both; }
   footer p {
     text-align: center;
     color: #FFF; }

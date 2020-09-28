@@ -61,20 +61,27 @@
         }
     }
 }
-#projectwrapper{
-    #breadcrumb{
-        padding:0;
-        font-size:11px;
-        ul{
-            text-decoration: none;
-            margin:0;
-            padding: 0;
-            li{
-                display:inline-block;
-                padding-right:10px;
+
+#breadcrumb{
+    padding:0;
+    font-size:11px;
+    ul{
+        text-decoration: none;
+        margin:0;
+        padding: 0;
+        li{
+            display:inline-block;
+            padding-right:10px;
+            color:$color-white;
+
+            a{
+                color:$color-white
             }
         }
     }
+}
+
+#projectwrapper{
     .workPrehead{
         font-size: 1.1rem;
         letter-spacing: 0.5rem;
@@ -115,7 +122,8 @@
     &.light{
         h1,
         p,
-        #breadcrumb{
+        #breadcrumb,
+        #breadcrumb li{
             color:$color-navy;
         }
         #breadcrumb a{

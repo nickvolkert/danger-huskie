@@ -35,7 +35,7 @@ const Home = () => (
                 <ul>
                     <li><Link to="/" className="breadcrumb-home">Home</Link></li>
                     <li className="breadcrumb-divider">/</li>
-                    <li>Works</li>
+                    <li>{pagename}</li>
                 </ul>
             </div>
         <div className="intro-text">

@@ -38,8 +38,7 @@ h2{
     font-size:2.8rem;
     color:$color-navy;
 }
-#relatedDesigns{
-    h2{
+#relatedDesigns h2{
         color:$color-white;
         font-size:4.0rem;
         line-height: 4.4rem;
@@ -47,7 +46,13 @@ h2{
         text-align: center;
         margin-bottom:25px;
     }
-
+.page404 h2{
+    color:$color-white;
+    font-size:4.0rem;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+    text-align: left;
+    margin:25px 0;
 }
 h3{
     color:$color-white;
@@ -62,13 +67,16 @@ h4{
 p{
     color:$color-white;
 }
+.body-copy p{
+    margin-bottom:20px;
+}
 a{
     color:$color-primary;
     text-decoration: none;
     margin-bottom:2px;
     &:visited{
-        color:$color-a-visited;
-        border-bottom:2px solid $color-a-visited;
+        color:$color-lt-blue;
+        border-bottom:2px solid $color-lt-blue;
         text-decoration: none;
     }
     &:hover{
@@ -82,6 +90,11 @@ a{
     height: auto;
     margin:0 auto;
     padding-top:60px;
+}
+.caption{
+    font-family: $font-link-copy;
+    font-size:1.0rem;
+    text-align: center;
 }
 
 

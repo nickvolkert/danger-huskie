@@ -30,6 +30,12 @@
       &_pipe{
         padding: 0 10px;
       }
+      a{
+
+        &:visited{
+          color:$color-a-visited;
+        }
+      }
     }
   
     h1{
@@ -51,5 +57,8 @@
     }
     &-varsitypumpkin{
       background:#53616e url(https://nickvolkert.com/img/dangerhuskie/works/004_varpump.jpg) no-repeat center -150px;
+    }
+    &-about{
+      background:#EE283B url(https://nickvolkert.com/img/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px;
     }
   }

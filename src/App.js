@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 //Core Site
 import Home from "./pages/Home";
 import _WorksLanding from "./pages/Works/_WorksLanding";
+import About from "./pages/About";
 import Splash from "./pages/Splash";
 
 //Artworks
@@ -29,7 +30,7 @@ import VarsityPumpkin from "./pages/Works/VarsityPumpkin";
 import LinksPage from "./pages/LinksPage";
 
 //404
-import Page404 from "./pages/Page404/Page404";
+import Page404 from "./pages/Page404";
 
 const App = () => (
   <Router>
@@ -50,6 +51,7 @@ const App = () => (
 
           {/* Core Site */}
           <Route exact path="/home" component={Home} />
+          <Route exact path="/about" component={About} />
           <Route exact path="/" component={Splash} />
 
           {/* Works */}
