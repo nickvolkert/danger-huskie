@@ -29,8 +29,10 @@ const Renderedillo = props => (
             <BodyClassName className="dangerhuskie"></BodyClassName>
             <div className="projectImage" style={{"backgroundColor": props.illoBackGroundColor}}>
                 <img src={props.illoImage} title={props.illoTitle + " | Danger Huskie by Nick Volkert"} alt={props.illoAlt} />
-                <a href={props.DeviantArt} className="btn-secondary-blue btn linkDevArt" target="_blank" rel="noopener noreferrer">Like on Deviant Art</a>
-                <a href={props.Tumblr} className="btn-secondary-blue btn linkTumblr" target="_blank" rel="noopener noreferrer">Like on Tumblr</a>
+                <div className="socialBtnWrapper">
+                    <a href={props.DeviantArt} className="btn-ghost btn linkDevArt" target="_blank" rel="noopener noreferrer">Like on Deviant Art</a>
+                    <a href={props.Tumblr} className="btn-ghost btn linkTumblr" target="_blank" rel="noopener noreferrer">Like on Tumblr</a>
+                </div>
             </div>
             <div className="projectInfo">
                 <div className="projectDesc">

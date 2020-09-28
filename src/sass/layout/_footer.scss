@@ -1,14 +1,28 @@
 footer{
     background: $color-navy;
     width:100%;
-    height: 385px;
+    height: 692px;
     text-align: center;
     color:$color-white;
+    background: linear-gradient($color-navy, $color-primary);
     p{
         text-align: center;
         color:$color-white;
     }
     #copyright{
-        font-family: 'Roboto Mono', monospace;
+        font-family: $font-link-copy
+    }
+    a{
+        color:$color-white;
+
+        &:visited{
+            color:$color-lt-blue;
+        }
+    }
+}
+
+.splash{
+    footer{
+        background-color: $color-navy;
     }
 }

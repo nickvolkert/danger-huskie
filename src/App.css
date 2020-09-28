@@ -87,7 +87,7 @@ footer {
 .card {
   width: 330px;
   height: auto;
-  display: inline-block;
+  display: block;
   float: left;
   background-color: #EE283B; }
   .card:hover {
@@ -181,7 +181,6 @@ footer {
 
 #projectwrapper.light #breadcrumb a {
   color: #0A2240;
-  text-decoration: underline;
   border-bottom: 1px solid #0A2240; }
 
 #projectwrapper .projectImage {
@@ -218,6 +217,10 @@ footer {
   font-family: "Roboto Mono", monospace;
   line-height: 1.8rem; }
 
+#projectwrapper .socialBtnWrapper {
+  width: 490px;
+  margin: 0 auto; }
+
 @media only screen and (min-width: 1040px) {
   .card {
     width: 320px;
@@ -239,7 +242,10 @@ footer {
     width: 100%;
     margin: 0 0 20px 0; }
   .projectInfo {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .socialBtnWrapper {
+    width: 100%;
+    margin: 0; } }
 
 *,
 *::after,
@@ -285,6 +291,14 @@ h4 {
 h2 {
   font-size: 2.8rem;
   color: #0A2240; }
+
+#relatedDesigns h2 {
+  color: #FFF;
+  font-size: 4.0rem;
+  line-height: 4.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px; }
 
 h3 {
   color: #FFF;
@@ -458,6 +472,31 @@ a.btn {
       background-color: #EE283B;
       border: 1px solid #EE283B;
       color: #FFF; }
+  a.btn.btn-ghost {
+    color: #0A2240;
+    border: 1px solid #0A2240;
+    background-color: transparent; }
+    a.btn.btn-ghost:visited {
+      color: #3F74B7;
+      border: 1px solid #3F74B7;
+      background-color: #FFF; }
+    a.btn.btn-ghost:hover {
+      background-color: #EE283B;
+      border: 1px solid #EE283B;
+      color: #FFF; }
+
+.projectImage a.btn {
+  display: inline-block;
+  width: 220px;
+  margin-right: 25px; }
+
+#projectwrapper.dark .btn-ghost {
+  color: #FFF;
+  border: 1px solid #FFF; }
+
+#relatedDesigns a.btn {
+  width: 330px;
+  margin: 0 auto; }
 
 .page404page .hero {
   height: 600px;
@@ -561,39 +600,54 @@ nav {
           padding: 0 46px 0 44px; }
 
 #prevNext {
-  height: auto; }
+  height: auto;
+  background-color: #051529;
+  width: 100%;
+  margin: 0 auto; }
+  #prevNext #prevNextWrapper {
+    margin: 0 auto;
+    padding-top: 30px; }
+  #prevNext .subLink {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.1rem;
+    letter-spacing: .13rem;
+    padding-bottom: 7px; }
+  #prevNext .mainLink {
+    font-weight: bold; }
   #prevNext a {
     height: auto;
-    padding: 10px;
+    padding: 14px;
     display: inline-block;
-    background-color: #FFF;
-    color: #EE283B;
-    border: 3px solid #F8FBFD;
-    border-radius: 6px; }
-    #prevNext a:visited {
-      border: 3px solid #F8FBFD; }
-      #prevNext a:visited p {
-        color: #3F74B7; }
-    #prevNext a:hover {
-      border: 3px solid #EE283B; }
+    background-color: #0A2240;
+    color: #EE283B; }
+    #prevNext a:visited p {
+      color: #C4DAEC; }
     #prevNext a#prevLink {
-      text-align: left; }
+      text-align: left;
+      border-left: 3px solid #0A2240; }
       #prevNext a#prevLink img {
         float: left;
         margin-right: 20px; }
+      #prevNext a#prevLink:hover {
+        border-left: 3px solid #EE283B;
+        border-bottom: none; }
     #prevNext a#nextLink {
-      text-align: right; }
+      text-align: right;
+      border-right: 3px solid #0A2240; }
       #prevNext a#nextLink img {
         float: right;
         margin-left: 20px; }
+      #prevNext a#nextLink:hover {
+        border-right: 3px solid #EE283B;
+        border-bottom: none; }
     #prevNext a img {
-      width: 120px;
-      border-radius: 6px; }
+      width: 120px; }
 
 @media only screen and (min-width: 1040px) {
   #prevNext {
-    margin: 20px auto;
-    width: 1040px; }
+    height: 220px; }
+    #prevNext #prevNextWrapper {
+      width: 1040px; }
     #prevNext a {
       width: 48%; }
       #prevNext a#prevLink {
@@ -603,8 +657,10 @@ nav {
 
 @media only screen and (max-width: 1039px) {
   #prevNext {
-    margin: 20px auto;
-    width: 90%; }
+    width: 100%;
+    height: auto; }
+    #prevNext #prevNextWrapper {
+      width: 990px; }
     #prevNext a {
       width: 100%; }
       #prevNext a#prevLink {
@@ -626,7 +682,8 @@ nav {
       display: inline-block;
       margin-right: 10px; }
       .sociallinks ul li a {
-        display: block; }
+        display: block;
+        border-bottom: none; }
         .sociallinks ul li a span {
           display: none; }
   .sociallinks ul li,
@@ -662,6 +719,8 @@ footer .sociallinks {
     font-weight: 800;
     text-transform: uppercase;
     padding: 0; }
+  #linkspage #intro-text {
+    padding-top: 0; }
   #linkspage h1 {
     color: #FFF;
     text-transform: uppercase;
@@ -803,11 +862,19 @@ footer .sociallinks {
 footer {
   background: #0A2240;
   width: 100%;
-  height: 385px;
+  height: 692px;
   text-align: center;
-  color: #FFF; }
+  color: #FFF;
+  background: linear-gradient(#0A2240, #EE283B); }
   footer p {
     text-align: center;
     color: #FFF; }
   footer #copyright {
-    font-family: 'Roboto Mono', monospace; }
+    font-family: "Roboto Mono", monospace; }
+  footer a {
+    color: #FFF; }
+    footer a:visited {
+      color: #C4DAEC; }
+
+.splash footer {
+  background-color: #0A2240; }

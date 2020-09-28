@@ -125,4 +125,40 @@
         color: $color-white;
       }
     }
+    &.btn-ghost{
+      color:$color-navy;
+      border:1px solid $color-navy;
+      background-color:transparent;
+
+      &:visited {
+        color: $color-a-visited;
+        border: 1px solid $color-a-visited;
+        background-color:$color-white;
+      }
+
+      &:hover {
+        background-color: $color-primary;
+        border: 1px solid $color-primary;
+        color: $color-white;
+      }
+    }
+}
+.projectImage{
+  a.btn{
+    display: inline-block;
+    width:220px;
+    margin-right:25px;
+  }
+}
+#projectwrapper.dark{
+  .btn-ghost{
+    color:$color-white;
+    border:1px solid $color-white;
+  }
+}
+#relatedDesigns{
+  a.btn{
+    width:330px;
+    margin:0 auto;
+  }
 }

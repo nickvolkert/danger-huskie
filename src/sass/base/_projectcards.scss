@@ -1,7 +1,7 @@
 .card{
     width:330px;
     height: auto;
-    display:inline-block;
+    display:block;
     float: left;
     background-color:$color-primary;
 
@@ -120,7 +120,6 @@
         }
         #breadcrumb a{
             color:$color-navy;
-            text-decoration: underline;
             border-bottom:1px solid $color-navy;
         }
     }
@@ -161,6 +160,10 @@
         line-height: 1.8rem;
         }
     }
+    .socialBtnWrapper{
+        width:490px;
+        margin:0 auto;
+    }
 }
 @media only screen and (min-width: 1040px) {
     .card{
@@ -191,5 +194,9 @@
     }
     .projectInfo{
             margin:0 auto;
+        }
+        .socialBtnWrapper{
+            width:100%;
+            margin:0;
         }
 }

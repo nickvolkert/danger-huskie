@@ -10,9 +10,11 @@ const LinksPage = () => (
       </Helmet>
       <BodyClassName className="link-page"></BodyClassName>
           <div id="header">
-              <p className="prehead">All the links</p>
-              <h1>Danger Huskie!</h1>
-              <p>Howdy folks! Please use the links to my shops below to view my work, or to purchase tees, stickers and prints of my works at the fine vendors below!</p>
+            <p className="prehead">All the links</p>
+            <h1>Danger Huskie!</h1>
+            <div id="intro-text">
+                <p>Howdy folks! Please use the links to my shops below to view my work, or to purchase tees, stickers and prints of my works at the fine vendors below!</p>
+            </div>
           </div>
           <div id="link-tree">
         <p>DangerHuskie Art Shops:</p>

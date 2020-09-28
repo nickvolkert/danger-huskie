@@ -1,54 +1,74 @@
 #prevNext{
     height: auto;
+    background-color:#051529;
+    width:100%;
+    margin: 0 auto;
+
+    #prevNextWrapper{
+        margin:0 auto;
+        padding-top:30px;
+    }
+
+    .subLink{
+        font-family:$font-link-copy;
+        font-size:1.1rem;
+        letter-spacing: .13rem;
+        padding-bottom:7px;
+    }
+    .mainLink{
+        font-weight: bold;
+    }
+        
     a {
         height: auto;
-        padding: 10px;
+        padding: 14px;
         display:inline-block;
-        background-color: $color-white;
+        background-color: $color-navy;
         color: $color-a-tag;
-        border: 3px solid $color-off-white;
-        border-radius: $border-radius;
 
         &:visited{
-            border: 3px solid $color-off-white;
-
             p{
-                color: $color-a-visited;
+                color: $color-lt-blue;
             }
-        }
-
-        &:hover{
-            border: 3px solid $color-a-tag;
         }
 
         &#prevLink{
             text-align: left;
-            
+            border-left: 3px solid $color-navy;
             img{
                 float: left;
                 margin-right: 20px;
             }
+            &:hover{
+                border-left: 3px solid $color-a-tag;
+                border-bottom:none;
+            }
         }
         &#nextLink{
             text-align: right;
+            border-right: 3px solid $color-navy;
             img{
                 float: right;
                 margin-left: 20px;
+            }
+            &:hover{
+                border-right: 3px solid $color-a-tag;
+                border-bottom:none;
             }
         }
 
         img{
             width: 120px;
-            // height: 120px;
-            border-radius: $border-radius;
         }
     }
 }
 
 @media only screen and (min-width: 1040px) {
     #prevNext{
-        margin: 20px auto;
-        width: 1040px;
+        height:220px;
+        #prevNextWrapper{
+            width:1040px;
+        }
         a{
             width: 48%;
 
@@ -63,9 +83,11 @@
 }
 @media only screen and (max-width: 1039px) {
     #prevNext{
-        margin: 20px auto;
-        width: $section-width-mobile;
-
+        width: 100%;
+        height: auto;
+        #prevNextWrapper{
+            width:990px;
+        }
         a{
             width: 100%;
 
