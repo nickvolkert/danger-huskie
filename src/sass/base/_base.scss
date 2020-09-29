@@ -54,6 +54,23 @@ footer{
     display: block;
     margin:34px auto 0 auto;
 }
+.leftRail{
+    width:300px;
+    float: left;
+    margin-right:64px;
+}
+.leftRailImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+    display: block;
+    margin-bottom: 10px;
+
+    span{
+        display: none;
+    }
+}
 /*Sections*/
 .sectionWrapper{
     margin:0 auto;

@@ -16,6 +16,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import _WorksLanding from "./pages/Works/_WorksLanding";
 import About from "./pages/About";
+import Shops from "./pages/Shops";
 import Splash from "./pages/Splash";
 
 //Artworks
@@ -25,6 +26,9 @@ import HappyRainbow from "./pages/Works/HappyRainbow";
 import JoyousRainbow from "./pages/Works/JoyousRainbow";
 import PencilBear from "./pages/Works/PencilBear";
 import VarsityPumpkin from "./pages/Works/VarsityPumpkin";
+
+//News
+import _NewsLanding from "./pages/News/_NewsLanding";
 
 //Links page
 import LinksPage from "./pages/LinksPage";
@@ -52,6 +56,7 @@ const App = () => (
           {/* Core Site */}
           <Route exact path="/home" component={Home} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/shops" component={Shops} />
           <Route exact path="/" component={Splash} />
 
           {/* Works */}
@@ -62,6 +67,9 @@ const App = () => (
           <Route exact path={DangerHuskie[5].link} component={JoyousRainbow} />
           <Route exact path={DangerHuskie[0].link} component={PencilBear} />
           <Route exact path={DangerHuskie[3].link} component={VarsityPumpkin} />
+
+          {/* News Page */}
+          <Route exact path="/news" component={_NewsLanding} />
 
           {/* Links Page */}
           <Route exact path="/links" component={LinksPage} />

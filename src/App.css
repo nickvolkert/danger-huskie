@@ -54,6 +54,21 @@ footer {
   display: block;
   margin: 34px auto 0 auto; }
 
+.leftRail {
+  width: 300px;
+  float: left;
+  margin-right: 64px; }
+
+.leftRailImage {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: left;
+  display: block;
+  margin-bottom: 10px; }
+  .leftRailImage span {
+    display: none; }
+
 /*Sections*/
 .sectionWrapper {
   margin: 0 auto;
@@ -565,6 +580,8 @@ a.btn {
     background: #53616e url(https://nickvolkert.com/img/dangerhuskie/works/004_varpump.jpg) no-repeat center -150px; }
   .hero-about {
     background: #EE283B url(https://nickvolkert.com/img/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px; }
+  .hero-newslanding {
+    background: #4ac7e5 url(https://nickvolkert.com/img/dangerhuskie/works/005_happyrainbow.jpg) no-repeat center -180px; }
 
 #logo_wrapper {
   margin: 0 auto;
@@ -735,21 +752,11 @@ footer .sociallinks {
   margin: 2.2rem auto 8.4rem auto; }
 
 #about-images {
-  width: 300px;
   height: 300px;
-  float: left;
   margin: 220px 64px 10px 0; }
 
 #about-dangerhuskie {
-  background: url(https://nickvolkert.com/img/spec_mural/bw_setup.jpg) no-repeat -460px -80px;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  float: left;
-  display: block;
-  margin-bottom: 10px; }
-  #about-dangerhuskie span {
-    display: none; }
+  background: url(https://nickvolkert.com/img/spec_mural/bw_setup.jpg) no-repeat -460px -80px; }
 
 #about-body {
   float: left;
@@ -857,6 +864,19 @@ footer .sociallinks {
 .splash-page p {
   text-align: center;
   color: #FFF; }
+
+#news-landing h2 {
+  font-size: 6.0rem;
+  line-height: 6.4rem;
+  letter-spacing: .6rem;
+  color: #FFF;
+  text-transform: uppercase; }
+
+#news-landing .pipe {
+  margin: 40px 0; }
+
+#launch-dangerhuskie {
+  background: #EE283B url(https://nickvolkert.com/img/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center center; }
 
 .content-wrapper {
   width: 100%;
