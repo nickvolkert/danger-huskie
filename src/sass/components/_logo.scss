@@ -20,3 +20,14 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 768px){
+    #logo_wrapper{
+        padding-top:19px;
+    }
+    #logo_wrapper,
+    #nav-logo{
+    width:320px;
+    height: 78px;
+    }
+  }

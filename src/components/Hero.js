@@ -6,7 +6,11 @@ const Hero = props => (
   <div className={"hero hero" + props.heroClass}>
       <h1>{props.heroH1}</h1>
       <div className="project-info">
-        <p><span className="project-info_description">{props.heroDescription}</span> <span className="project-info_pipe">|</span> <span className="project-info_link"><Link to={props.heroLink}>View Work</Link></span></p>
+        <ul>
+          <li className="project-info_description">{props.heroDescription}</li>
+          <li className="projectpipe">|</li>
+          <li className="project-info_link"><Link to={props.heroLink}>View Work</Link></li>
+        </ul>
       </div>
   </div>
 );

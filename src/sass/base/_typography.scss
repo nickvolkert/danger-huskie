@@ -38,6 +38,13 @@ h2{
     font-size:2.8rem;
     color:$color-navy;
 }
+.intro-text h2{
+    font-size:2.8rem;
+    color:$color-white;
+    text-transform: uppercase;
+    padding:20px 0 10px 0;
+    letter-spacing: 3px;
+}
 #relatedDesigns h2{
         color:$color-white;
         font-size:4.0rem;
@@ -127,6 +134,10 @@ a{
         height: 75px;
         background-size: 100%;
     }
+    #intro-text{
+        width:90%;
+        padding:20px 0;
+    }
     h1{
         font-size:4.0rem;
         padding:0 0 1.2rem 0;
@@ -136,10 +147,6 @@ a{
         font-size:3.0rem;
         padding:0 0 1.2rem 0;
         letter-spacing: 0.3rem;
-    }
-    p{
-        font-size: 1.2rem;
-        margin:0 0 12px 0;
     }
     #copyright p{
         font-size: 1.0rem;

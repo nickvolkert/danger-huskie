@@ -20,3 +20,28 @@
         margin:40px 0;
     }
 }
+@media only screen and (max-width: 768px){
+    #about-images{
+        width:100%;
+        height: auto;
+        float: none;
+        margin:0;
+        padding:0;
+    }
+    #about-dangerhuskie{
+        background-position: -320px -50px;
+        background-size: 340%;
+        margin:0 auto;
+        width:200px;
+        height:200px;
+    }
+    #about-body{
+        float: none;
+        width:100%;
+
+        h2{
+            font-size: 3.8rem;
+            line-height: 4.0rem;
+        }
+    }
+}

@@ -21,9 +21,9 @@ const News = () => (
         <meta property="og:url" content={"http://nickvolkert.com" + source[y].link} ></meta>
         <meta property="og:type" content="website"/>
     </Helmet>
-    <BodyClassName className="newslanding"></BodyClassName>
+    <BodyClassName className="shops"></BodyClassName>
     <Hero
-            heroClass="-newslanding"
+            heroClass="-shops"
             heroH1={pagename}
             heroImage={source[x].image}
             heroDescription={source[x].title}
@@ -42,27 +42,19 @@ const News = () => (
     <section>
         <Content>
             <div id="shopRedbubble" className="shopListing">
-              <div id="shopRedbubbleImg">
-                  <span>Redbubble Shop Image</span>
-              </div>
+              <h2>Redbubble</h2>
               <p>Tees, prints, stickers and more. <a href="https://www.redbubble.com/people/dangerhuskie/explore?asc=u&page=1&sortOrder=recent">View my Redbubble Shop.</a></p>
             </div>
             <div id="shopSoc6" className="shopListing">
-              <div id="shopSoc6Img">
-                  <span>Society6 Shop Image</span>
-              </div>
+            <h2>Shops</h2>
               <p>Prints, iPhone cases, pillows, stickers and more. <a href="https://society6.com/dangerhuskie">View my Society6 Shop.</a></p>
             </div>
             <div id="shopTeePublic" className="shopListing">
-              <div id="shopTeePublicImg">
-                  <span>TeePublic Shop Image</span>
-              </div>
+                <h2>Tee Public</h2>
               <p>Tees, prints, stickers and more. <a href="https://www.teepublic.com/user/dangerhuskie">View my TeePublic Shop.</a></p>
             </div>
-            <div id="shopThreadeless" className="shopListing">
-              <div id="shopThreadelessImg">
-                  <span>Threadless Shop Image</span>
-              </div>
+            <div id="shopThreadless" className="shopListing">
+                <h2>Threadless</h2>
               <p>Tees, prints, and more. <a href="https://dangerhuskie.threadless.com/">View my Threadless Shop.</a></p>
             </div>
         </Content>

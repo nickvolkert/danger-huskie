@@ -30,6 +30,31 @@
         padding: 20px 20px 30px 20px;
         width:100%;
     }
+    #latest-pbds{
+        margin:0 auto;
+        width: 680px;
+    }
+    .pbds{
+        float: left;
+        width:47%;
+        margin-right:10px;
+        &:nth-child(3n){
+            margin-right: 0;
+        }
+        img{
+            width:100%;
+        }
+        .cardImage{
+            margin:0 0 6px 0;
+        }
+        .cardTitleLink{
+            font-weight: 800;
+        }
+        .pbd-image-link{
+            width:auto;
+            height: auto;
+        }
+    }
 
     @media only screen and (min-width: 768px) {
         #wrapper,
@@ -50,6 +75,9 @@
             font-size: 1.6rem;
             margin:0 0 20px 0;
         }
+        #linkspage #latest-pbds{
+            width:100%;
+        }
     }
     @media only screen and (max-width: 600px) {
         #wrapper,
@@ -58,7 +86,10 @@
         width: 96%;
         margin: 0 auto;
         }
-        
+        #latest-pbds{
+            width:90%;
+            margin: 0 auto;
+        }
         #header{
             padding-bottom:10px;
             width:100%;
@@ -77,6 +108,9 @@
         #footer span::before {
                 content: "\A";
                 white-space: pre;  
+        }
+        #intro-text{
+            padding:0;
         }
     }
     #footer{

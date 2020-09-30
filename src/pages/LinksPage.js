@@ -1,7 +1,12 @@
 import React from "react";
 import {Helmet} from "react-helmet";
 import BodyClassName from 'react-body-classname';
-import { Link } from "react-router-dom";
+import LatestPBDs from "../components/LatestPBDs";
+import DangerHuskie from "../json/DangerHuskie";
+import Clearfix from "../components/Clearfix";
+
+let lastillo = [DangerHuskie.length];
+let sixillo = [DangerHuskie.length - 4];
 
 const LinksPage = () => (
     <div id="linkspage">
@@ -16,6 +21,21 @@ const LinksPage = () => (
                 <p>Howdy folks! Please use the links to my shops below to view my work, or to purchase tees, stickers and prints of my works at the fine vendors below!</p>
             </div>
           </div>
+          <div id="latest-pbds">
+            <p>My Latest Works:</p>
+              {DangerHuskie.slice(sixillo, lastillo).map((postDetail) => {
+                return <LatestPBDs
+                    key={postDetail.id}
+                    cardLink={postDetail.link}
+                    cardID={postDetail.component}
+                    cardImage={postDetail.image}
+                    cardAlt={postDetail.alttext}
+                    cardimageTitle={postDetail.title}
+                    cardBackGround={postDetail.backgroundcolor}
+                />
+            }).reverse()}
+            <Clearfix />
+        </div>
           <div id="link-tree">
         <p>DangerHuskie Art Shops:</p>
           <a href="https://dangerhuskie.redbubble.com" target="_blank" className="btn" rel="noopener noreferrer">Redbubble Shop</a>
@@ -37,9 +57,6 @@ const LinksPage = () => (
           </div>
           <div id="footer">
               <p><span>Danger Huskie | Greater Chicago, IL</span><span>Email: <a href="mailto:dangerhuskie@nickvolkert.com" rel="noopener noreferrer">dangerhuskie@nickvolkert.com</a></span></p>
-          </div>
-          <div id="dangerhuskie">
-              <Link to="/"><img src="https://nickvolkert.com/dangerhuskie/dangerhuskie_logo.png" alt="danger huskie logo" title="danger huskie logo"/></Link>
           </div>
       </div>
 

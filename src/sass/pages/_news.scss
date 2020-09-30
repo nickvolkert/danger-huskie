@@ -14,3 +14,15 @@
 #launch-dangerhuskie{
     background: #EE283B url(https://nickvolkert.com/img/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center center;
 }
+
+@media only screen and (max-width: 768px){
+    #news-landing{
+        h2{
+            font-size:3.8rem;
+            line-height: 4.0rem;
+        }
+    }
+    #launch-dangerhuskie{
+        background-size: 100%;
+    }
+}

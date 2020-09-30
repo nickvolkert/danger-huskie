@@ -139,11 +139,19 @@
         img{
             width:100%;
         }
+        .socialBtnWrapper{
+            display: block;
+            width:490px;
+            margin:0 auto;
+        }
     }
     .projectInfo{
         float: left;
         width: 330px;
         margin:12px 0 0 88px;
+        .socialBtnWrapper{
+            display:none;
+        }
     }
     .illoDescription{
         padding-bottom:13px;
@@ -168,10 +176,7 @@
         line-height: 1.8rem;
         }
     }
-    .socialBtnWrapper{
-        width:490px;
-        margin:0 auto;
-    }
+    
 }
 @media only screen and (min-width: 1040px) {
     .card{
@@ -190,6 +195,9 @@
     .card{
         width:47%;
         margin: 0 20px 23px 0;
+        &:nth-child(2n + 1){
+            clear: both;
+        }
         &:nth-child(2n){
             margin-right: 0;
         }
@@ -200,11 +208,52 @@
         width:100%;
         margin: 0 0 20px 0;
     }
-    .projectInfo{
-            margin:0 auto;
-        }
-        .socialBtnWrapper{
-            width:100%;
-            margin:0;
+    
+
+        #projectwrapper{
+            .projectInfo{
+                margin:0 auto;
+                padding: 0;
+            }
+            .projectImage{
+                .socialBtnWrapper{
+                    display: none;
+                }
+            }
+            .projectYear{
+                padding-bottom:16px;
+            }
+            .projectImage{
+                width:100%;
+                margin-bottom:10px;
+                min-height: 400px;
+                img{
+                    width:100%;
+                }
+                a.btn{
+                        width: 100%;
+                        margin:0 0 10px 0;
+                }
+            }
+            .projectInfo{
+                width: 100%;
+                margin:0;
+                .socialBtnWrapper{
+                    display: block;
+                }
+            }
+            .illoDescription{
+                padding-bottom:13px;
+            }
+            .projectSkills{
+                padding-bottom:30px;
+            }
+            .purchasePrint{
+                padding-bottom:30px;
+            }
+            .socialBtnWrapper{
+                width:100%;
+                margin:0 auto;
+            }
         }
 }

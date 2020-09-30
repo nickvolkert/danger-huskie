@@ -42,6 +42,7 @@ const Home = () => (
             <h2>Feeling Dangerous?</h2>
             <h3>DangerHuskie is a side project of vector illustrations I started during the covid pandemic lockdown in the Spring of our Discontent, the Year of our Lord, Year of Danger, 2020.</h3>
             <p>Get daily updates at: <a href="http://dangerhuskie.tumblr.com/" target="_blank" rel="noopener noreferrer">Tumblr</a> or <a href="https://instagram.com/dangerhuskie/" target="_blank" rel="noopener noreferrer">Instagram</a> or visit: <a href="https://www.dangerhuskie.com" target="_blank" rel="noopener noreferrer">DangerHuskie.com</a></p>
+            <div className="pipe"></div>
         </div>
     </Content>
 

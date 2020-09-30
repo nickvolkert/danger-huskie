@@ -3,7 +3,6 @@ nav{
     top:0;
     left:0;
     width:100%;
-    height: 180px;
     z-index: 99;
 
     #nav_wrapper{
@@ -32,10 +31,7 @@ nav{
                 display: inline;
                 a{
                     font-weight: bold;
-                    font-size: 1.6rem;
-                    letter-spacing: 6px;
                     color:$color-navy;
-                    padding:0 0 0 5px;
 
                     &:hover{
                         border-bottom:2px solid $color-navy;
@@ -49,3 +45,24 @@ nav{
         }
     }
 }
+@media only screen and (max-width: 768px){
+    nav{
+        height: 145px;
+        #nav_wrapper{
+            height: 145px;
+        }
+
+        #link_ribbon{
+            
+            ul{
+            
+                li{
+                    
+                    &.spacer{
+                        padding:0 8px;
+                    }
+                }
+            }
+        }
+    }
+  }

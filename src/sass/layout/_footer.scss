@@ -6,12 +6,19 @@ footer{
     color:$color-white;
     background: linear-gradient($color-navy, $color-primary);
     clear: both;
-    p{
-        text-align: center;
-        color:$color-white;
+    font-size:1.2rem;
+    p.danger{
+        font-size: 1.2rem;
     }
     #copyright{
-        font-family: $font-link-copy
+        font-family: $font-link-copy;
+
+        a{
+            &:hover{
+                color:$color-white;
+                border-bottom-color: $color-white;
+            }
+        }
     }
     a{
         color:$color-white;
@@ -20,10 +27,47 @@ footer{
             color:$color-lt-blue;
         }
     }
+    ul{
+        
+        padding:0;
+        margin:0;
+        li{
+            padding:0 5px;
+            margin:0;
+            display: inline;
+            a{
+                padding:0;
+            }
+        }
+    }
+    #footer-top{
+        margin: 0 0 20px 0;
+    }
 }
 
 .splash{
     footer{
         background-color: $color-navy;
+    }
+}
+
+#footerLogo_wrapper{
+    margin: 0 auto 25px auto;
+    padding-top:25px;
+    width:220px;
+    height: auto;
+}
+#footer-logo a{
+    padding:0;
+    background-image: url("https://www.nickvolkert.com/img/dangerhuskie/site-graphics/SVG/centered-dh-logo.svg");
+    background-repeat: no-repeat;
+    filter: drop-shadow($dropshadow);
+    display: block;
+    width:220px;
+    height: 245px;
+    border:none;
+
+    span{
+        display: none;
     }
 }

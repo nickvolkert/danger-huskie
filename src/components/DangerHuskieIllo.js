@@ -51,6 +51,10 @@ const Renderedillo = props => (
                     <a href={props.Threadless} className="btn-secondary-blue btn linkThreadless" target="_blank" rel="noopener noreferrer">Threadless</a>
                     <a href={props.Teespring} className="btn-secondary-blue btn linkTeespring" target="_blank" rel="noopener noreferrer">Tee Spring</a>
                 </div>
+                <div className="socialBtnWrapper">
+                    <a href={props.DeviantArt} className="btn-ghost btn linkDevArt" target="_blank" rel="noopener noreferrer">Like on Deviant Art</a>
+                    <a href={props.Tumblr} className="btn-ghost btn linkTumblr" target="_blank" rel="noopener noreferrer">Like on Tumblr</a>
+                </div>
                 <div className="projectTags">
                     <p className="projectTagTitle">Tags:</p>
                     <p>{props.illoTags}</p>

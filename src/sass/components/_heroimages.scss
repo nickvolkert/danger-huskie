@@ -2,7 +2,9 @@
   height:600px;
   padding:234px 0 0 0;
 }
-
+.projectpipe{
+  padding: 0 20px;
+}
 .hero{
     width:100%;
     height: 400px;
@@ -18,20 +20,24 @@
       position: absolute;
       right: 0;
       bottom: 0;
-      height: 32px;
+      height: 30px;
       background: rgba($color-off-white, .9);
-        p{
-        padding: 10px 20px;
-        font-size:1.2rem;
-        color:$color-navy;
-        letter-spacing:5px;
-        line-height: 14px;
-      }
-      &_pipe{
-        padding: 0 10px;
-      }
-      a{
 
+        ul{
+          list-style: none;
+          padding: 0 20px;
+          margin: 0;
+
+          li{
+            margin:0;
+            display: inline;
+            line-height: 14px;
+            font-size:1.2rem;
+            color:$color-navy;
+            letter-spacing: 5px;
+          }
+        }
+      a{
         &:visited{
           color:$color-a-visited;
         }
@@ -64,4 +70,54 @@
     &-newslanding{
       background:#4ac7e5 url(https://nickvolkert.com/img/dangerhuskie/works/005_happyrainbow.jpg) no-repeat center -180px;
     }
+    &-shops{
+      background:#a2dcf9 url(https://nickvolkert.com/img/dangerhuskie/works/006_joy.jpg) no-repeat center -180px;
+    }
   }
+@media only screen and (min-width: 1040px) {
+  .hero{
+    h1{
+      font-size:12.0rem;
+      line-height: 51px;
+    }
+  }
+}
+@media only screen and (max-width: 768px){
+  .projectpipe{
+    padding: 0 5px;
+  }
+  .hero{
+    height: 220px;
+    padding: 80px 0 0 0;
+    background-size:70%;
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li{
+        letter-spacing:3px;
+      }
+    }
+    h1{
+      font-size:3.8rem;
+      line-height: 44px;
+    }
+    &-dangerhuskie{
+      background-position: center -50px;
+    }
+    &-varsitypumpkin{
+      background-position: center -50px;
+    }
+    &-about{
+      background-position: center -40px;
+      background-size:100%;
+    }
+    &-newslanding{
+      background-position: center -64px;
+    }
+    &-shops{
+      background-position: center -75px;
+    }
+  }
+}

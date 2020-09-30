@@ -17,7 +17,6 @@ import Home from "./pages/Home";
 import _WorksLanding from "./pages/Works/_WorksLanding";
 import About from "./pages/About";
 import Shops from "./pages/Shops";
-import Splash from "./pages/Splash";
 
 //Artworks
 import AnnoyedSasquatch from "./pages/Works/AnnoyedSasquatch";
@@ -54,10 +53,9 @@ const App = () => (
         <Switch>
 
           {/* Core Site */}
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/shops" component={Shops} />
-          <Route exact path="/" component={Splash} />
 
           {/* Works */}
           <Route exact path="/works" component={_WorksLanding} />
