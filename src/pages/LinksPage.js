@@ -5,8 +5,7 @@ import LatestPBDs from "../components/LatestPBDs";
 import DangerHuskie from "../json/DangerHuskie";
 import Clearfix from "../components/Clearfix";
 
-let lastillo = [DangerHuskie.length];
-let sixillo = [DangerHuskie.length - 4];
+let postDetail = DangerHuskie;
 
 const LinksPage = () => (
     <div id="linkspage">
@@ -23,17 +22,43 @@ const LinksPage = () => (
           </div>
           <div id="latest-pbds">
             <p>My Latest Works:</p>
-              {DangerHuskie.slice(sixillo, lastillo).map((postDetail) => {
-                return <LatestPBDs
-                    key={postDetail.id}
-                    cardLink={postDetail.link}
-                    cardID={postDetail.component}
-                    cardImage={postDetail.image}
-                    cardAlt={postDetail.alttext}
-                    cardimageTitle={postDetail.title}
-                    cardBackGround={postDetail.backgroundcolor}
+              <LatestPBDs
+                    key={postDetail[0].id}
+                    cardLink={postDetail[0].link}
+                    cardID={postDetail[0].component}
+                    cardImage={postDetail[0].image}
+                    cardAlt={postDetail[0].alttext}
+                    cardimageTitle={postDetail[0].title}
+                    cardBackGround={postDetail[0].backgroundcolor}
                 />
-            }).reverse()}
+                <LatestPBDs
+                    key={postDetail[1].id}
+                    cardLink={postDetail[1].link}
+                    cardID={postDetail[1].component}
+                    cardImage={postDetail[1].image}
+                    cardAlt={postDetail[1].alttext}
+                    cardimageTitle={postDetail[1].title}
+                    cardBackGround={postDetail[1].backgroundcolor}
+                />
+                <LatestPBDs
+                    key={postDetail[2].id}
+                    cardLink={postDetail[2].link}
+                    cardID={postDetail[2].component}
+                    cardImage={postDetail[2].image}
+                    cardAlt={postDetail[2].alttext}
+                    cardimageTitle={postDetail[2].title}
+                    cardBackGround={postDetail[2].backgroundcolor}
+                />
+                <LatestPBDs
+                    key={postDetail[3].id}
+                    cardLink={postDetail[3].link}
+                    cardID={postDetail[3].component}
+                    cardImage={postDetail[3].image}
+                    cardAlt={postDetail[3].alttext}
+                    cardimageTitle={postDetail[3].title}
+                    cardBackGround={postDetail[3].backgroundcolor}
+                />
+            
             <Clearfix />
         </div>
           <div id="link-tree">
