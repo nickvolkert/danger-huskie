@@ -252,6 +252,9 @@ footer {
   font-family: "Roboto Mono", monospace;
   line-height: 1.8rem; }
 
+.projectInfo a.btn[href="#"] {
+  display: none; }
+
 @media only screen and (min-width: 1040px) {
   .card {
     width: 320px;
