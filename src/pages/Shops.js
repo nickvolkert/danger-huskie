@@ -46,7 +46,7 @@ const News = () => (
               <p>Tees, prints, stickers and more. <a href="https://www.redbubble.com/people/dangerhuskie/explore?asc=u&page=1&sortOrder=recent">View my Redbubble Shop.</a></p>
             </div>
             <div id="shopSoc6" className="shopListing">
-            <h2>Shops</h2>
+            <h2>Society6 Shop</h2>
               <p>Prints, iPhone cases, pillows, stickers and more. <a href="https://society6.com/dangerhuskie">View my Society6 Shop.</a></p>
             </div>
             <div id="shopTeePublic" className="shopListing">
@@ -54,7 +54,7 @@ const News = () => (
               <p>Tees, prints, stickers and more. <a href="https://www.teepublic.com/user/dangerhuskie">View my TeePublic Shop.</a></p>
             </div>
             <div id="shopThreadless" className="shopListing">
-                <h2>Threadless</h2>
+                <h2>Threadless Artist Shop</h2>
               <p>Tees, prints, and more. <a href="https://dangerhuskie.threadless.com/">View my Threadless Shop.</a></p>
             </div>
         </Content>
