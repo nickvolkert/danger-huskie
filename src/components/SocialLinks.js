@@ -4,7 +4,7 @@ const SocialLinks = () => (
   <div className="sociallinks">
       <ul>
         <li>
-          <a href="https://twitter.com/nickv47" className="sociallinks__twitter" target="_blank" alt="twitter social icon" rel="noopener noreferrer">
+          <a href="https://twitter.com/DangerHuskie" className="sociallinks__twitter" target="_blank" alt="twitter social icon" rel="noopener noreferrer">
           <span>twitter social icon</span>
           </a>
         </li>
