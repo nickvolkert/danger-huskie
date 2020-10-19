@@ -45,7 +45,7 @@ const App = () => (
         chicago, schaumburg, elk grove village, elmhurst, illinois, illinois artist"></meta>
         <meta name="copyright" content="©2020 Nick Volkert"></meta>
         <meta name="author" content="Nick Volkert"></meta>
-        <meta name="email" content="dangerhuskie@nickvolkert.com"></meta>
+        <meta name="email" content="dangerhuskie@gmail.com"></meta>
       </Helmet>
       <Navigation />
       <ContentWrapper>
