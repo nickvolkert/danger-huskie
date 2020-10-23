@@ -1052,6 +1052,9 @@ footer .sociallinks {
   width: 300px;
   border-radius: 50%; }
 
+#news-landing a:link {
+  border-bottom: 2px solid #FFF; }
+
 #launch-dangerhuskie {
   background: #EE283B url(https://nickvolkert.com/img/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center center; }
 

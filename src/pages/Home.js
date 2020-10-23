@@ -13,13 +13,16 @@ let pagename = "A time for Danger";
 let y = 0;
 let x = 0; //Pencil Bear
 
+let lastillo = [DangerHuskie.length];
+let threeillo = [DangerHuskie.length - 6];
+
 const Home = () => (
   <div id="home">
     <Helmet>
         <title>{pagename} | Nick Volkert</title>
-        <meta property="og:description" content={pagename + " | " + source[y].description} />
+        <meta property="og:description" content={pagename + " | A vector art project by Nick Volkert"} />
         <meta property="og:image" content={source[y].image}></meta>
-        <meta property="og:url" content={"http://nickvolkert.com" + source[y].link} ></meta>
+        <meta property="og:url" content={"http://dangerhuskie.com"} ></meta>
         <meta property="og:type" content="website"/>
     </Helmet>
     <BodyClassName className="home"></BodyClassName>
@@ -39,7 +42,7 @@ const Home = () => (
 
     <section>
         <Content>
-        {source.map((postDetail) => {
+        {source.slice(threeillo, lastillo).map((postDetail) => {
                 return <Basiccard
                     key={postDetail.id}
                     cardLink={postDetail.link}
