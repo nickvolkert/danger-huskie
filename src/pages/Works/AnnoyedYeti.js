@@ -16,6 +16,7 @@ const AnnoyedYeti = () => (
                 illoID={source[y].id}
                 illoImage={source[y].image}
                 illoTitle={source[y].title}
+                illoLink={source[y].link}
                 illoAlt={source[y].alttext}
                 illoDate={source[y].date}
                 illoDescription={source[y].description}

@@ -1041,6 +1041,17 @@ footer .sociallinks {
 #news-landing .pipe {
   margin: 40px 0; }
 
+#news-landing .rightRail {
+  float: left;
+  width: 676px; }
+
+#news-landing .news-entry {
+  margin-bottom: 60px; }
+
+#news-landing .leftRailImage img {
+  width: 300px;
+  border-radius: 50%; }
+
 #launch-dangerhuskie {
   background: #EE283B url(https://nickvolkert.com/img/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center center; }
 
@@ -1048,8 +1059,16 @@ footer .sociallinks {
   #news-landing h2 {
     font-size: 3.8rem;
     line-height: 4.0rem; }
-  #launch-dangerhuskie {
-    background-size: 100%; } }
+  #news-landing #launch-dangerhuskie {
+    background-size: 420%; }
+  #news-landing .rightRail {
+    float: none;
+    width: 90%; }
+  #news-landing .news-entry {
+    margin-bottom: 20px; }
+  #news-landing .leftRailImage img {
+    width: 200px;
+    border-radius: 50%; } }
 
 body.shops h2 {
   color: #FFF;

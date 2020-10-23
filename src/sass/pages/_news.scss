@@ -8,6 +8,18 @@
     }
     .pipe{
         margin:40px 0;
+        
+    }
+    .rightRail{
+        float: left;
+        width:676px;
+    }
+    .news-entry{
+        margin-bottom:60px;
+    }
+    .leftRailImage img{
+        width:300px;
+        border-radius: 50%;
     }
 }
 
@@ -21,8 +33,19 @@
             font-size:3.8rem;
             line-height: 4.0rem;
         }
-    }
-    #launch-dangerhuskie{
-        background-size: 100%;
+        #launch-dangerhuskie{
+            background-size: 420%;
+        }
+        .rightRail{
+            float: none;
+            width:90%;
+        }
+        .news-entry{
+            margin-bottom:20px;
+        }
+        .leftRailImage img{
+            width:200px;
+            border-radius: 50%;
+        }
     }
 }

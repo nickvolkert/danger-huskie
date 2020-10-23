@@ -41,18 +41,47 @@ const News = () => (
 
     <section>
         <Content>
-            <div id="launch-image" className="leftRail">
-                <div id="launch-dangerhuskie" className="leftRailImage">
-                    <span>Danger Huskie Logo</span>
+            
+            <div id="news-body" className="body-copy">
+            <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <img src="https://nickvolkert.com/img/dangerhuskie/site-graphics/blog/dbhstore.png" title="DangerHuskie on DBH" alt="Storefront fo DangerHuskie on DBH" />
+                        </div>
+                        <p className="caption">DangerHuskie on DBH</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>DangerHuskie on DBH</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: October 22nd, 2020</p>
+                        <p>DangerHuskie is set up to sell on Design By Humans! Tees, mugs, stickers and mousepads for sale.</p>
+                        <p><Link to="/works">Check my works</Link> to link to my DBH store by designs.</p>
+                        <p>Or check <a href="https://www.designbyhumans.com/shop/dangerhuskie/">DangerHuskie out on DBH here!</a></p>
+                        <p>-Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
                 </div>
-                <p className="caption">DangerHuskie logo, September, 2020.</p>
-            </div>
-            <div id="news-body" className="body-copy rightRail">
-                <h2>DangerHuskie is a GO!</h2>
-                <div className="pipe"></div>
-                <p>Date: September 31st, 2020</p>
-                <p>DangerHuskie is now live! Thanks for visting and check back soon with a LOT of art updates!</p>
-                <p>-Nick</p>
+
+                <div className="news-entry">
+                    <div id="launch-image" className="leftRail">
+                        <div id="launch-dangerhuskie" className="leftRailImage">
+                            <span>Danger Huskie Logo</span>
+                        </div>
+                        <p className="caption">DangerHuskie logo, September, 2020.</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>DangerHuskie is a GO!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: September 31st, 2020</p>
+                        <p>DangerHuskie is now live! Thanks for visting and check back soon with a LOT of art updates!</p>
+                        <p>-Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
             </div>
         </Content>
         <Clearfix />
