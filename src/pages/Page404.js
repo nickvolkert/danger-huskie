@@ -15,9 +15,9 @@ const Page404 = () => (
     <div id="Page404">
         <Helmet>
         <title>{pagename} | Nick Volkert</title>
-        <meta property="og:description" content={pagename + " | " + source[y].description} />
+        <meta property="og:description" content={pagename + " | Whoops"} />
         <meta property="og:image" content={source[y].image}></meta>
-        <meta property="og:url" content={"http://dangerhuskie.com" + source[y].link} ></meta>
+        <meta property="og:url" content={"http://dangerhuskie.com"} ></meta>
         <meta property="og:type" content="website"/>
     </Helmet>
     <BodyClassName className="page404"></BodyClassName>

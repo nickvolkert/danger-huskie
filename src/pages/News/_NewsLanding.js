@@ -16,9 +16,9 @@ const News = () => (
     <div id="news-landing">
         <Helmet>
         <title>{pagename} | Nick Volkert</title>
-        <meta property="og:description" content={pagename + " | " + source[y].description} />
+        <meta property="og:description" content={pagename + " | DangerHuskie News!"} />
         <meta property="og:image" content={source[y].image}></meta>
-        <meta property="og:url" content={"http://dangerhuskie.com" + source[y].link} ></meta>
+        <meta property="og:url" content={"http://dangerhuskie.com/news"} ></meta>
         <meta property="og:type" content="website"/>
     </Helmet>
     <BodyClassName className="newslanding"></BodyClassName>
