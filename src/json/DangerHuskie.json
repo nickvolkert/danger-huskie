@@ -148,5 +148,30 @@
         "backgroundcolor": "#a2dcf9",
         "backgroundtype":"light",
         "link": "/works/joyous-rainbow"
+      },
+      {
+        "id": "6",
+        "component":"Calendar2020",
+        "title": "Calendar 2020",
+        "description": "What a horrible year. If we only knew!!",
+        "preview":"https://nickvolkert.sirv.com/dangerhuskie/works/007_preview_2020calendar.jpg",
+        "image":"https://nickvolkert.sirv.com/dangerhuskie/works/007_2020calendar.jpg",
+        "date": "October 27th, 2020",
+        "datenumber": "10.27.20",
+        "skills": "illustrator, vector art",
+        "redbubble": "https://www.redbubble.com/shop/ap/56026669",
+        "society6": "#",
+        "designbyhumans": "#",
+        "teepublic": "#",
+        "threadless": "#",
+        "teespring":"#",
+        "deviantart": "#",
+        "tumblr": "https://dangerhuskie.tumblr.com/post/633133814807445504/what-a-horrible-year-if-we-only-knew-check-out",
+        "tags": "vector, vector art, illustrator, calendar, 2020, year, vector art, vector illustration, fire, on fire, crazy, doom, hell",
+        "alttext": "A tear away calendar from 2020 is crazed and on fire.",
+        "series": "crazy, 2020",
+        "backgroundcolor": "#95949a",
+        "backgroundtype":"dark",
+        "link":"/works/calendar-2020"
       }
 ]

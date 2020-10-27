@@ -25,7 +25,7 @@ const Footer = () => (
             </div>
             
             <div id="copyright">
-                <p><span>Danger Huskie is</span> <span>©2020 Nick Volkert | <a href="https://nickvolkert.com/" target="_blank" alt="nick volkert portfolio link" rel="noopener noreferrer">nickvolkert.com</a></span></p>
+                <p><span>Danger Huskie is</span> <span>©2020 Nick Volkert | <a href="https://nickvolkert.com/" alt="nick volkert portfolio link">nickvolkert.com</a></span></p>
             </div>
         </div>
     </footer>

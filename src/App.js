@@ -25,6 +25,7 @@ import HappyRainbow from "./pages/Works/HappyRainbow";
 import JoyousRainbow from "./pages/Works/JoyousRainbow";
 import PencilBear from "./pages/Works/PencilBear";
 import VarsityPumpkin from "./pages/Works/VarsityPumpkin";
+import Calendar2020 from "./pages/Works/Calendar2020";
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -65,6 +66,7 @@ const App = () => (
           <Route exact path={DangerHuskie[5].link} component={JoyousRainbow} />
           <Route exact path={DangerHuskie[0].link} component={PencilBear} />
           <Route exact path={DangerHuskie[3].link} component={VarsityPumpkin} />
+          <Route exact path={DangerHuskie[6].link} component={Calendar2020} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />

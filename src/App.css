@@ -255,6 +255,9 @@ footer {
 .projectInfo a.btn[href="#"] {
   display: none; }
 
+.socialBtnWrapper a.btn[href="#"] {
+  display: none; }
+
 @media only screen and (min-width: 1040px) {
   .card {
     width: 320px;
