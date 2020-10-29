@@ -81,7 +81,7 @@ const LinksPage = () => (
             <a href="https://www.designbyhumans.com/shop/nickv47/" target="_blank" className="btn" rel="noopener noreferrer">Design by Humans Shop</a>
           </div>
           <div id="footer">
-              <p><span>Danger Huskie | Greater Chicago, IL</span><span>Email: <a href="mailto:dangerhuskie@gmail.com" rel="noopener noreferrer">dangerhuskie@gmail.com</a></span></p>
+              <p><span>Danger Huskie | Greater Chicago, IL</span><span>Email: <a href="mailto:dangerhuskie@nickvolkert.com" rel="noopener noreferrer">dangerhuskie@nickvolkert.com</a></span></p>
           </div>
       </div>
 
