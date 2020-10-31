@@ -46,7 +46,7 @@ const News = () => (
             <div className="news-entry">
                     <div className="leftRail">
                         <div className="leftRailImage">
-                            <img src="https://res.cloudinary.com/nickvolkert-com/image/upload/v1603424294/dangerhuskie/site-graphics/blog/dbhstore_nhfhoq.png" title="DangerHuskie on DBH" alt="Storefront fo DangerHuskie on DBH" />
+                            <img src="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/dbhstore.png" title="DangerHuskie on DBH" alt="Storefront fo DangerHuskie on DBH" />
                         </div>
                         <p className="caption">DangerHuskie on DBH</p>
                     </div>

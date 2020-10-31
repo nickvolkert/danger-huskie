@@ -687,7 +687,7 @@ a.btn {
 
 #nav-logo {
   padding: 0;
-  background-image: url("https://res.cloudinary.com/nickvolkert-com/image/upload/v1603596468/dangerhuskie/site-graphics/SVG/danger-huskie-onnavy_pxznyu.svg");
+  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/danger-huskie-onnavy.svg");
   background-repeat: no-repeat;
   filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
   display: block; }
@@ -880,7 +880,7 @@ footer .sociallinks {
   margin: 220px 64px 10px 0; }
 
 #about-dangerhuskie {
-  background: url(https://nickvolkert.com/img/spec_mural/bw_setup.jpg) no-repeat -460px -80px; }
+  background: url(https://nickvolkert.sirv.com/spec_mural/bw_setup.jpg) no-repeat -460px -80px; }
 
 #about-body {
   float: left;
@@ -1059,7 +1059,7 @@ footer .sociallinks {
   border-bottom: 2px solid #FFF; }
 
 #launch-dangerhuskie {
-  background: #EE283B url(https://nickvolkert.com/img/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center center; }
+  background: #EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center center; }
 
 @media only screen and (max-width: 768px) {
   #news-landing h2 {
@@ -1127,7 +1127,7 @@ footer {
 
 #footer-logo a {
   padding: 0;
-  background-image: url("https://res.cloudinary.com/nickvolkert-com/image/upload/v1603424281/dangerhuskie/site-graphics/SVG/centered-dh-logo_ka3g2y.svg");
+  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/centered-dh-logo.svg");
   background-repeat: no-repeat;
   filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
   display: block;

@@ -66,7 +66,6 @@ const LinksPage = () => (
             <a href="https://dangerhuskie.redbubble.com" target="_blank" className="btn" rel="noopener noreferrer">Redbubble Shop</a>
             <a href="https://society6.com/dangerhuskie" target="_blank" className="btn" rel="noopener noreferrer">Society6 Shop</a>
             <a href="https://www.threadless.com/@dangerhuskie/activity" target="_blank" className="btn" rel="noopener noreferrer">Threadless Shop</a>
-            <a href="https://teespring.com/stores/dangerhuskie" target="_blank" className="btn" rel="noopener noreferrer">Teespring Shop</a>
             <p>Connect and Follow!</p>
             <a href="https://www.instagram.com/dangerhuskie/" target="_blank" className="btn" rel="noopener noreferrer">Instagram</a>
             <a href="https://dangerhuskie.tumblr.com/" target="_blank" className="btn" rel="noopener noreferrer">Tumblr</a>
