@@ -53,7 +53,7 @@ const Home = () => (
                     cardDate={postDetail.date}
                     cardDescription={postDetail.description}
                 />
-            })}
+            }).reverse()}
             <Clearfix />
         </Content>
     </section>

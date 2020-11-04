@@ -198,5 +198,30 @@
         "backgroundcolor": "#353e47",
         "backgroundtype":"dark",
         "link":"/works/black-electric-cat"
+      },
+      {
+        "id": "8",
+        "component":"WhiteElectricCat",
+        "title": "White Electric Cat",
+        "description": "A blanco gato filled with thunderous power!",
+        "preview":"https://nickvolkert.sirv.com/dangerhuskie/works/008_preview_whitecat.jpg",
+        "image":"https://nickvolkert.sirv.com/dangerhuskie/works/008_whitecat.jpg",
+        "date": "November 1st, 2020",
+        "datenumber": "11.01.20",
+        "skills": "illustrator, vector art",
+        "redbubble": "https://www.redbubble.com/shop/ap/61588714",
+        "society6": "#",
+        "designbyhumans": "#",
+        "teepublic": "#",
+        "threadless": "#",
+        "teespring":"#",
+        "deviantart": "#",
+        "tumblr": "#",
+        "tags": "vector, vector art, illustrator, cat, kitten, bolt, electric, pink, white",
+        "alttext": "A white cat with pink bolts purrs at the viewer.",
+        "series": "cats",
+        "backgroundcolor": "#CED6DF",
+        "backgroundtype":"light",
+        "link":"/works/white-electric-cat"
       }
 ]
