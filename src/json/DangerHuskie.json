@@ -223,5 +223,30 @@
         "backgroundcolor": "#CED6DF",
         "backgroundtype":"light",
         "link":"/works/white-electric-cat"
+      },
+      {
+        "id": "9",
+        "component":"ChicagoDogFlag",
+        "title": "Chicago Dog with Flag",
+        "description": "Just a weiner dog with toppings and the flag of Chicago!",
+        "preview":"https://nickvolkert.sirv.com/dangerhuskie/works/009_preview_chicagodogflag.jpg",
+        "image":"https://nickvolkert.sirv.com/dangerhuskie/works/009_chicagodogflag.jpg",
+        "date": "November 8th, 2020",
+        "datenumber": "11.08.20",
+        "skills": "illustrator, vector art",
+        "redbubble": "https://www.redbubble.com/people/dangerhuskie/works/61994747-chicago-dog-with-flag",
+        "society6": "#",
+        "designbyhumans": "#",
+        "teepublic": "#",
+        "threadless": "#",
+        "teespring":"#",
+        "deviantart": "#",
+        "tumblr": "#",
+        "tags": "vector, vector art, illustrator, cat, kitten, bolt, electric, pink, white",
+        "alttext": "A white cat with pink bolts purrs at the viewer.",
+        "series": "chicago",
+        "backgroundcolor": "#a2dcf9",
+        "backgroundtype":"light",
+        "link":"/works/chicago-dog-with-flag"
       }
 ]
