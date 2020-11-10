@@ -29,6 +29,7 @@ import Calendar2020 from "./pages/Works/Calendar2020";
 import BlackElectricCat from "./pages/Works/BlackElectricCat";
 import WhiteElectricCat from "./pages/Works/WhiteElectricCat";
 import ChicagoDogFlag from "./pages/Works/ChicagoDogFlag";
+import PencilBearFlag from "./pages/Works/PencilBearFlag";
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -73,6 +74,7 @@ const App = () => (
           <Route exact path={DangerHuskie[7].link} component={BlackElectricCat} />
           <Route exact path={DangerHuskie[8].link} component={WhiteElectricCat} />
           <Route exact path={DangerHuskie[9].link} component={ChicagoDogFlag} />
+          <Route exact path={DangerHuskie[10].link} component={PencilBearFlag} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />
