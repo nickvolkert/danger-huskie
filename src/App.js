@@ -30,6 +30,7 @@ import BlackElectricCat from "./pages/Works/BlackElectricCat";
 import WhiteElectricCat from "./pages/Works/WhiteElectricCat";
 import ChicagoDogFlag from "./pages/Works/ChicagoDogFlag";
 import PencilBearFlag from "./pages/Works/PencilBearFlag";
+import OversizedFoamHat from "./pages/Works/OversizedFoamHat";
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -75,6 +76,7 @@ const App = () => (
           <Route exact path={DangerHuskie[8].link} component={WhiteElectricCat} />
           <Route exact path={DangerHuskie[9].link} component={ChicagoDogFlag} />
           <Route exact path={DangerHuskie[10].link} component={PencilBearFlag} />
+          <Route exact path={DangerHuskie[11].link} component={OversizedFoamHat} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />
