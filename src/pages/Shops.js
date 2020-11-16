@@ -43,7 +43,7 @@ const News = () => (
         <Content>
             <div id="shopRedbubble" className="shopListing">
               <h2>Redbubble</h2>
-              <p>Tees, prints, stickers and more. <a href="https://www.redbubble.com/people/dangerhuskie/explore?asc=u&page=1&sortOrder=recent">View my Redbubble Shop.</a></p>
+              <p>Tees, prints, stickers and more. <a href="dangerhuskie.redbubble.com">View my Redbubble Shop.</a></p>
             </div>
             <div id="shopSoc6" className="shopListing">
             <h2>Society6 Shop</h2>
