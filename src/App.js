@@ -32,6 +32,8 @@ import ChicagoDogFlag from "./pages/Works/ChicagoDogFlag";
 import PencilBearFlag from "./pages/Works/PencilBearFlag";
 import OversizedFoamHat from "./pages/Works/OversizedFoamHat";
 import CloudHug from "./pages/Works/CloudHug";
+import UnhappyRainbow from "./pages/Works/UnhappyRainbow";
+import AngryRainbow from "./pages/Works/AngryRainbow";
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -79,6 +81,8 @@ const App = () => (
           <Route exact path={DangerHuskie[10].link} component={PencilBearFlag} />
           <Route exact path={DangerHuskie[11].link} component={OversizedFoamHat} />
           <Route exact path={DangerHuskie[12].link} component={CloudHug} />
+          <Route exact path={DangerHuskie[13].link} component={UnhappyRainbow} />
+          <Route exact path={DangerHuskie[14].link} component={AngryRainbow} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />
