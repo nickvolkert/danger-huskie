@@ -7,6 +7,7 @@ import Clearfix from "../components/Clearfix";
 import DangerHuskie from "../json/DangerHuskie.json";
 import Basiccard from "../components/Basiccard";
 import Hero from "../components/Hero";
+import Btn from '../components/Btn';
 
 let source = DangerHuskie;
 let pagename = "A time for Danger";
@@ -54,6 +55,14 @@ const Home = () => (
                     cardDescription={postDetail.description}
                 />
             }).reverse()}
+            <Clearfix />
+            <div className="view-more-container_series">
+                <Btn
+                    btnlink="/works"
+                    variant="btn-primary btn"
+                    content="View All Works"
+                />
+            </div>
             <Clearfix />
         </Content>
     </section>

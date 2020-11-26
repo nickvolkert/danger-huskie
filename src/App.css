@@ -511,6 +511,10 @@ a {
   width: 330px;
   margin: 0 auto; }
 
+.view-more-container_series {
+  width: 330px;
+  margin: 0 auto; }
+
 a.btn {
   width: 100%;
   height: 36px;
@@ -857,19 +861,19 @@ nav {
     height: 20px; }
 
 .sociallinks ul li a.sociallinks__twitter {
-  background: url("https://nickvolkert.com/img/_sitegraphics/social/twitter.svg") no-repeat center 2px;
+  fill: #FFF;
   background-size: 100%; }
 
 .sociallinks ul li a.sociallinks__tumblr {
-  background: url("https://nickvolkert.com/img/_sitegraphics/social/tumblr.svg") no-repeat center top;
+  fill: #FFF;
   background-size: 57%; }
 
 .sociallinks ul li a.sociallinks__facebook {
-  background: url("https://nickvolkert.com/img/_sitegraphics/social/facebook.svg") no-repeat center top;
+  fill: #FFF;
   background-size: 50%; }
 
 .sociallinks ul li a.sociallinks__dribbble {
-  background: url("https://nickvolkert.com/img/_sitegraphics/social/dribbble.svg") no-repeat center top;
+  fill: #FFF;
   background-size: 100%; }
 
 footer .sociallinks {
