@@ -57,6 +57,10 @@ const News = () => (
                 <h2>Threadless Artist Shop</h2>
               <p>Tees, prints, and more. <a href="https://dangerhuskie.threadless.com/">View my Threadless Shop.</a></p>
             </div>
+            <div id="shopDBH" className="shopListing">
+                <h2>Design By Humans Shop</h2>
+              <p>Tees, prints, and more. <a href="https://www.designbyhumans.com/shop/dangerhuskie/">Design By Humans Shop.</a></p>
+            </div>
         </Content>
         <Clearfix />
     </section>
