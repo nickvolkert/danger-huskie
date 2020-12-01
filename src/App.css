@@ -475,7 +475,8 @@ a {
     background-color: #EE283B;
     color: #FFF;
     text-transform: uppercase;
-    padding: 15px 0 0 0; }
+    padding: 15px 0 0 0;
+    border: 3px solid #FFF; }
     .btn__link-primary:visited {
       background-color: #EE283B;
       color: #FFF; }
@@ -541,7 +542,8 @@ a.btn {
   a.btn .primary {
     background-color: #EE283B;
     color: #FFF;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    border: 1px solid #FFF; }
     a.btn.btn-primary:visited,
     a.btn .primary:visited {
       background-color: #EE283B;

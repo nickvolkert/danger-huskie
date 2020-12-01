@@ -373,5 +373,30 @@
         "backgroundcolor": "#02a887",
         "backgroundtype":"dark",
         "link": "/works/angry-rainbow"
+      },
+      {
+        "id": "15",
+        "component":"DHLogoWText",
+        "title": "DangerHuskie Logo w/Text",
+        "description": "Like DangerHuskie? Why not rock this sweet logo on some gear? Sweet? Sweet.",
+        "preview":"https://nickvolkert.sirv.com/dangerhuskie/works/15_preview_dhlogotext.jpg",
+        "image":"https://nickvolkert.sirv.com/dangerhuskie/works/15_dhlogotext.jpg",
+        "date": "December 1st, 2020",
+        "datenumber": "12.01.20",
+        "skills": "illustrator, vector art",
+        "redbubble": "https://www.redbubble.com/shop/ap/63911918",
+        "society6": "#",
+        "designbyhumans": "#",
+        "teepublic": "#",
+        "threadless": "#",
+        "teespring":"#",
+        "deviantart": "#",
+        "tumblr": "#",
+        "tags": "logo, huskie, husky, danger huskie, dangerhuskie, eye patch, animal, dog, vector, vector illustration",
+        "alttext": "DangerHuskie logo centered over logo text.",
+        "series": "DangerHuskie Brand",
+        "backgroundcolor": "#ed283b",
+        "backgroundtype":"dark",
+        "link": "/works/dh-logo-with-text"
       }
 ]
