@@ -2,7 +2,6 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import {Helmet} from "react-helmet";
 import ScrollMemory from 'react-router-scroll-memory';
 import DangerHuskie from './json/DangerHuskie';
 
@@ -48,15 +47,6 @@ import Page404 from "./pages/Page404";
 const App = () => (
   <Router>
     <Wrapper>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="description" content="Danger Huskie: A vector art project by Chicagoland artist Nick Volkert aka nickv47"></meta>
-        <meta name="keywords" content="Nick Volkert, vector art, vector graphics, adobe illustrator artist, illustration, nickv47, greater chicagoland,
-        chicago, schaumburg, elk grove village, elmhurst, illinois, illinois artist"></meta>
-        <meta name="copyright" content="©2020 Nick Volkert"></meta>
-        <meta name="author" content="Nick Volkert"></meta>
-        <meta name="email" content="dangerhuskie@nickvolkert.com"></meta>
-      </Helmet>
       <Navigation />
       <ContentWrapper>
       <ScrollMemory />
