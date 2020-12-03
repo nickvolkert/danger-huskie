@@ -398,5 +398,30 @@
         "backgroundcolor": "#ed283b",
         "backgroundtype":"dark",
         "link": "/works/dh-logo-with-text"
+      },
+      {
+        "id": "16",
+        "component":"DangerHuskieHead",
+        "title": "Danger Huskie Head",
+        "description": "The fearsome DangerHuskie!",
+        "preview":"https://nickvolkert.sirv.com/dangerhuskie/works/16_preview_dhhuskiehead.jpg",
+        "image":"https://nickvolkert.sirv.com/dangerhuskie/works/16_dhhuskiehead.jpg",
+        "date": "December 3rd, 2020",
+        "datenumber": "12.03.20",
+        "skills": "illustrator, vector art",
+        "redbubble": "https://www.redbubble.com/shop/ap/64119457",
+        "society6": "#",
+        "designbyhumans": "#",
+        "teepublic": "#",
+        "threadless": "#",
+        "teespring":"#",
+        "deviantart": "#",
+        "tumblr": "#",
+        "tags": "logo, huskie, husky, danger huskie, dangerhuskie, eye patch, animal, dog, vector, vector illustration",
+        "alttext": "DangerHuskie logo centered over logo text.",
+        "series": "DangerHuskie Brand",
+        "backgroundcolor": "#0a2240",
+        "backgroundtype":"dark",
+        "link": "/works/danger-huskie-head"
       }
 ]
