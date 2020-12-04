@@ -423,5 +423,30 @@
         "backgroundcolor": "#0a2240",
         "backgroundtype":"dark",
         "link": "/works/danger-huskie-head"
+      },
+      {
+        "id": "17",
+        "component":"DHHardcoreLogo",
+        "title": "DH Hardcore Logo",
+        "description": "A gritty version of the logo for DangerHuskie!",
+        "preview":"https://nickvolkert.sirv.com/dangerhuskie/works/17_preview_dh-hardcore.jpg",
+        "image":"https://nickvolkert.sirv.com/dangerhuskie/works/17_dh-hardcore.jpg",
+        "date": "December 4th, 2020",
+        "datenumber": "12.04.20",
+        "skills": "illustrator, vector art",
+        "redbubble": "https://www.redbubble.com/shop/ap/64214085",
+        "society6": "#",
+        "designbyhumans": "#",
+        "teepublic": "#",
+        "threadless": "#",
+        "teespring":"#",
+        "deviantart": "#",
+        "tumblr": "#",
+        "tags": "logo, huskie, husky, danger huskie, dangerhuskie, eye patch, animal, dog, vector, vector illustration",
+        "alttext": "DangerHuskie logo centered over logo text.",
+        "series": "DangerHuskie Brand",
+        "backgroundcolor": "#ee283b",
+        "backgroundtype":"dark",
+        "link": "/illustration/vector/dangerhuskie/dh-hardcore-logo"
       }
 ]

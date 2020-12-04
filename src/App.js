@@ -35,6 +35,7 @@ import UnhappyRainbow from "./pages/Works/UnhappyRainbow";
 import AngryRainbow from "./pages/Works/AngryRainbow";
 import DHLogoWText from "./pages/Works/DHLogoWText";
 import DangerHuskieHead from "./pages/Works/DangerHuskieHead";
+import DHHardcoreLogo from "./pages/Works/DHHardcoreLogo";
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -77,6 +78,7 @@ const App = () => (
           <Route exact path={DangerHuskie[14].link} component={AngryRainbow} />
           <Route exact path={DangerHuskie[15].link} component={DHLogoWText} />
           <Route exact path={DangerHuskie[16].link} component={DangerHuskieHead} />
+          <Route exact path={DangerHuskie[17].link} component={DHHardcoreLogo} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />
