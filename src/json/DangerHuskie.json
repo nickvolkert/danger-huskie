@@ -448,5 +448,30 @@
         "backgroundcolor": "#ee283b",
         "backgroundtype":"dark",
         "link": "/works/dh-hardcore-logo"
+      },
+      {
+        "id": "18",
+        "component":"FightingBurger",
+        "title": "Fighting Burger",
+        "description": "A swift uppercut from the Fighting Burger will knock your tastebuds OUT",
+        "preview":"https://nickvolkert.sirv.com/dangerhuskie/works/18_preview_fightingburger.jpg",
+        "image":"https://nickvolkert.sirv.com/dangerhuskie/works/18_fightingburger.jpg",
+        "date": "January 13th, 2021",
+        "datenumber": "01.13.21",
+        "skills": "illustrator, vector art",
+        "redbubble": "https://www.redbubble.com/shop/ap/67909844",
+        "society6": "#",
+        "designbyhumans": "#",
+        "teepublic": "#",
+        "threadless": "#",
+        "teespring":"#",
+        "deviantart": "#",
+        "tumblr": "#",
+        "tags": "burger, hamburger, boxing, boxer, fighting, exclamation, food, vector, vector art, red",
+        "alttext": "A burger with boxing gloves has his dukes up.",
+        "series": "Burgers",
+        "backgroundcolor": "#ff304a",
+        "backgroundtype":"dark",
+        "link": "/works/fighting-burger"
       }
 ]
