@@ -61,13 +61,13 @@ const App = () => (
           <Route exact path="/shops" component={Shops} />
 
           {/* Works */}
-          <Route exact path="/works" component={_WorksLanding} />
-          <Route exact path={DangerHuskie[2].link} component={AnnoyedSasquatch} />
+          <Route exact path="/works/" component={_WorksLanding} />
+          <Route exact path={DangerHuskie[0].link} component={PencilBear} />
           <Route exact path={DangerHuskie[1].link} component={AnnoyedYeti} />
+          <Route exact path={DangerHuskie[2].link} component={AnnoyedSasquatch} />
+          <Route exact path={DangerHuskie[3].link} component={VarsityPumpkin} />
           <Route exact path={DangerHuskie[4].link} component={HappyRainbow} />
           <Route exact path={DangerHuskie[5].link} component={JoyousRainbow} />
-          <Route exact path={DangerHuskie[0].link} component={PencilBear} />
-          <Route exact path={DangerHuskie[3].link} component={VarsityPumpkin} />
           <Route exact path={DangerHuskie[6].link} component={Calendar2020} />
           <Route exact path={DangerHuskie[7].link} component={BlackElectricCat} />
           <Route exact path={DangerHuskie[8].link} component={WhiteElectricCat} />

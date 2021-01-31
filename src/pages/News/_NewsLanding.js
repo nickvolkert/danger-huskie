@@ -56,7 +56,7 @@ const News = () => (
                         <div className="news-entry-text">
                         <p>Date: October 22nd, 2020</p>
                         <p>DangerHuskie is set up to sell on Design By Humans! Tees, mugs, stickers and mousepads for sale.</p>
-                        <p><Link to="/works">Check my works</Link> to link to my DBH store by designs.</p>
+                        <p><Link to="/works/">Check my works</Link> to link to my DBH store by designs.</p>
                         <p>Or check <a href="https://www.designbyhumans.com/shop/dangerhuskie/">DangerHuskie out on DBH here!</a></p>
                         <p>-Nick</p>
                     </div>

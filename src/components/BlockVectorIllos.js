@@ -28,7 +28,7 @@ const BlockVectorIllos = () => (
                 </div>
                 <div className="view-more-container_series">
                     <Btn
-                        btnlink="/works"
+                        btnlink="/works/"
                         variant="btn-primary btn"
                         content="View More"
                     />

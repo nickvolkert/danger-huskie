@@ -1,5 +1,6 @@
 import React from "react";
 import {Helmet} from "react-helmet";
+import { Link } from "react-router-dom";
 import BodyClassName from 'react-body-classname';
 import LatestPBDs from "../components/LatestPBDs";
 import DangerHuskie from "../json/DangerHuskie";
@@ -40,6 +41,8 @@ const LinksPage = () => (
             <Clearfix />
         </div>
           <div id="link-tree">
+            <p>DangerHuskie Site!:</p>
+            <Link className="btn" to="/">DangerHuskie.com</Link>
             <p>DangerHuskie Art Shops:</p>
             <a href="https://dangerhuskie.redbubble.com" target="_blank" className="btn" rel="noopener noreferrer">Redbubble Shop</a>
             <a href="https://society6.com/dangerhuskie" target="_blank" className="btn" rel="noopener noreferrer">Society6 Shop</a>
@@ -56,6 +59,8 @@ const LinksPage = () => (
             <a href="https://nickv47.threadless.com/" target="_blank" className="btn" rel="noopener noreferrer">Threadless Shop</a>
             <a href="https://www.teepublic.com/user/nickv47" target="_blank" className="btn" rel="noopener noreferrer">TeePublic Shop</a>
             <a href="https://www.designbyhumans.com/shop/nickv47/" target="_blank" className="btn" rel="noopener noreferrer">Design by Humans Shop</a>
+            <p>My personal portfolio of art and comics:</p>
+            <a href="https://www.nickvolkert.com/" target="_blank" className="btn" rel="noopener noreferrer">nickvolkert.com</a>
           </div>
           <div id="footer">
               <p><span>Danger Huskie | Greater Chicago, IL</span><span>Email: <a href="mailto:dangerhuskie@nickvolkert.com" rel="noopener noreferrer">dangerhuskie@nickvolkert.com</a></span></p>
