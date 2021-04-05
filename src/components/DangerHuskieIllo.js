@@ -43,7 +43,7 @@ const Renderedillo = props => (
                     <p className="projectSkills">Skills: Adobe Illustrator, Vector Art</p>
                 </div>
                 <div className="projectLinks">
-                    <p className="purchasePrint">Purchase a print at the following sites:</p>
+                    <p className="purchasePrint">Purchase a prints, tees, stickers and more:</p>
                     <a href={props.Redbubble} className="btn-primary btn linkRedBubble" target="_blank" rel="noopener noreferrer">Redbubble</a>
                     <a href={props.Society6} className="btn-secondary-blue btn linkSociety6" target="_blank" rel="noopener noreferrer">Society6</a>
                     <a href={props.Dbh} className="btn-secondary-blue btn linkDBH" target="_blank" rel="noopener noreferrer">Design By Humans</a>

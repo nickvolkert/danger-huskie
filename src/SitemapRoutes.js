@@ -31,5 +31,7 @@ export default (
       <Route exact path="/works/danger-huskie-head" />
       <Route exact path="/works/dh-hardcore-logo" />
       <Route exact path="/works/fighting-burger" />
+      <Route exact path="/works/varsity-pumpkin-creepin" />
+      <Route exact path="/works/varsity-pumpkin-grave" />
   </Route>
 );

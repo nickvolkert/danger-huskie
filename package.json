@@ -21,6 +21,7 @@
   "scripts": {
     "start": "node-sass src/sass/main.scss src/app.css -w | react-scripts start",
     "sitemap": "babel-node src/SitemapGenerator.js",
+    "predeploy": "npm run sitemap",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

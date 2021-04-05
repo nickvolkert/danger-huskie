@@ -878,6 +878,10 @@ nav {
   fill: #FFF;
   background-size: 100%; }
 
+.sociallinks ul li a.sociallinks__instagram {
+  fill: #FFF;
+  background-size: 100%; }
+
 footer .sociallinks {
   margin: 2.2rem auto 2.2rem auto; }
 

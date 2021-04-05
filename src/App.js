@@ -37,6 +37,8 @@ import DHLogoWText from "./pages/Works/DHLogoWText";
 import DangerHuskieHead from "./pages/Works/DangerHuskieHead";
 import DHHardcoreLogo from "./pages/Works/DHHardcoreLogo";
 import FightingBurger from "./pages/Works/FightingBurger";
+import VarsityPumpkinCreepin from "./pages/Works/VarsityPumpkinCreepin";
+import VarsityPumpkinGrave from "./pages/Works/VarsityPumpkinGrave";
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -81,6 +83,8 @@ const App = () => (
           <Route exact path={DangerHuskie[16].link} component={DangerHuskieHead} />
           <Route exact path={DangerHuskie[17].link} component={DHHardcoreLogo} />
           <Route exact path={DangerHuskie[18].link} component={FightingBurger} />
+          <Route exact path={DangerHuskie[19].link} component={VarsityPumpkinCreepin} />
+          <Route exact path={DangerHuskie[20].link} component={VarsityPumpkinGrave} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />
