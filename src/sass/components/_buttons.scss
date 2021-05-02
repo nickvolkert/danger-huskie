@@ -152,8 +152,11 @@
 .projectImage{
   a.btn{
     display: inline-block;
-    width:220px;
+    width:146px;
     margin-right:25px;
+  }
+  a.btn:last-child{
+    margin-right: 0;
   }
 }
 #projectwrapper.dark{

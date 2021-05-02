@@ -29,6 +29,7 @@ const PencilBear = () => (
                 Teespring={source[y].teespring}
                 DeviantArt={source[y].deviantart}
                 Tumblr={source[y].tumblr}
+                Pinterest={source[y].pinterest}
                 illoTags={source[y].tags}
                 illoBackGroundColor={source[y].backgroundcolor}
                 illoBackgroundType={source[y].backgroundtype}

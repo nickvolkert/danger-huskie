@@ -580,8 +580,11 @@ a.btn {
 
 .projectImage a.btn {
   display: inline-block;
-  width: 220px;
+  width: 146px;
   margin-right: 25px; }
+
+.projectImage a.btn:last-child {
+  margin-right: 0; }
 
 #projectwrapper.dark .btn-ghost {
   color: #FFF;
@@ -827,6 +830,8 @@ nav {
     #prevNext #prevNextWrapper {
       width: 100%;
       padding: 20px; }
+    #prevNext .subLink {
+      font-size: 1.0rem; }
     #prevNext p {
       margin: 0;
       padding: 0; }

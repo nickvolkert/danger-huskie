@@ -30,8 +30,9 @@ const Renderedillo = props => (
             <div className="projectImage" style={{"backgroundColor": props.illoBackGroundColor}}>
                 <img src={props.illoImage} title={props.illoTitle + " | Danger Huskie by Nick Volkert"} alt={props.illoAlt} />
                 <div className="socialBtnWrapper">
-                    <a href={props.DeviantArt} className="btn-ghost btn linkDevArt" target="_blank" rel="noopener noreferrer">Like on Deviant Art</a>
-                    <a href={props.Tumblr} className="btn-ghost btn linkTumblr" target="_blank" rel="noopener noreferrer">Like on Tumblr</a>
+                    <a href={props.DeviantArt} className="btn-ghost btn linkDevArt" target="_blank" rel="noopener noreferrer">DeviantArt</a>
+                    <a href={props.Tumblr} className="btn-ghost btn linkTumblr" target="_blank" rel="noopener noreferrer">Tumblr</a>
+                    <a href={props.Pinterest} className="btn-ghost btn linkPinterest" target="_blank" rel="noopener noreferrer">Pinterest</a>
                 </div>
             </div>
             <div className="projectInfo">
@@ -52,8 +53,9 @@ const Renderedillo = props => (
                     <a href={props.Teespring} className="btn-secondary-blue btn linkTeespring" target="_blank" rel="noopener noreferrer">Tee Spring</a>
                 </div>
                 <div className="socialBtnWrapper">
-                    <a href={props.DeviantArt} className="btn-ghost btn linkDevArt" target="_blank" rel="noopener noreferrer">Like on Deviant Art</a>
-                    <a href={props.Tumblr} className="btn-ghost btn linkTumblr" target="_blank" rel="noopener noreferrer">Like on Tumblr</a>
+                    <a href={props.DeviantArt} className="btn-ghost btn linkDevArt" target="_blank" rel="noopener noreferrer">DeviantArt</a>
+                    <a href={props.Tumblr} className="btn-ghost btn linkTumblr" target="_blank" rel="noopener noreferrer">Tumblr</a>
+                    <a href={props.Pinterest} className="btn-ghost btn linkPinterest" target="_blank" rel="noopener noreferrer">Pinterest</a>
                 </div>
                 <div className="projectTags">
                     <p className="projectTagTitle">Tags:</p>
