@@ -43,7 +43,29 @@ const News = () => (
         <Content>
             
             <div id="news-body" className="body-copy">
-            <div className="news-entry">
+                {/* 03 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <img src="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/pinterest-dangerhuskie.jpg" title="DangerHuskie on Pinterest" alt="Account snap of DangerHuskie on Pinterest" />
+                        </div>
+                        <p className="caption">DangerHuskie on Pinterest</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>DangerHuskie on Pinterest!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: June 26th, 2021</p>
+                        <p>DangerHuskie has an account is posting away on Pinterest.</p>
+                        <p><a href="https://www.pinterest.com/dangerhuskie/pins/">Check out DangerHuskie out on Pinterest!</a></p>
+                        <p><Link to="/works/">Check my works</Link> direct pin to a work!</p>
+                        <p>-Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+                {/* 02 */}
+                <div className="news-entry">
                     <div className="leftRail">
                         <div className="leftRailImage">
                             <img src="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/dbhstore.png" title="DangerHuskie on DBH" alt="Storefront fo DangerHuskie on DBH" />
@@ -63,7 +85,7 @@ const News = () => (
                     </div>
                     <Clearfix />
                 </div>
-
+                {/* 01 */}
                 <div className="news-entry">
                     <div id="launch-image" className="leftRail">
                         <div id="launch-dangerhuskie" className="leftRailImage">

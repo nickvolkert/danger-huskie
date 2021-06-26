@@ -641,8 +641,8 @@ a.btn {
     font-weight: 900;
     color: #FFF;
     line-height: 39px; }
-  .hero-dangerhuskie {
-    background: #ffc758 url(https://nickvolkert.sirv.com/dangerhuskie/works/001-thepencilbear.jpg) no-repeat center -150px; }
+  .hero-homepage {
+    background: #a2dcf9 url(https://nickvolkert.sirv.com/dangerhuskie/works/009_chicagodogflag.jpg) no-repeat center -210px; }
   .hero-varsitypumpkin {
     background: #53616e url(https://nickvolkert.sirv.com/dangerhuskie/works/004_varpump.jpg) no-repeat center -150px; }
   .hero-about {
@@ -673,7 +673,7 @@ a.btn {
     .hero h1 {
       font-size: 3.8rem;
       line-height: 44px; }
-    .hero-dangerhuskie {
+    .hero-homepage {
       background-position: center -50px; }
     .hero-varsitypumpkin {
       background-position: center -50px; }

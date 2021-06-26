@@ -12,7 +12,7 @@ import Btn from '../components/Btn';
 let source = DangerHuskie;
 let pagename = "A time for Danger";
 let y = 0;
-let x = 0; //Pencil Bear
+let x = 9; //Chicago Dog w Flag
 
 let lastillo = [DangerHuskie.length];
 let threeillo = [DangerHuskie.length - 6];
@@ -28,7 +28,7 @@ const Home = () => (
     </Helmet>
     <BodyClassName className="home"></BodyClassName>
     <Hero
-            heroClass="-dangerhuskie"
+            heroClass="-homepage"
             heroH1={pagename}
             heroImage={source[x].image}
             heroDescription={source[x].title}
