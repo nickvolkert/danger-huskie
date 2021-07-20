@@ -10,7 +10,7 @@ const Basiccard = props => (
       </div>
       <div className="cardInfo">
         <p className="cardTitleLink">{props.cardimageTitle}</p>
-        <p className="cardMiniInfo">Created: {props.cardDate} | Role: "Illustrator"</p>
+        <p className="cardMiniInfo">Created: {props.cardDate}</p>
         <p className="cardDescription">{props.cardDescription}</p>
       </div>
     </div>
