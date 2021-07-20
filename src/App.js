@@ -39,6 +39,7 @@ import DHHardcoreLogo from "./pages/Works/DHHardcoreLogo";
 import FightingBurger from "./pages/Works/FightingBurger";
 import VarsityPumpkinCreepin from "./pages/Works/VarsityPumpkinCreepin";
 import VarsityPumpkinGrave from "./pages/Works/VarsityPumpkinGrave";
+import DaMustardDog from "./pages/Works/DaMustardDog";
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -85,6 +86,7 @@ const App = () => (
           <Route exact path={DangerHuskie[18].link} component={FightingBurger} />
           <Route exact path={DangerHuskie[19].link} component={VarsityPumpkinCreepin} />
           <Route exact path={DangerHuskie[20].link} component={VarsityPumpkinGrave} />
+          <Route exact path={DangerHuskie[21].link} component={DaMustardDog} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />

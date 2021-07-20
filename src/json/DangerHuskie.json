@@ -523,5 +523,30 @@
         "backgroundcolor": "#025651",
         "backgroundtype":"dark",
         "link": "/works/varsity-pumpkin-grave"
+      },
+      {
+        "id": "21",
+        "component":"DaMustardDog",
+        "title": "Da Chicago Mustard Dog",
+        "description": "Just a little bit of mustard on this Chicago Dog!",
+        "preview":"https://nickvolkert.sirv.com/dangerhuskie/works/preview_mustard.jpg",
+        "image":"https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_mustard.jpg",
+        "date": "July 20th, 2021",
+        "datenumber": "07.20.21",
+        "skills": "illustrator, vector art",
+        "redbubble": "https://www.redbubble.com/shop/ap/83104229",
+        "society6": "https://society6.com/product/da-chicago-mustard-dog_print",
+        "designbyhumans": "https://www.designbyhumans.com/shop/t-shirt/men/da-chicago-mustard-dog/1680103/",
+        "teepublic": "https://www.teepublic.com/t-shirt/23168317-da-chicago-mustard-dog",
+        "threadless": "https://dangerhuskie.threadless.com/designs/da-chicago-mustard-dog",
+        "deviantart": "#",
+        "tumblr": "#",
+        "pinterest": "#",
+        "tags": "vector, vector art, illustrator, illustration, dog, chicago, chicago dog, hot dog, dachshund",
+        "alttext": "A dachshund smiles while wearing a stocking cap and Chicago style hot dog costume.",
+        "series": "Halloween",
+        "backgroundcolor": "#8cc8ed",
+        "backgroundtype":"light",
+        "link": "/works/da-chicago-mustard-dog"
       }
 ]

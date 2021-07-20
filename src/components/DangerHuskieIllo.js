@@ -50,7 +50,6 @@ const Renderedillo = props => (
                     <a href={props.Dbh} className="btn-secondary-blue btn linkDBH" target="_blank" rel="noopener noreferrer">Design By Humans</a>
                     <a href={props.TeePublic} className="btn-secondary-blue btn linkTeePublic" target="_blank" rel="noopener noreferrer">Tee Public</a>
                     <a href={props.Threadless} className="btn-secondary-blue btn linkThreadless" target="_blank" rel="noopener noreferrer">Threadless</a>
-                    <a href={props.Teespring} className="btn-secondary-blue btn linkTeespring" target="_blank" rel="noopener noreferrer">Tee Spring</a>
                 </div>
                 <div className="socialBtnWrapper">
                     <a href={props.DeviantArt} className="btn-ghost btn linkDevArt" target="_blank" rel="noopener noreferrer">DeviantArt</a>
