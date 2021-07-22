@@ -34,5 +34,6 @@ export default (
       <Route exact path="/works/varsity-pumpkin-creepin" />
       <Route exact path="/works/varsity-pumpkin-grave" />
       <Route exact path="/works/da-chicago-mustard-dog" />
+      <Route exact path="/works/da-chicago-shades-dog" />
   </Route>
 );

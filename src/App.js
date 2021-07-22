@@ -40,6 +40,7 @@ import FightingBurger from "./pages/Works/FightingBurger";
 import VarsityPumpkinCreepin from "./pages/Works/VarsityPumpkinCreepin";
 import VarsityPumpkinGrave from "./pages/Works/VarsityPumpkinGrave";
 import DaMustardDog from "./pages/Works/DaMustardDog";
+import DaShadesDog from "./pages/Works/DaShadesDog";
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -87,6 +88,7 @@ const App = () => (
           <Route exact path={DangerHuskie[19].link} component={VarsityPumpkinCreepin} />
           <Route exact path={DangerHuskie[20].link} component={VarsityPumpkinGrave} />
           <Route exact path={DangerHuskie[21].link} component={DaMustardDog} />
+          <Route exact path={DangerHuskie[22].link} component={DaShadesDog} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />

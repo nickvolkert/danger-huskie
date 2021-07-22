@@ -548,5 +548,30 @@
         "backgroundcolor": "#8cc8ed",
         "backgroundtype":"light",
         "link": "/works/da-chicago-mustard-dog"
+      },
+      {
+        "id": "22",
+        "component":"DaShadesDog",
+        "title": "Da Chicago Shades Dog",
+        "description": "Some cool aviator shades on this Chicago Dog just like Da Coach!",
+        "preview":"https://nickvolkert.sirv.com/dangerhuskie/works/preview_shades.jpg",
+        "image":"https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_shades.jpg",
+        "date": "July 22nd, 2021",
+        "datenumber": "07.22.21",
+        "skills": "illustrator, vector art",
+        "redbubble": "https://www.redbubble.com/shop/ap/83309278",
+        "society6": "#",
+        "designbyhumans": "https://www.designbyhumans.com/shop/t-shirt/men/da-chicago-shades-dog/1681791/",
+        "teepublic": "https://www.teepublic.com/t-shirt/23213211-da-chicago-shades-dog",
+        "threadless": "https://dangerhuskie.threadless.com/designs/da-chicago-shades-dog",
+        "deviantart": "#",
+        "tumblr": "#",
+        "pinterest": "#",
+        "tags": "vector, vector art, illustrator, illustration, dog, chicago, chicago dog, hot dog, dachshund",
+        "alttext": "A dachshund is wearing shades, a stocking cap, and a cool Chicago Style Hot Dog costume.",
+        "series": "Dogs, Chicago",
+        "backgroundcolor": "#072d54",
+        "backgroundtype":"dark",
+        "link": "/works/da-chicago-shades-dog"
       }
 ]
