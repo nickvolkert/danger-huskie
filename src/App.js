@@ -41,7 +41,7 @@ import VarsityPumpkinCreepin from "./pages/Works/VarsityPumpkinCreepin";
 import VarsityPumpkinGrave from "./pages/Works/VarsityPumpkinGrave";
 import DaMustardDog from "./pages/Works/DaMustardDog";
 import DaShadesDog from "./pages/Works/DaShadesDog";
-import VarsityPumpkinhead from "./pages/Works/VarsityPumpkinhead";
+import VarsityPumpkinHead from "./pages/Works/VarsityPumpkinHead";
 import RubberDuckie from "./pages/Works/RubberDuckie";
 
 //News
@@ -91,7 +91,7 @@ const App = () => (
           <Route exact path={DangerHuskie[20].link} component={VarsityPumpkinGrave} />
           <Route exact path={DangerHuskie[21].link} component={DaMustardDog} />
           <Route exact path={DangerHuskie[22].link} component={DaShadesDog} />
-          <Route exact path={DangerHuskie[23].link} component={VarsityPumpkinhead} />
+          <Route exact path={DangerHuskie[23].link} component={VarsityPumpkinHead} />
           <Route exact path={DangerHuskie[24].link} component={RubberDuckie} />
 
           {/* News Page */}
