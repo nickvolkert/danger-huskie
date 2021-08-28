@@ -36,11 +36,15 @@ const Page404 = () => (
                     <li>{pagename}</li>
                 </ul>
             </div>
-        <div className="intro-text">
-            <h2>Don't venture here little pup!</h2>
-            <p>Get back to safety: <Link to="/">Go back home</Link></p>
-        </div>
     </Content>
+    <section>
+        <Content>
+            <div className="intro-text">
+                <h2>Don't venture here little pup!</h2>
+                <p>Get back to safety: <Link to="/">Go back home</Link></p>
+            </div>
+        </Content>
+    </section>
 
     <section>
     </section>
