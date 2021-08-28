@@ -15,12 +15,15 @@ let x = 5; //Joyous Rainbow
 const News = () => (
     <div id="shops-landing">
         <Helmet>
-        <title>{pagename} | Nick Volkert</title>
-        <meta property="og:description" content={pagename + " | Danger Huskie Shops!"} />
-        <meta property="og:image" content={source[y].image}></meta>
-        <meta property="og:url" content={"http://dangerhuskie.com/shops"} ></meta>
-        <meta property="og:type" content="website"/>
-    </Helmet>
+            <title>{source[y].title} | All About DangerHuskie</title>
+            <meta property="og:description" content="DangerHuskie Shops!" />
+            <meta property="og:image" content="https://nickvolkert.sirv.com/_sitegraphics/meta/dangerhuskie_meta-cowboyhat.jpg"></meta>
+            <meta property="og:url" content={"http://dangerhuskie.com/shps"}></meta>
+            <meta property="og:type" content="website"/>
+            <meta property="og:site_name" content="DangerHuskie"></meta>
+            <meta name="twitter:card" content="summary_large_image"></meta>
+            <meta name="twitter:image:alt" content="DangerHuskie Shops!"></meta>
+        </Helmet>
     <BodyClassName className="shops"></BodyClassName>
     <Hero
             heroClass="-shops"

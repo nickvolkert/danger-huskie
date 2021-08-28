@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Content from "../components/Content";
 import BodyClassName from "react-body-classname";
 import Clearfix from "../components/Clearfix";
+import BlockVectorIllos from "../components/BlockVectorIllos";
 import DangerHuskie from "../json/DangerHuskie.json";
 
 let source = DangerHuskie;
@@ -13,22 +14,15 @@ let y = 3;
 const About = () => (
     <div id="about">
         <Helmet>
-        <title>{pagename} | Nick Volkert</title>
-        <meta property="og:description" content={pagename + " | All about DangerHuskie"} />
-        <meta property="og:image" content={source[y].image}></meta>
-        <meta property="og:url" content={"http://dangerhuskie.com/about"} ></meta>
-        <meta property="og:type" content="website"/>
-    </Helmet>
-    <Helmet>
-                <title>{source[y].title} | All About DangerHuskie</title>
-                <meta property="og:description" content={"About the vector project by Chicagoland artist Nick Volkert"} />
-                <meta property="og:image" content="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg"></meta>
-                <meta property="og:url" content={"http://dangerhuskie.com/about"}></meta>
-                <meta property="og:type" content="website"/>
-                <meta property="og:site_name" content="DangerHuskie"></meta>
-                <meta name="twitter:card" content="summary_large_image"></meta>
-                <meta name="twitter:image:alt" content={source[y].description}></meta>
-   </Helmet>
+            <title>{source[y].title} | All About DangerHuskie</title>
+            <meta property="og:description" content={"About the vector project by Chicagoland artist Nick Volkert"} />
+            <meta property="og:image" content="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg"></meta>
+            <meta property="og:url" content={"http://dangerhuskie.com/about"}></meta>
+            <meta property="og:type" content="website"/>
+            <meta property="og:site_name" content="DangerHuskie"></meta>
+            <meta name="twitter:card" content="summary_large_image"></meta>
+            <meta name="twitter:image:alt" content={source[y].description}></meta>
+        </Helmet>
     <BodyClassName className="about-page"></BodyClassName>
     <div className="hero hero-about">
         <h1>{pagename}</h1>
@@ -60,8 +54,10 @@ const About = () => (
                 <p>"DangerHuskie" is going to be fun, scary, challenging, cute, and unrelenting. I'm glad you found it, and I hope you stay along for the ride. I have LOTS in store for you.</p>
                 <p>-Nick</p>
             </div>
+            <Clearfix />
         </Content>
-        <Clearfix />
+       
+        <BlockVectorIllos/>
     </section>
     </div>
     );
