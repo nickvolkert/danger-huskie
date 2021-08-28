@@ -13,16 +13,16 @@ let pagename = "Works";
 let x = 3; //Varsity Pumpkin
 
 const Home = () => (
-  <div id="home">
+  <div id="works-landing">
     <Helmet>
         <title>{pagename} | Nick Volkert</title>
         <meta property="og:description" content={pagename + " | Vector works of DangerHuskie"} />
-        <meta property="og:image" content="https://nickvolkert.sirv.com/_sitegraphics/meta/dangerhuskie_meta-cowboyhat.jpg"></meta>
-        <meta property="og:url" content={"http://dangerhuskie.com/works"} ></meta>
+        <meta property="og:image" content="https://nickvolkert.sirv.com/_sitegraphics/meta/dangerhuskie_meta-cowboyhat.jpg" />
+        <meta property="og:url" content={"http://dangerhuskie.com/works"} />
         <meta property="og:type" content="website"/>
-        <meta property="og:site_name" content="DangerHuskie"></meta>
-        <meta name="twitter:card" content="summary_large_image"></meta>
-        <meta name="twitter:image:alt" content={pagename + " | Vector works of DangerHuskie"}></meta>
+        <meta property="og:site_name" content="DangerHuskie" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image:alt" content={pagename + " | Vector works of DangerHuskie"} />
     </Helmet>
     <BodyClassName className="works"></BodyClassName>
     <Hero

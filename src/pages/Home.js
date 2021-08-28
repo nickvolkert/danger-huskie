@@ -21,12 +21,12 @@ const Home = () => (
     <Helmet>
                 <title>Home | Danger Huskie by Nick Volkert</title>
                 <meta property="og:description" content="Home page of the vector project DangerHuskie by Nick Volkert" />
-                <meta property="og:image" content={source[y].image}></meta>
-                <meta property="og:url" content={"http://dangerhuskie.com"}></meta>
+                <meta property="og:image" content={source[y].image} />
+                <meta property="og:url" content={"http://dangerhuskie.com"} />
                 <meta property="og:type" content="website"/>
-                <meta property="og:site_name" content="DangerHuskie"></meta>
-                <meta name="twitter:card" content="summary_large_image"></meta>
-                <meta name="twitter:image:alt" content={source[y].description}></meta>
+                <meta property="og:site_name" content="DangerHuskie" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:image:alt" content={source[y].description} />
    </Helmet>
     <Hero
             heroClass="-homepage"

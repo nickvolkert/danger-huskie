@@ -5,12 +5,9 @@ import Content from "../components/Content";
 import BodyClassName from "react-body-classname";
 import Clearfix from "../components/Clearfix";
 import BlockVectorIllos from "../components/BlockVectorIllos";
-import DangerHuskie from "../json/DangerHuskie.json";
 
-let source = DangerHuskie;
 let pagename = "About";
 let metadescription = "About the vector project by Chicagoland artist Nick Volkert";
-let y = 3;
 
 const About = () => (
     <div id="about">
@@ -18,12 +15,12 @@ const About = () => (
             <title>{pagename} | All About DangerHuskie</title>
             <meta name="description" content={metadescription}></meta>
             <meta property="og:description" content={metadescription} />
-            <meta property="og:image" content="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg"></meta>
-            <meta property="og:url" content={"http://dangerhuskie.com/about"}></meta>
+            <meta property="og:image" content="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg" />
+            <meta property="og:url" content={"http://dangerhuskie.com/about"} />
             <meta property="og:type" content="website"/>
-            <meta property="og:site_name" content="DangerHuskie"></meta>
-            <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:image:alt" content={metadescription}></meta>
+            <meta property="og:site_name" content="DangerHuskie"/>
+            <meta name="twitter:card" content="summary_large_image"/>
+            <meta name="twitter:image:alt" content={metadescription}/>
         </Helmet>
     <BodyClassName className="about-page"></BodyClassName>
     <div className="hero hero-about">
