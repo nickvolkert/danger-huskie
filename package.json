@@ -25,6 +25,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "reactSnap": {
+    "puppeteerExecutablePath": "/usr/bin/google-chrome-unstable"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
