@@ -22,7 +22,7 @@ const Home = () => (
         <meta property="og:url" content={"http://dangerhuskie.com/works"} ></meta>
         <meta property="og:type" content="website"/>
     </Helmet>
-    <BodyClassName className="home"></BodyClassName>
+    <BodyClassName className="works"></BodyClassName>
     <Hero
             heroClass="-varsitypumpkin"
             heroH1={pagename}

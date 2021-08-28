@@ -2,7 +2,6 @@ import React from "react";
 import {Helmet} from "react-helmet";
 import { Link } from "react-router-dom";
 import Content from "../components/Content";
-import BodyClassName from "react-body-classname";
 import Clearfix from "../components/Clearfix";
 import DangerHuskie from "../json/DangerHuskie.json";
 import Basiccard from "../components/Basiccard";
@@ -26,7 +25,6 @@ const Home = () => (
         <meta property="og:url" content={"http://dangerhuskie.com"} ></meta>
         <meta property="og:type" content="website"/>
     </Helmet>
-    <BodyClassName className="home"></BodyClassName>
     <Hero
             heroClass="-homepage"
             heroH1={pagename}
