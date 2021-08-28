@@ -23,8 +23,11 @@ const Renderedillo = props => (
                 <title>{props.illoTitle} | Danger Huskie by Nick Volkert</title>
                 <meta property="og:description" content={props.illoTitle + " | " + props.illoDescription} />
                 <meta property="og:image" content={props.illoImage}></meta>
-                <meta property="og:url" content={"http://dangerhuskie.com" + props.illoLink} ></meta>
+                <meta property="og:url" content={"http://dangerhuskie.com" + props.illoLink}></meta>
                 <meta property="og:type" content="website"/>
+                <meta property="og:site_name" content="DangerHuskie"></meta>
+                <meta name="twitter:card" content="summary_large_image"></meta>
+                <meta name="twitter:image:alt" content={props.illoDescription}></meta>
             </Helmet>
             <BodyClassName className="dangerhuskie"></BodyClassName>
             <div className="projectImage" style={{"backgroundColor": props.illoBackGroundColor}}>
