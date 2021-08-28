@@ -13,12 +13,6 @@ module.exports = {
     filename: 'index.js'
   },
 
-  devServer: {
-    historyApiFallback: true,
-    contentBase: './',
-    hot: true
- },
-
   module: {
     rules: [
       {
