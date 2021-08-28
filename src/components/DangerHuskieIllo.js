@@ -20,14 +20,24 @@ const Renderedillo = props => (
             </div>
         <div className="project">
             <Helmet>
-                <title>{props.illoTitle} | Danger Huskie by Nick Volkert</title>
-                <meta property="og:description" content={props.illoTitle + " | " + props.illoDescription} />
-                <meta property="og:image" content={props.metaImage}></meta>
-                <meta property="og:url" content={"http://dangerhuskie.com" + props.illoLink}></meta>
-                <meta property="og:type" content="website"/>
+                <title>Annoyed Yeti | Danger Huskie by Nick Volkert</title>
+                <meta name="title" content={props.illoTitle + "| Danger Huskie by Nick Volkert"}>
+                <meta name="description" content={props.illoDescription}></meta>
+                <meta property="og:description" content={props.illoDescription} />
+                <meta property="og:type" content="website"/></meta>
                 <meta property="og:site_name" content="DangerHuskie"></meta>
-                <meta name="twitter:card" content="summary_large_image"></meta>
-                <meta name="twitter:image:alt" content={props.illoDescription}></meta>
+
+                <meta property="og:type" content="website"></meta>
+                <meta property="og:url" content={"http://dangerhuskie.com" + props.illoLink}></meta>
+                <meta property="og:title" content={props.illoTitle + "| Danger Huskie by Nick Volkert"}></meta>
+                <meta property="og:description" content={props.illoDescription}></meta>
+                <meta property="og:image" content=""></meta>
+
+                <meta property="twitter:card" content="summary_large_image"></meta>
+                <meta property="twitter:url" content={"http://dangerhuskie.com" + props.illoLink}></meta>
+                <meta property="twitter:title" content={props.illoTitle + "| Danger Huskie by Nick Volkert"}></meta>
+                <meta property="twitter:description" content={props.illoDescription}></meta>
+                <meta property="twitter:image" content=""></meta>
             </Helmet>
             <BodyClassName className="dangerhuskie"></BodyClassName>
             <div className="projectImage" style={{"backgroundColor": props.illoBackGroundColor}}>
