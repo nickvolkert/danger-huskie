@@ -20,8 +20,8 @@ const Renderedillo = props => (
             </div>
         <div className="project">
             <Helmet>
-                <title>Annoyed Yeti | Danger Huskie by Nick Volkert</title>
-                <meta name="title" content={props.illoTitle + "| Danger Huskie by Nick Volkert"} />
+                <title>{props.illoTitle} | Danger Huskie by Nick Volkert</title>
+                <meta name="title" content={props.illoTitle + " | Danger Huskie by Nick Volkert"} />
                 <meta name="description" content={props.illoDescription} />
                 <meta property="og:description" content={props.illoDescription} />
                 <meta property="og:type" content="website"/>
@@ -29,13 +29,13 @@ const Renderedillo = props => (
 
                 <meta property="og:type" content="website"></meta>
                 <meta property="og:url" content={"http://dangerhuskie.com" + props.illoLink} />
-                <meta property="og:title" content={props.illoTitle + "| Danger Huskie by Nick Volkert"}/>
+                <meta property="og:title" content={props.illoTitle + " | Danger Huskie by Nick Volkert"}/>
                 <meta property="og:description" content={props.illoDescription}/>
                 <meta property="og:image" content={props.metaImage}/>
 
                 <meta property="twitter:card" content="summary_large_image"/>
                 <meta property="twitter:url" content={"http://dangerhuskie.com" + props.illoLink}/>
-                <meta property="twitter:title" content={props.illoTitle + "| Danger Huskie by Nick Volkert"}/>
+                <meta property="twitter:title" content={props.illoTitle + " | Danger Huskie by Nick Volkert"}/>
                 <meta property="twitter:description" content={props.illoDescription}/>
                 <meta property="twitter:image" content={props.metaImage}/>
             </Helmet>

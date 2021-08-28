@@ -19,7 +19,7 @@ let threeillo = [DangerHuskie.length - 6];
 const Home = () => (
   <div id="home">
     <Helmet>
-                <title>Home | Danger Huskie by Nick Volkert</title>
+                <title>{pagename} | Danger Huskie by Nick Volkert</title>
                 <meta property="og:description" content="Home page of the vector project DangerHuskie by Nick Volkert" />
                 <meta property="og:image" content={source[y].image} />
                 <meta property="og:url" content={"http://dangerhuskie.com"} />
