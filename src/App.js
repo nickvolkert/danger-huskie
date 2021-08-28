@@ -59,7 +59,7 @@ const App = () => (
     <Wrapper>
       <Navigation />
       <ContentWrapper>
-      <ScrollMemory />
+        <ScrollMemory />
         <Switch>
 
           {/* Core Site */}
@@ -114,7 +114,14 @@ export default App;
 
 const rootElement = document.getElementById("root");
 if (rootElement.hasChildNodes()) {
-  hydrate(App, rootElement);
+  hydrate(<App />, rootElement);
 } else {
-  render(App, rootElement);
+  render(<App />, rootElement);
 }
+
+// const rootElement = document.getElementById("root");
+// if (rootElement.hasChildNodes()) {
+//   hydrate(App, rootElement);
+// } else {
+//   render(App, rootElement);
+// }
