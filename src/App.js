@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import ScrollMemory from 'react-router-scroll-memory';
 import DangerHuskie from './json/DangerHuskie';
+import { hydrate, render } from "react-dom";
 
 //Components
 import Wrapper from "./components/Wrapper";
@@ -110,3 +111,10 @@ const App = () => (
 )
 
 export default App;
+
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(App, rootElement);
+} else {
+  render(App, rootElement);
+}

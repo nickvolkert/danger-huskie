@@ -10,18 +10,18 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-body-classname": "^1.3.1",
-    "react-dom": "^16.13.1",
+    "react-dom": "^16.14.0",
     "react-helmet": "^6.0.0",
     "react-meta-tags": "^0.7.4",
     "react-router-dom": "^5.2.0",
     "react-router-scroll-memory": "^2.0.6",
     "react-router-sitemap": "^1.2.0",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^3.4.3",
+    "react-snap": "^1.23.0"
   },
   "scripts": {
     "start": "node-sass src/sass/main.scss src/app.css -w | react-scripts start",
-    "sitemap": "babel-node src/SitemapGenerator.js",
-    "predeploy": "npm run sitemap",
+    "postbuild": "react-snap",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -36,25 +36,11 @@
       "not dead",
       "not op_mini all"
     ],
-  "development": [
+    "development": [
       ">0.3%",
       "not ie 11",
       "not dead",
       "not op_mini all"
     ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^8.1.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "nodemon": "^2.0.4",
-    "npm-run-all": "^4.1.5",
-    "webpack-cli": "^3.3.12",
-    "webpack-node-externals": "^1.7.2"
   }
 }
