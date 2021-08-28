@@ -15,6 +15,8 @@ const Navigation = () => (
           <li><Link to="/news">News</Link></li>
           <li className="spacer">|</li>
           <li><Link to="/shops">Shops</Link></li>
+          <li className="spacer">|</li>
+          <li><Link to="/links">Links</Link></li>
         </ul>
       </div>
     </div>
