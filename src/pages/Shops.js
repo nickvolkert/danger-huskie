@@ -1,29 +1,29 @@
 import React from "react";
-import {Helmet} from "react-helmet";
 import { Link } from "react-router-dom";
 import Content from "../components/Content";
 import Hero from "../components/Hero";
 import BodyClassName from "react-body-classname";
 import Clearfix from "../components/Clearfix";
 import DangerHuskie from "../json/DangerHuskie.json";
+import HelmetMeta from "../components/HelmetMeta";
 
 let source = DangerHuskie;
-let pagename = "Shops";
-let y = 0;
 let x = 5; //Joyous Rainbow
+let pagename = "Shops";
+let subhead = "The Shops of DangerHuskie";
+let metadescription = "Links to the shops of DangerHuskie.";
+let pagelinkurl = "/shops";
+let metaimageurl = DangerHuskie[x].meta;
 
 const News = () => (
     <div id="shops-landing">
-        <Helmet>
-            <title>{source[y].title} | All About DangerHuskie</title>
-            <meta property="og:description" content="DangerHuskie Shops!" />
-            <meta property="og:image" content="https://nickvolkert.sirv.com/_sitegraphics/meta/dangerhuskie_meta-cowboyhat.jpg"></meta>
-            <meta property="og:url" content={"http://dangerhuskie.com/shps"}></meta>
-            <meta property="og:type" content="website"/>
-            <meta property="og:site_name" content="DangerHuskie"></meta>
-            <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:image:alt" content="DangerHuskie Shops!"></meta>
-        </Helmet>
+        <HelmetMeta 
+          pageName={pagename}
+          pageSubhead = {subhead}
+          pageDescription={metadescription}
+          pageLink={pagelinkurl}
+          metaImage={metaimageurl}
+        />
     <BodyClassName className="shops"></BodyClassName>
     <Hero
             heroClass="-shops"

@@ -19,6 +19,7 @@ const Page404 = () => (
         <meta property="og:image" content={source[y].image}></meta>
         <meta property="og:url" content={"http://dangerhuskie.com"} ></meta>
         <meta property="og:type" content="website"/>
+        <meta name="prerender-status-code" content="404" />
     </Helmet>
     <BodyClassName className="page404"></BodyClassName>
     <Hero

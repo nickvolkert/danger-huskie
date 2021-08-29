@@ -1,5 +1,4 @@
 import React from "react";
-import {Helmet} from "react-helmet";
 import { Link } from "react-router-dom";
 import Content from "../../components/Content";
 import BodyClassName from "react-body-classname";
@@ -7,23 +6,25 @@ import Clearfix from "../../components/Clearfix";
 import DangerHuskie from "../../json/DangerHuskie.json";
 import Basiccard from "../../components/Basiccard";
 import Hero from "../../components/Hero";
+import HelmetMeta from "../../components/HelmetMeta";
 
 let source = DangerHuskie;
-let pagename = "Works";
 let x = 3; //Varsity Pumpkin
+let pagename = "Works";
+let subhead = "Vector works of DangerHuskie"
+let metadescription = "Complete gallery of vector works of DangerHuskie by Nick Volkert.";
+let pagelinkurl = "/works";
+let metaimageurl = DangerHuskie[x].meta;
 
 const Home = () => (
   <div id="works-landing">
-    <Helmet>
-        <title>{pagename} | Nick Volkert</title>
-        <meta property="og:description" content={pagename + " | Vector works of DangerHuskie"} />
-        <meta property="og:image" content="https://nickvolkert.sirv.com/_sitegraphics/meta/dangerhuskie_meta-cowboyhat.jpg" />
-        <meta property="og:url" content={"http://dangerhuskie.com/works"} />
-        <meta property="og:type" content="website"/>
-        <meta property="og:site_name" content="DangerHuskie" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image:alt" content={pagename + " | Vector works of DangerHuskie"} />
-    </Helmet>
+    <HelmetMeta 
+        pageName={pagename}
+        pageSubhead = {subhead}
+        pageDescription={metadescription}
+        pageLink={pagelinkurl}
+        metaImage={metaimageurl}
+    />
     <BodyClassName className="works"></BodyClassName>
     <Hero
             heroClass="-varsitypumpkin"

@@ -1,21 +1,30 @@
 import React from "react";
-import {Helmet} from "react-helmet";
 import { Link } from "react-router-dom";
 import BodyClassName from 'react-body-classname';
 import LatestPBDs from "../components/LatestPBDs";
 import DangerHuskie from "../json/DangerHuskie";
 import Clearfix from "../components/Clearfix";
+import HelmetMeta from "../components/HelmetMeta";
 
 let postDetail = DangerHuskie;
-
 let lastillo = [DangerHuskie.length];
 let threeillo = [DangerHuskie.length - 4];
 
+let pagename = "Links";
+let subhead = "DangerHuskie by Nick Volkert"
+let metadescription = "Link tree for DangerHuskie";
+let pagelinkurl = "/links";
+let metaimageurl = "https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg";
+
 const LinksPage = () => (
     <div id="linkspage">
-       <Helmet>
-        <title>Danger Huskie | ALL the Links</title>
-      </Helmet>
+      <HelmetMeta 
+          pageName={pagename}
+          pageSubhead = {subhead}
+          pageDescription={metadescription}
+          pageLink={pagelinkurl}
+          metaImage={metaimageurl}
+      />
       <BodyClassName className="link-page"></BodyClassName>
           <div id="header">
             <p className="prehead">All the links</p>

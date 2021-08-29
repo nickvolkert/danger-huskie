@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet";
 const HelmetMeta = props => (
     <>
         <Helmet>
-            <title>{props.pageName} | DangerHuskie by Nick Volkert</title>
+            <title>{props.pageName} | {props.pageSubhead}</title>
             <meta name="title" content={props.pageName + " | DangerHuskie by Nick Volkert"} />
             <meta name="description" content={props.pageDescription} />
             <meta property="og:description" content={props.pageDescription} />

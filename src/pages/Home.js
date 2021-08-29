@@ -10,7 +10,8 @@ import HelmetMeta from "../components/HelmetMeta";
 
 let source = DangerHuskie;
 let x = 19; //Varsity Pumpkin Head
-let pagename = "A time for Danger";
+let pagename = "A Time For Danger";
+let subhead = "DangerHuskie by Nick Volkert"
 let metadescription = "Home page of the vector project DangerHuskie by Nick Volkert.";
 let pagelinkurl = "/";
 let metaimageurl = DangerHuskie[x].meta;
@@ -22,6 +23,7 @@ const Home = () => (
   <div id="home">
    <HelmetMeta 
         pageName={pagename}
+        pageSubhead = {subhead}
         pageDescription={metadescription}
         pageLink={pagelinkurl}
         metaImage={metaimageurl}

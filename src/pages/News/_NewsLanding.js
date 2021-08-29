@@ -1,26 +1,29 @@
 import React from "react";
-import {Helmet} from "react-helmet";
 import { Link } from "react-router-dom";
 import Content from "../../components/Content";
 import Hero from "../../components/Hero";
 import BodyClassName from "react-body-classname";
 import Clearfix from "../../components/Clearfix";
 import DangerHuskie from "../../json/DangerHuskie.json";
+import HelmetMeta from "../../components/HelmetMeta";
 
 let source = DangerHuskie;
-let pagename = "News";
-let y = 0;
 let x = 4; //Happy Rainbow
+let pagename = "News";
+let subhead = "DangerHuskie News!"
+let metadescription = "Home page of the vector project DangerHuskie by Nick Volkert.";
+let pagelinkurl = "/news";
+let metaimageurl = DangerHuskie[x].meta;
 
 const News = () => (
     <div id="news-landing">
-        <Helmet>
-        <title>{pagename} | Nick Volkert</title>
-        <meta property="og:description" content={pagename + " | DangerHuskie News!"} />
-        <meta property="og:image" content={source[y].image}></meta>
-        <meta property="og:url" content={"http://dangerhuskie.com/news"} ></meta>
-        <meta property="og:type" content="website"/>
-    </Helmet>
+        <HelmetMeta 
+            pageName={pagename}
+            pageSubhead = {subhead}
+            pageDescription={metadescription}
+            pageLink={pagelinkurl}
+            metaImage={metaimageurl}
+        />
     <BodyClassName className="newslanding"></BodyClassName>
     <Hero
             heroClass="-newslanding"
