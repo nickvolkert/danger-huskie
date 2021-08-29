@@ -1,5 +1,4 @@
 import React from "react";
-import {Helmet} from "react-helmet";
 import { Link } from "react-router-dom";
 import Content from "../components/Content";
 import Clearfix from "../components/Clearfix";
@@ -7,27 +6,26 @@ import DangerHuskie from "../json/DangerHuskie.json";
 import Basiccard from "../components/Basiccard";
 import Hero from "../components/Hero";
 import Btn from '../components/Btn';
+import HelmetMeta from "../components/HelmetMeta";
 
 let source = DangerHuskie;
+let x = 19; //Varsity Pumpkin Head
 let pagename = "A time for Danger";
-let y = 0;
-let x = 9; //Chicago Dog w Flag
+let metadescription = "Home page of the vector project DangerHuskie by Nick Volkert.";
+let pagelinkurl = "/";
+let metaimageurl = DangerHuskie[x].meta;
 
 let lastillo = [DangerHuskie.length];
 let threeillo = [DangerHuskie.length - 6];
 
 const Home = () => (
   <div id="home">
-    <Helmet>
-                <title>{pagename} | Danger Huskie by Nick Volkert</title>
-                <meta property="og:description" content="Home page of the vector project DangerHuskie by Nick Volkert" />
-                <meta property="og:image" content={source[y].image} />
-                <meta property="og:url" content={"http://dangerhuskie.com"} />
-                <meta property="og:type" content="website"/>
-                <meta property="og:site_name" content="DangerHuskie" />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:image:alt" content={source[y].description} />
-   </Helmet>
+   <HelmetMeta 
+        pageName={pagename}
+        pageDescription={metadescription}
+        pageLink={pagelinkurl}
+        metaImage={metaimageurl}
+    />
     <Hero
             heroClass="-homepage"
             heroH1={pagename}
