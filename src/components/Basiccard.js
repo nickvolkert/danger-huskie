@@ -6,7 +6,7 @@ const Basiccard = props => (
     <Link to={props.cardLink}>
     <div className="cardWrapper">
       <div className="cardImage" style={{"backgroundColor": props.cardBackGround}}>
-        <img src={props.cardImage} title={props.cardimageTitle + " | Nick Volkert"} alt={props.cardAlt} />
+        <img data-src={props.cardImage} title={props.cardimageTitle + " | Nick Volkert"} className="Sirv" data-options="autostart:created" alt={props.cardAlt} />
       </div>
       <div className="cardInfo">
         <p className="cardTitleLink">{props.cardimageTitle}</p>

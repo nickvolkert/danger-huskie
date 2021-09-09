@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import Clearfix from "./Clearfix";
 import Content from "../components/Content";
 
+let domain = "https://dangerhuskie.com";
+let me = " | DangerHuskie by Nick Volkert";
 
 const Renderedillo = props => (
     <div id="projectwrapper" style={{"backgroundColor": props.illoBackGroundColor}} className={props.illoBackgroundType}>
@@ -20,28 +22,30 @@ const Renderedillo = props => (
             </div>
         <div className="project">
             <Helmet>
-                <title>{props.illoTitle} | DangerHuskie by Nick Volkert</title>
-                <meta name="title" content={props.illoTitle + " | DangerHuskie by Nick Volkert"} />
+                <title>{props.illoTitle + me}</title>
+                <link rel="canonical" href={domain + props.pageLink} />
+                <meta name="title" content={props.illoTitle + me} />
                 <meta name="description" content={props.illoDescription} />
                 <meta property="og:description" content={props.illoDescription} />
                 <meta property="og:type" content="website"/>
                 <meta property="og:site_name" content="DangerHuskie" />
 
                 <meta property="og:type" content="website"></meta>
-                <meta property="og:url" content={"http://dangerhuskie.com" + props.illoLink} />
-                <meta property="og:title" content={props.illoTitle + " | DangerHuskie by Nick Volkert"}/>
+                <meta property="og:url" content={domain + props.illoLink} />
+                <meta property="og:title" content={props.illoTitle + me}/>
                 <meta property="og:description" content={props.illoDescription}/>
                 <meta property="og:image" content={props.metaImage}/>
 
                 <meta property="twitter:card" content="summary_large_image"/>
-                <meta property="twitter:url" content={"http://dangerhuskie.com" + props.illoLink}/>
-                <meta property="twitter:title" content={props.illoTitle + " | DangerHuskie by Nick Volkert"}/>
+                <meta property="twitter:url" content={domain + props.illoLink}/>
+                <meta property="twitter:title" content={props.illoTitle + me}/>
                 <meta property="twitter:description" content={props.illoDescription}/>
                 <meta property="twitter:image" content={props.metaImage}/>
+                <meta name="twitter:image:alt" content={props.illoAlt} />
             </Helmet>
             <BodyClassName className="dangerhuskie"></BodyClassName>
             <div className="projectImage" style={{"backgroundColor": props.illoBackGroundColor}}>
-                <img src={props.illoImage} title={props.illoTitle + " | DangerHuskie by Nick Volkert"} alt={props.illoAlt} />
+                <img src={props.illoImage} title={props.illoTitle + me} alt={props.illoAlt} />
                 <div className="socialBtnWrapper">
                     <a href={props.DeviantArt} className="btn-ghost btn linkDevArt" target="_blank" rel="noopener noreferrer">DeviantArt</a>
                     <a href={props.Tumblr} className="btn-ghost btn linkTumblr" target="_blank" rel="noopener noreferrer">Tumblr</a>

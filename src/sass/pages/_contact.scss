@@ -1,0 +1,41 @@
+#contact-images{
+    background: url(https://nickvolkert.sirv.com/_sitegraphics/pages/aboutpage-nvolkert.jpg) no-repeat -41px -3px;
+    background-size: 135%;
+}
+
+.socialcolumn{
+    float: left;
+    width:33%;
+    font-size: 1.4rem;
+    margin-bottom:20px;
+
+    h3{
+        margin-bottom:15px;
+    }
+    ul{
+        list-style: none;
+        padding:0;
+        margin:0;
+        li{
+            padding:0;
+            margin: 0 0 20px 0;
+
+            p{
+                padding:0;
+                margin: 0;
+                line-height: 2.0rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .socialcolumn{
+        float: none;
+        width:90%;
+        margin-bottom:50px;
+    }
+    #contact-page section .content{
+        padding-top:20px;
+    }
+}

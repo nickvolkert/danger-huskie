@@ -460,6 +460,18 @@ a {
     content: "\A";
     white-space: pre; } }
 
+.padding-bottom-20px {
+  padding-bottom: 20px; }
+
+.margin-bottom-30px {
+  margin-bottom: 30px; }
+
+.margin-bottom-40px {
+  margin-bottom: 40px; }
+
+.margin-bottom-60px {
+  margin-bottom: 60px; }
+
 .btn__link {
   width: 330px;
   height: 50px;
@@ -895,7 +907,8 @@ footer .sociallinks {
   margin: 220px 64px 10px 0; }
 
 #about-dangerhuskie {
-  background: url(https://nickvolkert.sirv.com/spec_mural/bw_setup.jpg) no-repeat -460px -80px; }
+  background: url(https://nickvolkert.sirv.com/_sitegraphics/pages/homepage-nvolkert.jpg) no-repeat -41px -3px;
+  background-size: 135%; }
 
 #about-body {
   float: left;
@@ -928,6 +941,37 @@ footer .sociallinks {
     #about-body h2 {
       font-size: 3.8rem;
       line-height: 4.0rem; } }
+
+#contact-dangerhuskie {
+  background: url(https://nickvolkert.sirv.com/_sitegraphics/pages/aboutpage-nvolkert.jpg) no-repeat -41px -3px;
+  background-size: 135%; }
+
+.socialcolumn {
+  float: left;
+  width: 33%;
+  font-size: 1.4rem;
+  margin-bottom: 20px; }
+  .socialcolumn h3 {
+    margin-bottom: 15px; }
+  .socialcolumn ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .socialcolumn ul li {
+      padding: 0;
+      margin: 0 0 20px 0; }
+      .socialcolumn ul li p {
+        padding: 0;
+        margin: 0;
+        line-height: 2.0rem; }
+
+@media only screen and (max-width: 768px) {
+  .socialcolumn {
+    float: none;
+    width: 90%;
+    margin-bottom: 50px; }
+  #contact-page section .content {
+    padding-top: 20px; } }
 
 #linkspage {
   /*Pre heads*/ }

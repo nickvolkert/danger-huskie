@@ -39,9 +39,9 @@ const About = () => (
         <Content>
             <div id="about-images" className="leftRail">
                 <div id="about-dangerhuskie" className="leftRailImage">
-                    <span>Image of Nick Volkert at Spec Mural set up at the Merchandise Mart, Chicago, IL.</span>
+                    <span>Nick Volkert in his home studio, 2021.</span>
                 </div>
-                <p className="caption">Nick Volkert at Merchandise Mart, 2016.</p>
+                <p className="caption">Nick Volkert in his home studio, 2021.</p>
             </div>
             <div id="about-body" className="body-copy rightRail">
                 <h2>We live in dangerous times.</h2>

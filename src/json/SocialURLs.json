@@ -1,0 +1,62 @@
+[
+        {
+            "id": "0",
+            "social":"Facebook",
+            "link":"https://www.facebook.com/dangerhuskie"
+          },
+          {
+            "id": "1",
+            "social":"Instagram",
+            "link":"https://www.instagram.com/dangerhuskie/"
+          },
+          {
+            "id": "2",
+            "social":"Twitter",
+            "link":"https://twitter.com/DangerHuskie"
+          },
+          {
+            "id": "3",
+            "social":"Tumblr",
+            "link":"https://dangerhuskie.tumblr.com/"
+          },
+          {
+            "id": "4",
+            "social":"Pinterest",
+            "link":"https://www.pinterest.com/dangerhuskie/"
+          },
+          {
+            "id": "5",
+            "social":"DeviantArt",
+            "link":"https://www.deviantart.com/dangerhuskie"
+          },
+          {
+            "id": "6",
+            "social":"Redbubble",
+            "link":"https://dangerhuskie.redbubble.com"
+          },
+          {
+            "id": "7",
+            "social":"Society6",
+            "link":"https://society6.com/dangerhuskie"
+          },
+          {
+            "id": "8",
+            "social":"TeePublic",
+            "link":"https://www.teepublic.com/user/dangerhuskie"
+          },
+          {
+            "id": "9",
+            "social":"Threadless Profile",
+            "link":"https://www.threadless.com/@dangerhuskie"
+          },
+          {
+            "id": "10",
+            "social":"Threadless Shop",
+            "link":"https://dangerhuskie.threadless.com/"
+          },
+          {
+            "id": "11",
+            "social":"Design By Humans",
+            "link":"https://www.designbyhumans.com/shop/dangerhuskie/"
+          }
+      ]

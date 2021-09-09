@@ -18,6 +18,8 @@ const Footer = () => (
                     <li><Link to="/news">News</Link></li>
                     <li className="spacer">|</li>
                     <li><Link to="/shops">Shops</Link></li>
+                    <li className="spacer">|</li>
+                    <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
                 <SocialLinks/>

@@ -17,6 +17,7 @@ import Home from "./pages/Home";
 import _WorksLanding from "./pages/Works/_WorksLanding";
 import About from "./pages/About";
 import Shops from "./pages/Shops";
+import Contact from "./pages/Contact";
 
 //Artworks
 import AnnoyedSasquatch from "./pages/Works/AnnoyedSasquatch";
@@ -97,6 +98,9 @@ const App = () => (
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />
+
+          {/* Contact Page */}
+          <Route exact path="/contact" component={Contact} />
 
           {/* Links Page */}
           <Route exact path="/links" component={LinksPage} />
