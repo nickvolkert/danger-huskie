@@ -16,7 +16,7 @@ const About = () => (
     <div id="about">
         <HelmetMeta 
             pageName={pagename}
-            pageSubhead = {subhead}
+            pageSubhead={subhead}
             pageDescription={metadescription}
             pageLink={pagelinkurl}
             metaImage={metaimageurl}
