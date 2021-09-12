@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
+import CoreSite from "../json/CoreSite.json";
 
 const Navigation = () => (
   <nav>
@@ -8,15 +9,15 @@ const Navigation = () => (
       <Logo />
       <div id="link_ribbon">
         <ul>
-          <li><Link to="/works">Works</Link></li>
+          <li><Link to={CoreSite[7].link}>Works</Link></li>
           <li className="spacer">|</li>
-          <li><Link to="/about">About</Link></li>
+          <li><Link to={CoreSite[1].link}>About</Link></li>
           <li className="spacer">|</li>
-          <li><Link to="/news">News</Link></li>
+          <li><Link to={CoreSite[6].link}>News</Link></li>
           <li className="spacer">|</li>
-          <li><Link to="/shops">Shops</Link></li>
+          <li><Link to={CoreSite[4].link}>Shops</Link></li>
           <li className="spacer">|</li>
-          <li><Link to="/links">Links</Link></li>
+          <li><Link to={CoreSite[2].link}>Contact</Link></li>
         </ul>
       </div>
     </div>

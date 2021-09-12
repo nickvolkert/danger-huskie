@@ -109,6 +109,615 @@ footer {
   .caption {
     margin: 10px 0 20px 0; } }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /*inherits body box-sizing declaration*/ }
+
+html {
+  font-size: 62.5%;
+  /* This Defines 1rem */ }
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  /*removes padding and margin to height and width*/
+  text-align: left;
+  font-size: 1.6rem;
+  letter-spacing: 0.16rem;
+  line-height: 2.8rem; }
+
+body.link-page,
+body.splash-page {
+  font-family: "Roboto Mono", monospace; }
+  body.link-page nav,
+  body.splash-page nav {
+    display: none; }
+  body.link-page p,
+  body.splash-page p {
+    font-size: 1.6rem;
+    margin: 0 0 20px 0;
+    font-family: "Roboto Mono", monospace; }
+
+h1,
+h2,
+h4 {
+  font-family: 'Anton', sans-serif;
+  color: #FFF; }
+
+h2 {
+  font-size: 2.8rem;
+  color: #0A2240; }
+
+.intro-text h2 {
+  font-size: 2.8rem;
+  color: #FFF;
+  text-transform: uppercase;
+  padding: 20px 0 10px 0;
+  letter-spacing: 3px; }
+
+#relatedDesigns h2 {
+  color: #FFF;
+  font-size: 4.0rem;
+  line-height: 4.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px; }
+
+.page404 h2 {
+  color: #FFF;
+  font-size: 4.0rem;
+  line-height: 4.4rem;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 25px 0; }
+
+h3 {
+  color: #FFF;
+  font-size: 1.6rem; }
+
+h4 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 9.5rem; }
+
+p {
+  color: #FFF; }
+
+.body-copy p {
+  margin-bottom: 20px; }
+
+a {
+  color: #fa4b91;
+  text-decoration: none;
+  margin-bottom: 2px; }
+  a:visited {
+    color: #60AAFF;
+    border-bottom: 2px solid #60AAFF;
+    text-decoration: none; }
+  a:hover {
+    color: #78b4fa;
+    border-bottom: 2px solid #78b4fa;
+    text-decoration: none; }
+
+#intro-text {
+  width: 540px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 60px; }
+
+.caption {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.0rem;
+  text-align: center; }
+
+@media only screen and (min-width: 768px) {
+  #splash-logo {
+    margin: 0 auto 4.0rem auto;
+    width: 800px;
+    height: 220px; }
+  h1 {
+    font-size: 7.0rem;
+    padding: 0 0 1.2rem 0;
+    letter-spacing: 0.7rem; }
+  h4 {
+    font-size: 5.0rem;
+    padding: 0 0 1.2rem 0;
+    letter-spacing: 0.7rem; }
+  #copyright p {
+    font-size: 1.2rem;
+    margin: 0 0 12px 0; } }
+
+@media only screen and (max-width: 767px) {
+  #splash-logo {
+    margin: 0 auto 2.0rem auto;
+    width: 300px;
+    height: 75px;
+    background-size: 100%; }
+  #intro-text {
+    width: 90%;
+    padding: 20px 0; }
+  h1 {
+    font-size: 4.0rem;
+    padding: 0 0 1.2rem 0;
+    letter-spacing: 0.4rem; }
+  h4 {
+    font-size: 3.0rem;
+    padding: 0 0 1.2rem 0;
+    letter-spacing: 0.3rem; }
+  #copyright p {
+    font-size: 1.0rem;
+    margin: 0 0 12px 0; }
+  #footer span::before {
+    content: "\A";
+    white-space: pre; } }
+
+.padding-bottom-20px {
+  padding-bottom: 20px; }
+
+.margin-bottom-30px {
+  margin-bottom: 30px; }
+
+.margin-bottom-40px {
+  margin-bottom: 40px; }
+
+.margin-bottom-60px {
+  margin-bottom: 60px; }
+
+.btn__link {
+  width: 330px;
+  height: 50px;
+  font-weight: 800;
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 6px;
+  text-decoration: none;
+  float: left;
+  transition: .4s;
+  line-height: 18px; }
+  .btn__link-primary {
+    background-color: #fa4b91;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 15px 0 0 0;
+    border: 3px solid #FFF; }
+    .btn__link-primary:visited {
+      background-color: #fa4b91;
+      color: #FFF; }
+    .btn__link-primary:hover {
+      background-color: rgba(238, 40, 59, 0.6);
+      color: #FFF; }
+  .btn__link-secondary-red {
+    background-color: #FFF;
+    color: #fa4b91;
+    border: 3px solid #fa4b91;
+    padding: 12px 0 0 0; }
+    .btn__link-secondary-red:visited {
+      color: #E51646;
+      border: 3px solid #E51646; }
+    .btn__link-secondary-red:hover {
+      color: #FFF;
+      background-color: #fa4b91;
+      border: 3px solid #fa4b91; }
+  .btn__link-secondary-blue {
+    background-color: #FFF;
+    color: #fa4b91;
+    border: 3px solid #fa4b91;
+    padding: 12px 0 0 0; }
+    .btn__link-secondary-blue:visited {
+      color: #60AAFF;
+      border: 3px solid #60AAFF; }
+    .btn__link-secondary-blue:hover {
+      color: #FFF;
+      background-color: #fa4b91;
+      border: 3px solid #fa4b91; }
+
+.btn__wrapper {
+  width: 330px;
+  margin: 0 auto; }
+
+.view-more-container_series {
+  width: 330px;
+  margin: 0 auto; }
+
+a.btn {
+  width: 100%;
+  height: 36px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-decoration: none;
+  display: block;
+  background-color: #FFF;
+  color: #EE283B;
+  border: 1px solid #EE283B;
+  padding: 11px 0 0 0;
+  margin: 0 0 16px 0;
+  transition: all .2s;
+  text-align: center;
+  line-height: 1rem; }
+  a.btn:visited {
+    border: 1px solid #60AAFF;
+    color: #60AAFF; }
+  a.btn:hover {
+    color: #FFF;
+    background-color: #EE283B;
+    border: 1px solid #FFF; }
+  a.btn.btn-primary,
+  a.btn .primary {
+    background-color: #EE283B;
+    color: #FFF;
+    text-transform: uppercase;
+    border: 1px solid #FFF; }
+    a.btn.btn-primary:visited,
+    a.btn .primary:visited {
+      background-color: #EE283B;
+      border: 1px solid #EE283B;
+      color: #FFF; }
+    a.btn.btn-primary:hover,
+    a.btn .primary:hover {
+      background-color: #EE283B;
+      border: 1px solid #FFF;
+      color: #FFF; }
+  a.btn.btn-secondary-blue {
+    color: #0A2240;
+    border: 1px solid #0A2240; }
+    a.btn.btn-secondary-blue:visited {
+      color: #60AAFF;
+      border: 1px solid #60AAFF;
+      background-color: #FFF; }
+    a.btn.btn-secondary-blue:hover {
+      background-color: #EE283B;
+      border: 1px solid #EE283B;
+      color: #FFF; }
+  a.btn.btn-ghost {
+    color: #0A2240;
+    border: 1px solid #0A2240;
+    background-color: transparent; }
+    a.btn.btn-ghost:visited {
+      color: #60AAFF;
+      border: 1px solid #60AAFF;
+      background-color: #FFF; }
+    a.btn.btn-ghost:hover {
+      background-color: #EE283B;
+      border: 1px solid #EE283B;
+      color: #FFF; }
+
+.projectImage a.btn {
+  display: inline-block;
+  width: 146px;
+  margin-right: 25px; }
+
+.projectImage a.btn:last-child {
+  margin-right: 0; }
+
+#projectwrapper.dark .btn-ghost {
+  color: #FFF;
+  border: 1px solid #FFF; }
+
+#relatedDesigns a.btn {
+  width: 330px;
+  margin: 0 auto; }
+
+footer {
+  background: #0A2240;
+  width: 100%;
+  height: 692px;
+  text-align: center;
+  color: #FFF;
+  background: linear-gradient(#0A2240, #EE283B);
+  clear: both;
+  font-size: 1.2rem; }
+  footer p.danger {
+    font-size: 1.2rem; }
+  footer #copyright {
+    font-family: "Roboto Mono", monospace; }
+    footer #copyright a:hover {
+      color: #FFF;
+      border-bottom-color: #FFF; }
+  footer a {
+    color: #FFF; }
+    footer a:visited {
+      color: #FFF; }
+    footer a:hover {
+      color: #FFF;
+      border-bottom-color: #FFF; }
+  footer ul {
+    padding: 0;
+    margin: 0; }
+    footer ul li {
+      padding: 0 5px;
+      margin: 0;
+      display: inline; }
+      footer ul li a {
+        padding: 0; }
+  footer #footer-top {
+    margin: 0 0 20px 0; }
+
+.splash footer {
+  background-color: #0A2240; }
+
+#footerLogo_wrapper {
+  margin: 0 auto 25px auto;
+  padding-top: 25px;
+  width: 220px;
+  height: auto; }
+
+#footer-logo a {
+  padding: 0;
+  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/centered-dh-logo.svg");
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
+  display: block;
+  width: 220px;
+  height: 245px;
+  border: none; }
+  #footer-logo a span {
+    display: none; }
+
+.page404page .hero {
+  height: 600px;
+  padding: 234px 0 0 0; }
+
+.projectpipe {
+  padding: 0 10px; }
+
+.hero {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  padding: 167px 0 0 0;
+  position: relative; }
+  .hero .project-info {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    background: rgba(248, 251, 253, 0.9); }
+    .hero .project-info ul {
+      list-style: none;
+      padding: 0 20px;
+      margin: 0; }
+      .hero .project-info ul li {
+        margin: 0;
+        display: inline;
+        line-height: 14px;
+        font-size: 1.2rem;
+        color: #0A2240;
+        letter-spacing: 3px; }
+    .hero .project-info a:visited {
+      color: #60AAFF; }
+  .hero h1 {
+    font-size: 12.0rem;
+    font-weight: 900;
+    line-height: 51px;
+    color: #FFF;
+    text-shadow: 0 0.25rem 1rem rgba(10, 34, 64, 0.5); }
+  .hero h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #FFF;
+    line-height: 39px; }
+  .hero-homepage {
+    background: #04495b url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_creepin.jpg) no-repeat center -150px; }
+  .hero-varsitypumpkin {
+    background: #53616e url(https://nickvolkert.sirv.com/dangerhuskie/works/004_varpump.jpg) no-repeat center -150px; }
+  .hero-about {
+    background: #EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px; }
+  .hero-news {
+    background: #4ac7e5 url(https://nickvolkert.sirv.com/dangerhuskie/works/005_happyrainbow.jpg) no-repeat center -180px; }
+  .hero-shops {
+    background: #7ecddd url(https://nickvolkert.sirv.com/dangerhuskie/works/012_cloudhugs.jpg) no-repeat center -180px; }
+  .hero-works {
+    background: #56dad4 url(https://nickvolkert.sirv.com/dangerhuskie/works/011_oversized.jpg) no-repeat center -190px; }
+
+@media only screen and (min-width: 1040px) {
+  .hero h1 {
+    font-size: 12.0rem;
+    line-height: 51px; } }
+
+@media only screen and (max-width: 768px) {
+  .projectpipe {
+    padding: 0 5px; }
+  .hero {
+    height: 220px;
+    padding: 80px 0 0 0;
+    background-size: 70%; }
+    .hero ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .hero ul li {
+        letter-spacing: 3px; }
+    .hero h1 {
+      font-size: 3.8rem;
+      line-height: 44px; }
+    .hero-homepage {
+      background-position: center -50px; }
+    .hero-varsitypumpkin {
+      background-position: center -50px; }
+    .hero-about {
+      background-position: center -40px;
+      background-size: 100%; }
+    .hero-news {
+      background-position: center -64px; }
+    .hero-shops {
+      background-position: center -73px; }
+    .hero-works {
+      background-position: center -86px; } }
+
+#logo_wrapper {
+  margin: 0 auto;
+  padding-top: 25px; }
+
+#logo_wrapper,
+#nav-logo {
+  width: 420px;
+  height: 103px; }
+
+#nav-logo {
+  padding: 0;
+  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/danger-huskie-onnavy.svg");
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
+  display: block; }
+  #nav-logo span {
+    display: none; }
+
+@media only screen and (max-width: 768px) {
+  #logo_wrapper {
+    padding-top: 19px; }
+  #logo_wrapper,
+  #nav-logo {
+    width: 320px;
+    height: 78px; } }
+
+nav {
+  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99; }
+  nav #nav_wrapper {
+    width: 100%;
+    position: relative;
+    height: 180px; }
+  nav #link_ribbon {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: #EE283B;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase; }
+    nav #link_ribbon ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      nav #link_ribbon ul li {
+        margin: 0;
+        padding: 0;
+        display: inline; }
+        nav #link_ribbon ul li a {
+          font-weight: bold;
+          color: #0A2240; }
+          nav #link_ribbon ul li a:hover {
+            border-bottom: 2px solid #0A2240;
+            margin-bottom: 2px; }
+        nav #link_ribbon ul li.spacer {
+          padding: 0 46px 0 44px; }
+
+@media only screen and (max-width: 768px) {
+  nav {
+    height: 145px; }
+    nav #nav_wrapper {
+      height: 145px; }
+    nav #link_ribbon ul li.spacer {
+      padding: 0 4px; } }
+
+#prevNext {
+  height: auto;
+  background-color: #051529;
+  width: 100%;
+  margin: 0 auto; }
+  #prevNext #prevNextWrapper {
+    margin: 0 auto;
+    padding: 30px 0; }
+  #prevNext .subLink {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.1rem;
+    letter-spacing: .13rem;
+    padding-bottom: 7px; }
+  #prevNext .mainLink {
+    font-weight: bold; }
+  #prevNext .prevImageWrapper,
+  #prevNext .nextImageWrapper {
+    width: 120px;
+    height: 120px; }
+  #prevNext .prevImageWrapper {
+    float: left;
+    margin-right: 20px; }
+  #prevNext .nextImageWrapper {
+    float: right;
+    margin-left: 20px; }
+  #prevNext a {
+    height: auto;
+    padding: 14px;
+    display: inline-block;
+    background-color: #0A2240;
+    color: #fa4b91; }
+    #prevNext a:visited p {
+      color: #C4DAEC; }
+    #prevNext a#prevLink {
+      text-align: left;
+      border-left: 3px solid #0A2240; }
+      #prevNext a#prevLink:hover {
+        border-left: 3px solid #EE283B;
+        border-bottom: none; }
+    #prevNext a#nextLink {
+      text-align: right;
+      border-right: 3px solid #0A2240; }
+      #prevNext a#nextLink:hover {
+        border-right: 3px solid #EE283B;
+        border-bottom: none; }
+    #prevNext a img {
+      width: 120px; }
+
+@media only screen and (min-width: 1040px) {
+  #prevNext #prevNextWrapper {
+    width: 1040px; }
+  #prevNext a {
+    width: 48%; }
+    #prevNext a#prevLink {
+      float: left; }
+    #prevNext a#nextLink {
+      float: right; } }
+
+@media only screen and (max-width: 1039px) {
+  #prevNext {
+    width: 100%;
+    height: auto; }
+    #prevNext #prevNextWrapper {
+      width: 990px; }
+    #prevNext a {
+      width: 100%; }
+      #prevNext a#prevLink {
+        float: left; }
+      #prevNext a#nextLink {
+        margin-top: 10px;
+        float: left;
+        clear: left; } }
+
+@media only screen and (max-width: 1039px) {
+  #prevNext {
+    width: 100%;
+    height: auto; }
+    #prevNext #prevNextWrapper {
+      width: 100%;
+      padding: 20px; }
+    #prevNext .subLink {
+      font-size: 1.0rem; }
+    #prevNext p {
+      margin: 0;
+      padding: 0; }
+    #prevNext a {
+      width: 100%; }
+      #prevNext a#prevLink {
+        float: left; }
+      #prevNext a#nextLink {
+        margin-top: 10px;
+        float: left;
+        clear: left; } }
+
 .card {
   width: 330px;
   height: auto;
@@ -122,7 +731,9 @@ footer {
     .card .cardWrapper:hover {
       margin-top: -5px; }
   .card .cardImage {
-    width: 100%; }
+    width: 100%;
+    min-width: 320px;
+    min-height: 320px; }
     .card .cardImage a {
       color: #FFF;
       padding: 0; }
@@ -130,10 +741,13 @@ footer {
         border-bottom: none; }
     .card .cardImage img {
       width: 100%;
-      height: auto; }
+      max-width: none;
+      height: auto;
+      float: left; }
   .card .cardInfo {
     padding: 27px 20px 22px;
-    width: 100%; }
+    width: 100%;
+    clear: both; }
     .card .cardInfo .cardTitleLink {
       font-family: "Anton", sans-serif;
       font-size: 2.0rem;
@@ -311,553 +925,6 @@ footer {
     width: 100%;
     margin: 0 auto; } }
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  /*inherits body box-sizing declaration*/ }
-
-html {
-  font-size: 62.5%;
-  /* This Defines 1rem */ }
-
-body {
-  font-family: 'Exo 2', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  box-sizing: border-box;
-  /*removes padding and margin to height and width*/
-  text-align: left;
-  font-size: 1.6rem;
-  letter-spacing: 0.16rem;
-  line-height: 2.8rem; }
-
-body.link-page,
-body.splash-page {
-  font-family: "Roboto Mono", monospace; }
-  body.link-page nav,
-  body.splash-page nav {
-    display: none; }
-  body.link-page p,
-  body.splash-page p {
-    font-size: 1.6rem;
-    margin: 0 0 20px 0;
-    font-family: "Roboto Mono", monospace; }
-
-h1,
-h2,
-h4 {
-  font-family: 'Anton', sans-serif;
-  color: #FFF; }
-
-h2 {
-  font-size: 2.8rem;
-  color: #0A2240; }
-
-.intro-text h2 {
-  font-size: 2.8rem;
-  color: #FFF;
-  text-transform: uppercase;
-  padding: 20px 0 10px 0;
-  letter-spacing: 3px; }
-
-#relatedDesigns h2 {
-  color: #FFF;
-  font-size: 4.0rem;
-  line-height: 4.4rem;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 25px; }
-
-.page404 h2 {
-  color: #FFF;
-  font-size: 4.0rem;
-  line-height: 4.4rem;
-  text-transform: uppercase;
-  text-align: left;
-  margin: 25px 0; }
-
-h3 {
-  color: #FFF;
-  font-size: 1.6rem; }
-
-h4 {
-  margin: 0;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 9.5rem; }
-
-p {
-  color: #FFF; }
-
-.body-copy p {
-  margin-bottom: 20px; }
-
-a {
-  color: #EE283B;
-  text-decoration: none;
-  margin-bottom: 2px; }
-  a:visited {
-    color: #C4DAEC;
-    border-bottom: 2px solid #C4DAEC;
-    text-decoration: none; }
-  a:hover {
-    color: #EE283B;
-    border-bottom: 2px solid #EE283B;
-    text-decoration: none; }
-
-#intro-text {
-  width: 540px;
-  height: auto;
-  margin: 0 auto;
-  padding-top: 60px; }
-
-.caption {
-  font-family: "Roboto Mono", monospace;
-  font-size: 1.0rem;
-  text-align: center; }
-
-@media only screen and (min-width: 768px) {
-  #splash-logo {
-    margin: 0 auto 4.0rem auto;
-    width: 800px;
-    height: 220px; }
-  h1 {
-    font-size: 7.0rem;
-    padding: 0 0 1.2rem 0;
-    letter-spacing: 0.7rem; }
-  h4 {
-    font-size: 5.0rem;
-    padding: 0 0 1.2rem 0;
-    letter-spacing: 0.7rem; }
-  #copyright p {
-    font-size: 1.2rem;
-    margin: 0 0 12px 0; } }
-
-@media only screen and (max-width: 767px) {
-  #splash-logo {
-    margin: 0 auto 2.0rem auto;
-    width: 300px;
-    height: 75px;
-    background-size: 100%; }
-  #intro-text {
-    width: 90%;
-    padding: 20px 0; }
-  h1 {
-    font-size: 4.0rem;
-    padding: 0 0 1.2rem 0;
-    letter-spacing: 0.4rem; }
-  h4 {
-    font-size: 3.0rem;
-    padding: 0 0 1.2rem 0;
-    letter-spacing: 0.3rem; }
-  #copyright p {
-    font-size: 1.0rem;
-    margin: 0 0 12px 0; }
-  #footer span::before {
-    content: "\A";
-    white-space: pre; } }
-
-.padding-bottom-20px {
-  padding-bottom: 20px; }
-
-.margin-bottom-30px {
-  margin-bottom: 30px; }
-
-.margin-bottom-40px {
-  margin-bottom: 40px; }
-
-.margin-bottom-60px {
-  margin-bottom: 60px; }
-
-.btn__link {
-  width: 330px;
-  height: 50px;
-  font-weight: 800;
-  font-size: 1.4rem;
-  text-align: center;
-  border-radius: 6px;
-  text-decoration: none;
-  float: left;
-  transition: .4s;
-  line-height: 18px; }
-  .btn__link-primary {
-    background-color: #EE283B;
-    color: #FFF;
-    text-transform: uppercase;
-    padding: 15px 0 0 0;
-    border: 3px solid #FFF; }
-    .btn__link-primary:visited {
-      background-color: #EE283B;
-      color: #FFF; }
-    .btn__link-primary:hover {
-      background-color: rgba(238, 40, 59, 0.6);
-      color: #FFF; }
-  .btn__link-secondary-red {
-    background-color: #FFF;
-    color: #EE283B;
-    border: 3px solid #EE283B;
-    padding: 12px 0 0 0; }
-    .btn__link-secondary-red:visited {
-      color: #E51646;
-      border: 3px solid #E51646; }
-    .btn__link-secondary-red:hover {
-      color: #FFF;
-      background-color: #EE283B;
-      border: 3px solid #EE283B; }
-  .btn__link-secondary-blue {
-    background-color: #FFF;
-    color: #EE283B;
-    border: 3px solid #EE283B;
-    padding: 12px 0 0 0; }
-    .btn__link-secondary-blue:visited {
-      color: #3F74B7;
-      border: 3px solid #3F74B7; }
-    .btn__link-secondary-blue:hover {
-      color: #FFF;
-      background-color: #EE283B;
-      border: 3px solid #EE283B; }
-
-.btn__wrapper {
-  width: 330px;
-  margin: 0 auto; }
-
-.view-more-container_series {
-  width: 330px;
-  margin: 0 auto; }
-
-a.btn {
-  width: 100%;
-  height: 36px;
-  font-weight: bold;
-  font-size: 1.4rem;
-  text-decoration: none;
-  display: block;
-  background-color: #FFF;
-  color: #EE283B;
-  border: 1px solid #EE283B;
-  padding: 11px 0 0 0;
-  margin: 0 0 16px 0;
-  transition: all .2s;
-  text-align: center;
-  line-height: 1rem; }
-  a.btn:visited {
-    border: 1px solid #3F74B7;
-    color: #3F74B7; }
-  a.btn:hover {
-    color: #FFF;
-    background-color: #EE283B;
-    border: 1px solid #FFF; }
-  a.btn.btn-primary,
-  a.btn .primary {
-    background-color: #EE283B;
-    color: #FFF;
-    text-transform: uppercase;
-    border: 1px solid #FFF; }
-    a.btn.btn-primary:visited,
-    a.btn .primary:visited {
-      background-color: #EE283B;
-      border: 1px solid #EE283B;
-      color: #FFF; }
-    a.btn.btn-primary:hover,
-    a.btn .primary:hover {
-      background-color: #EE283B;
-      border: 1px solid #FFF;
-      color: #FFF; }
-  a.btn.btn-secondary-blue {
-    color: #0A2240;
-    border: 1px solid #0A2240; }
-    a.btn.btn-secondary-blue:visited {
-      color: #3F74B7;
-      border: 1px solid #3F74B7;
-      background-color: #FFF; }
-    a.btn.btn-secondary-blue:hover {
-      background-color: #EE283B;
-      border: 1px solid #EE283B;
-      color: #FFF; }
-  a.btn.btn-ghost {
-    color: #0A2240;
-    border: 1px solid #0A2240;
-    background-color: transparent; }
-    a.btn.btn-ghost:visited {
-      color: #3F74B7;
-      border: 1px solid #3F74B7;
-      background-color: #FFF; }
-    a.btn.btn-ghost:hover {
-      background-color: #EE283B;
-      border: 1px solid #EE283B;
-      color: #FFF; }
-
-.projectImage a.btn {
-  display: inline-block;
-  width: 146px;
-  margin-right: 25px; }
-
-.projectImage a.btn:last-child {
-  margin-right: 0; }
-
-#projectwrapper.dark .btn-ghost {
-  color: #FFF;
-  border: 1px solid #FFF; }
-
-#relatedDesigns a.btn {
-  width: 330px;
-  margin: 0 auto; }
-
-.page404page .hero {
-  height: 600px;
-  padding: 234px 0 0 0; }
-
-.projectpipe {
-  padding: 0 10px; }
-
-.hero {
-  width: 100%;
-  height: 400px;
-  text-align: center;
-  color: #FFF;
-  text-transform: uppercase;
-  padding: 167px 0 0 0;
-  position: relative; }
-  .hero .project-info {
-    width: auto;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 30px;
-    background: rgba(248, 251, 253, 0.9); }
-    .hero .project-info ul {
-      list-style: none;
-      padding: 0 20px;
-      margin: 0; }
-      .hero .project-info ul li {
-        margin: 0;
-        display: inline;
-        line-height: 14px;
-        font-size: 1.2rem;
-        color: #0A2240;
-        letter-spacing: 3px; }
-    .hero .project-info a:visited {
-      color: #3F74B7; }
-  .hero h1 {
-    font-size: 12.0rem;
-    font-weight: 900;
-    line-height: 51px;
-    color: #FFF;
-    text-shadow: 0 0.25rem 1rem rgba(10, 34, 64, 0.5); }
-  .hero h2 {
-    font-size: 30px;
-    font-weight: 900;
-    color: #FFF;
-    line-height: 39px; }
-  .hero-homepage {
-    background: #04495b url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_creepin.jpg) no-repeat center -150px; }
-  .hero-varsitypumpkin {
-    background: #53616e url(https://nickvolkert.sirv.com/dangerhuskie/works/004_varpump.jpg) no-repeat center -150px; }
-  .hero-about {
-    background: #EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px; }
-  .hero-newslanding {
-    background: #4ac7e5 url(https://nickvolkert.sirv.com/dangerhuskie/works/005_happyrainbow.jpg) no-repeat center -180px; }
-  .hero-shops {
-    background: #a2dcf9 url(https://nickvolkert.sirv.com/dangerhuskie/works/006_joy.jpg) no-repeat center -180px; }
-
-@media only screen and (min-width: 1040px) {
-  .hero h1 {
-    font-size: 12.0rem;
-    line-height: 51px; } }
-
-@media only screen and (max-width: 768px) {
-  .projectpipe {
-    padding: 0 5px; }
-  .hero {
-    height: 220px;
-    padding: 80px 0 0 0;
-    background-size: 70%; }
-    .hero ul {
-      list-style: none;
-      padding: 0;
-      margin: 0; }
-      .hero ul li {
-        letter-spacing: 3px; }
-    .hero h1 {
-      font-size: 3.8rem;
-      line-height: 44px; }
-    .hero-homepage {
-      background-position: center -50px; }
-    .hero-varsitypumpkin {
-      background-position: center -50px; }
-    .hero-about {
-      background-position: center -40px;
-      background-size: 100%; }
-    .hero-newslanding {
-      background-position: center -64px; }
-    .hero-shops {
-      background-position: center -75px; } }
-
-#logo_wrapper {
-  margin: 0 auto;
-  padding-top: 25px; }
-
-#logo_wrapper,
-#nav-logo {
-  width: 420px;
-  height: 103px; }
-
-#nav-logo {
-  padding: 0;
-  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/danger-huskie-onnavy.svg");
-  background-repeat: no-repeat;
-  filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
-  display: block; }
-  #nav-logo span {
-    display: none; }
-
-@media only screen and (max-width: 768px) {
-  #logo_wrapper {
-    padding-top: 19px; }
-  #logo_wrapper,
-  #nav-logo {
-    width: 320px;
-    height: 78px; } }
-
-nav {
-  width: 100%;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 99; }
-  nav #nav_wrapper {
-    width: 100%;
-    position: relative;
-    height: 180px; }
-  nav #link_ribbon {
-    width: 100%;
-    height: 30px;
-    text-align: center;
-    background-color: #EE283B;
-    position: absolute;
-    bottom: 0;
-    text-transform: uppercase; }
-    nav #link_ribbon ul {
-      list-style: none;
-      margin: 0;
-      padding: 0; }
-      nav #link_ribbon ul li {
-        margin: 0;
-        padding: 0;
-        display: inline; }
-        nav #link_ribbon ul li a {
-          font-weight: bold;
-          color: #0A2240; }
-          nav #link_ribbon ul li a:hover {
-            border-bottom: 2px solid #0A2240;
-            margin-bottom: 2px; }
-        nav #link_ribbon ul li.spacer {
-          padding: 0 46px 0 44px; }
-
-@media only screen and (max-width: 768px) {
-  nav {
-    height: 145px; }
-    nav #nav_wrapper {
-      height: 145px; }
-    nav #link_ribbon ul li.spacer {
-      padding: 0 8px; } }
-
-#prevNext {
-  height: auto;
-  background-color: #051529;
-  width: 100%;
-  margin: 0 auto; }
-  #prevNext #prevNextWrapper {
-    margin: 0 auto;
-    padding: 30px 0; }
-  #prevNext .subLink {
-    font-family: "Roboto Mono", monospace;
-    font-size: 1.1rem;
-    letter-spacing: .13rem;
-    padding-bottom: 7px; }
-  #prevNext .mainLink {
-    font-weight: bold; }
-  #prevNext a {
-    height: auto;
-    padding: 14px;
-    display: inline-block;
-    background-color: #0A2240;
-    color: #EE283B; }
-    #prevNext a:visited p {
-      color: #C4DAEC; }
-    #prevNext a#prevLink {
-      text-align: left;
-      border-left: 3px solid #0A2240; }
-      #prevNext a#prevLink img {
-        float: left;
-        margin-right: 20px; }
-      #prevNext a#prevLink:hover {
-        border-left: 3px solid #EE283B;
-        border-bottom: none; }
-    #prevNext a#nextLink {
-      text-align: right;
-      border-right: 3px solid #0A2240; }
-      #prevNext a#nextLink img {
-        float: right;
-        margin-left: 20px; }
-      #prevNext a#nextLink:hover {
-        border-right: 3px solid #EE283B;
-        border-bottom: none; }
-    #prevNext a img {
-      width: 120px; }
-
-@media only screen and (min-width: 1040px) {
-  #prevNext #prevNextWrapper {
-    width: 1040px; }
-  #prevNext a {
-    width: 48%; }
-    #prevNext a#prevLink {
-      float: left; }
-    #prevNext a#nextLink {
-      float: right; } }
-
-@media only screen and (max-width: 1039px) {
-  #prevNext {
-    width: 100%;
-    height: auto; }
-    #prevNext #prevNextWrapper {
-      width: 990px; }
-    #prevNext a {
-      width: 100%; }
-      #prevNext a#prevLink {
-        float: left; }
-      #prevNext a#nextLink {
-        margin-top: 10px;
-        float: left;
-        clear: left; } }
-
-@media only screen and (max-width: 1039px) {
-  #prevNext {
-    width: 100%;
-    height: auto; }
-    #prevNext #prevNextWrapper {
-      width: 100%;
-      padding: 20px; }
-    #prevNext .subLink {
-      font-size: 1.0rem; }
-    #prevNext p {
-      margin: 0;
-      padding: 0; }
-    #prevNext a {
-      width: 100%; }
-      #prevNext a#prevLink {
-        float: left; }
-      #prevNext a#nextLink {
-        margin-top: 10px;
-        float: left;
-        clear: left; }
-      #prevNext a img {
-        width: 60px; } }
-
 .sociallinks {
   width: 127px;
   height: 28px; }
@@ -942,7 +1009,7 @@ footer .sociallinks {
       font-size: 3.8rem;
       line-height: 4.0rem; } }
 
-#contact-dangerhuskie {
+#contact-images {
   background: url(https://nickvolkert.sirv.com/_sitegraphics/pages/aboutpage-nvolkert.jpg) no-repeat -41px -3px;
   background-size: 135%; }
 
@@ -1017,6 +1084,8 @@ footer .sociallinks {
     #linkspage .pbds .pbd-image-link {
       width: auto;
       height: auto; }
+      #linkspage .pbds .pbd-image-link:hover {
+        border-bottom: none; }
   @media only screen and (min-width: 768px) {
     #linkspage #wrapper,
     #linkspage #header,
@@ -1114,9 +1183,6 @@ footer .sociallinks {
   width: 300px;
   border-radius: 50%; }
 
-#news-landing a:link {
-  border-bottom: 2px solid #FFF; }
-
 #launch-dangerhuskie {
   background: #EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center center; }
 
@@ -1142,56 +1208,3 @@ body.shops h2 {
 
 .shopListing {
   margin-bottom: 20px; }
-
-footer {
-  background: #0A2240;
-  width: 100%;
-  height: 692px;
-  text-align: center;
-  color: #FFF;
-  background: linear-gradient(#0A2240, #EE283B);
-  clear: both;
-  font-size: 1.2rem; }
-  footer p.danger {
-    font-size: 1.2rem; }
-  footer #copyright {
-    font-family: "Roboto Mono", monospace; }
-    footer #copyright a:hover {
-      color: #FFF;
-      border-bottom-color: #FFF; }
-  footer a {
-    color: #FFF; }
-    footer a:visited {
-      color: #C4DAEC; }
-  footer ul {
-    padding: 0;
-    margin: 0; }
-    footer ul li {
-      padding: 0 5px;
-      margin: 0;
-      display: inline; }
-      footer ul li a {
-        padding: 0; }
-  footer #footer-top {
-    margin: 0 0 20px 0; }
-
-.splash footer {
-  background-color: #0A2240; }
-
-#footerLogo_wrapper {
-  margin: 0 auto 25px auto;
-  padding-top: 25px;
-  width: 220px;
-  height: auto; }
-
-#footer-logo a {
-  padding: 0;
-  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/centered-dh-logo.svg");
-  background-repeat: no-repeat;
-  filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
-  display: block;
-  width: 220px;
-  height: 245px;
-  border: none; }
-  #footer-logo a span {
-    display: none; }

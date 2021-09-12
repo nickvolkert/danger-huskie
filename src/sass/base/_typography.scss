@@ -78,17 +78,17 @@ p{
     margin-bottom:20px;
 }
 a{
-    color:$color-primary;
+    color:$color-a-tag;
     text-decoration: none;
     margin-bottom:2px;
     &:visited{
-        color:$color-lt-blue;
-        border-bottom:2px solid $color-lt-blue;
+        color:$color-a-visited;
+        border-bottom:2px solid $color-a-visited;
         text-decoration: none;
     }
     &:hover{
-        color:$color-a-tag;
-        border-bottom:2px solid $color-a-tag;
+        color:$color-a-hover;
+        border-bottom:2px solid $color-a-hover;
         text-decoration: none;
     }
 }

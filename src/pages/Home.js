@@ -3,18 +3,23 @@ import { Link } from "react-router-dom";
 import Content from "../components/Content";
 import Clearfix from "../components/Clearfix";
 import DangerHuskie from "../json/DangerHuskie.json";
+import CoreSite from "../json/CoreSite.json";
 import Basiccard from "../components/Basiccard";
 import Hero from "../components/Hero";
 import Btn from '../components/Btn';
 import HelmetMeta from "../components/HelmetMeta";
 
 let source = DangerHuskie;
-let x = 19; //Varsity Pumpkin Head
-let pagename = "A Time For Danger";
-let subhead = "DangerHuskie by Nick Volkert"
-let metadescription = "Home page of the vector project DangerHuskie by Nick Volkert.";
-let pagelinkurl = "/";
-let metaimageurl = DangerHuskie[x].meta;
+let x = 0;
+let y = 19; //Varsity Pumpkin Head
+
+let pagename = CoreSite[x].title;
+let subhead = CoreSite[x].heading;
+let metadescription = CoreSite[x].description;
+let pagelinkurl = CoreSite[x].link;
+let metaimageurl = CoreSite[x].image;
+let altmeta = CoreSite[x].alttext;
+let pageheadtags = CoreSite[x].tags;
 
 let lastillo = [DangerHuskie.length];
 let threeillo = [DangerHuskie.length - 6];
@@ -27,13 +32,15 @@ const Home = () => (
         pageDescription={metadescription}
         pageLink={pagelinkurl}
         metaImage={metaimageurl}
+        altText={altmeta}
+        pageTags={pageheadtags}
     />
     <Hero
             heroClass="-homepage"
             heroH1={pagename}
-            heroImage={source[x].image}
-            heroDescription={source[x].title}
-            heroLink={source[x].link}
+            heroImage={source[y].image}
+            heroDescription={source[y].title}
+            heroLink={source[y].link}
         />
     <Content>
       <div id="intro-text">
@@ -54,6 +61,7 @@ const Home = () => (
                     cardimageTitle={postDetail.title}
                     cardDate={postDetail.date}
                     cardDescription={postDetail.description}
+                    cardBackground={postDetail.backgroundcolor}
                 />
             }).reverse()}
             <Clearfix />

@@ -4,15 +4,16 @@
 
 @import "base/animations";
 @import "base/base";
-@import "base/projectcards";
 @import "base/typography";
 @import "base/utilities";
 
 @import "components/buttons";
+@import "components/footer";
 @import "components/heroimages";
 @import "components/logo";
 @import "components/nav";
 @import "components/prevnextlinks";
+@import "components/projectcards";
 @import "components/sociallinks";
 
 @import "pages/home";
@@ -21,6 +22,3 @@
 @import "pages/links";
 @import "pages/news";
 @import "pages/shop";
-
-@import "layout/navigation";
-@import "layout/footer";

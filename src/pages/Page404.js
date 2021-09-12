@@ -1,33 +1,42 @@
 import React from "react";
-import {Helmet} from "react-helmet";
 import { Link } from "react-router-dom";
 import Content from "../components/Content";
+import HelmetMeta from "../components/HelmetMeta";
 import BodyClassName from "react-body-classname";
 import DangerHuskie from "../json/DangerHuskie.json";
+import CoreSite from "../json/CoreSite.json";
 import Hero from "../components/Hero";
 
 let source = DangerHuskie;
-let pagename = "404";
-let y = 3;
-let x = 3; //Varsity Pumpkin
+let x = 5;
+let y = 3; //Varsity Pumpkin
+
+let pagename = CoreSite[x].title;
+let subhead = CoreSite[x].heading;
+let metadescription = CoreSite[x].description;
+let pagelinkurl = CoreSite[x].link;
+let metaimageurl = CoreSite[x].image;
+let altmeta = CoreSite[x].alttext;
+let pageheadtags = CoreSite[x].tags;
 
 const Page404 = () => (
     <div id="Page404">
-        <Helmet>
-        <title>{pagename} | Nick Volkert</title>
-        <meta property="og:description" content={pagename + " | Whoops"} />
-        <meta property="og:image" content={source[y].image}></meta>
-        <meta property="og:url" content={"http://dangerhuskie.com"} ></meta>
-        <meta property="og:type" content="website"/>
-        <meta name="prerender-status-code" content="404" />
-    </Helmet>
+        <HelmetMeta 
+            pageName={pagename}
+            pageSubhead = {subhead}
+            pageDescription={metadescription}
+            pageLink={pagelinkurl}
+            metaImage={metaimageurl}
+            altText={altmeta}
+            pageTags={pageheadtags}
+        />
     <BodyClassName className="page404"></BodyClassName>
     <Hero
             heroClass="-varsitypumpkin"
             heroH1={pagename}
-            heroImage={source[x].image}
-            heroDescription={source[x].title}
-            heroLink={source[x].link}
+            heroImage={source[y].image}
+            heroDescription={source[y].title}
+            heroLink={source[y].link}
         />
     <Content>
         <div id="breadcrumb">
@@ -42,12 +51,9 @@ const Page404 = () => (
         <Content>
             <div className="intro-text">
                 <h2>Don't venture here little pup!</h2>
-                <p>Get back to safety: <Link to="/">Go back home</Link></p>
+                <p>Get back to safety: <Link to="/" rel="dofollow">Go back home</Link></p>
             </div>
         </Content>
-    </section>
-
-    <section>
     </section>
     </div>
     );

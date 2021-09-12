@@ -5,15 +5,20 @@ import Hero from "../../components/Hero";
 import BodyClassName from "react-body-classname";
 import Clearfix from "../../components/Clearfix";
 import DangerHuskie from "../../json/DangerHuskie.json";
+import CoreSite from "../../json/CoreSite.json";
 import HelmetMeta from "../../components/HelmetMeta";
 
 let source = DangerHuskie;
-let x = 4; //Happy Rainbow
-let pagename = "News";
-let subhead = "DangerHuskie News!"
-let metadescription = "Home page of the vector project DangerHuskie by Nick Volkert.";
-let pagelinkurl = "/news";
-let metaimageurl = DangerHuskie[x].meta;
+let x = 6;
+let y = 4; //Happy Rainbow
+
+let pagename = CoreSite[x].title;
+let subhead = CoreSite[x].heading;
+let metadescription = CoreSite[x].description;
+let pagelinkurl = CoreSite[x].link;
+let metaimageurl = CoreSite[x].image;
+let altmeta = CoreSite[x].alttext;
+let pageheadtags = CoreSite[x].tags;
 
 const News = () => (
     <div id="news-landing">
@@ -23,14 +28,16 @@ const News = () => (
             pageDescription={metadescription}
             pageLink={pagelinkurl}
             metaImage={metaimageurl}
+            altText={altmeta}
+            pageTags={pageheadtags}
         />
     <BodyClassName className="newslanding"></BodyClassName>
     <Hero
-            heroClass="-newslanding"
+            heroClass="-news"
             heroH1={pagename}
-            heroImage={source[x].image}
-            heroDescription={source[x].title}
-            heroLink={source[x].link}
+            heroImage={source[y].image}
+            heroDescription={source[y].title}
+            heroLink={source[y].link}
         />
     <Content>
         <div id="breadcrumb">

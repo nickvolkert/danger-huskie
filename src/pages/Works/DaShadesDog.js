@@ -40,12 +40,14 @@ const DaShadesDog = () => (
             prevAlttext={source[prev].alttext}
             prevTitle={source[prev].title}
             prevLinkText={NextandPrev[0].prev}
+            prevBackGroundColor={source[prev].backgroundcolor}
 
             nextLink={source[next].link}
             nextImage={source[next].preview} 
             nextTitle={source[next].title}
             nextAlttext={source[next].alttext}
             nextLinkText={NextandPrev[0].next}
+            nextBackGroundColor={source[next].backgroundcolor}
             />
         <BlockVectorIllos/>
     </div>

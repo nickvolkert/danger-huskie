@@ -25,6 +25,7 @@ const Renderedillo = props => (
                 <title>{props.illoTitle + me}</title>
                 <link rel="canonical" href={domain + props.pageLink} />
                 <meta name="title" content={props.illoTitle + me} />
+                <meta name="keywords" content={props.illoTags} />
                 <meta name="description" content={props.illoDescription} />
                 <meta property="og:description" content={props.illoDescription} />
                 <meta property="og:type" content="website"/>

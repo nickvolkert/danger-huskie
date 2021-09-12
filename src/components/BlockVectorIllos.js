@@ -22,6 +22,7 @@ const BlockVectorIllos = () => (
                         cardimageTitle={postDetail.title}
                         cardDate={postDetail.date}
                         cardDescription={postDetail.description}
+                        cardBackground={postDetail.backgroundcolor}
                     />
                 }).reverse()}
                     <Clearfix />

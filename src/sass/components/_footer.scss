@@ -24,7 +24,11 @@ footer{
         color:$color-white;
 
         &:visited{
-            color:$color-lt-blue;
+            color:$color-white;
+        }
+        &:hover{
+            color:$color-white;
+            border-bottom-color: $color-white;
         }
     }
     ul{

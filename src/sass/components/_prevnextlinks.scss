@@ -18,6 +18,19 @@
     .mainLink{
         font-weight: bold;
     }
+    .prevImageWrapper,
+    .nextImageWrapper{
+        width:120px;
+        height: 120px;
+    }
+    .prevImageWrapper{
+        float: left;
+        margin-right: 20px;
+    }
+    .nextImageWrapper{
+        float: right;
+        margin-left: 20px;
+    }
         
     a {
         height: auto;
@@ -35,24 +48,17 @@
         &#prevLink{
             text-align: left;
             border-left: 3px solid $color-navy;
-            img{
-                float: left;
-                margin-right: 20px;
-            }
             &:hover{
-                border-left: 3px solid $color-a-tag;
+                border-left: 3px solid $color-primary;
                 border-bottom:none;
             }
         }
         &#nextLink{
             text-align: right;
             border-right: 3px solid $color-navy;
-            img{
-                float: right;
-                margin-left: 20px;
-            }
+
             &:hover{
-                border-right: 3px solid $color-a-tag;
+                border-right: 3px solid $color-primary;
                 border-bottom:none;
             }
         }
@@ -127,9 +133,6 @@
                 margin-top: 10px;
                 float:left;
                 clear: left;
-            }
-            img{
-                width: 60px;
             }
         }
     }

@@ -5,14 +5,22 @@ import BodyClassName from "react-body-classname";
 import Clearfix from "../components/Clearfix";
 import BlockVectorIllos from "../components/BlockVectorIllos";
 import HelmetMeta from "../components/HelmetMeta";
+import Hero from "../components/Hero";
 import SocialURLs from "../json/SocialURLs.json";
+import DangerHuskie from "../json/DangerHuskie";
 import ContactSocialLink from "../components/ContactSocialLink";
+import CoreSite from "../json/CoreSite.json";
 
-let pagename = "Contact";
-let subhead = "Reach out to DangerHuskie"
-let metadescription = "Contact the artist about the vector project DangerHuskie by Chicagoland artist Nick Volkert";
-let pagelinkurl = "/contact";
-let metaimageurl = "https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg";
+let source = DangerHuskie;
+let x = 2;
+let y = 21;
+let pagename = CoreSite[x].title;
+let subhead = CoreSite[x].heading;
+let metadescription = CoreSite[x].description;
+let pagelinkurl = CoreSite[x].link;
+let metaimageurl = CoreSite[x].image;
+let altmeta = CoreSite[x].alttext;
+let pageheadtags = CoreSite[x].tags;
 
 const Contact = () => (
     <div id="contact">
@@ -22,11 +30,17 @@ const Contact = () => (
             pageDescription={metadescription}
             pageLink={pagelinkurl}
             metaImage={metaimageurl}
+            altText={altmeta}
+            pageTags={pageheadtags}
         />
     <BodyClassName className="contact-page"></BodyClassName>
-    <div className="hero hero-about">
-        <h1>{pagename}</h1>
-    </div>
+    <Hero
+            heroClass="-shops"
+            heroH1={pagename}
+            heroImage={source[y].image}
+            heroDescription={source[y].title}
+            heroLink={source[y].link}
+        />
     <Content>
         <div id="breadcrumb">
                 <ul>
@@ -40,7 +54,7 @@ const Contact = () => (
     <section>
         <Content>
             <div id="about-images" className="leftRail">
-                <div id="contact-dangerhuskie" className="leftRailImage">
+                <div id="contact-images" className="leftRailImage">
                     <span>Nick Volkert working in his home studio in Chicagoland.</span>
                 </div>
                 <p className="caption">Nick Volkert in his home studio, 2021.</p>

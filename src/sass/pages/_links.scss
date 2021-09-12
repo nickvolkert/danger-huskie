@@ -53,6 +53,10 @@
         .pbd-image-link{
             width:auto;
             height: auto;
+
+            &:hover{
+                border-bottom: none;
+            }
         }
     }
 

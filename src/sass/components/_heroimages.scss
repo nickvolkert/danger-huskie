@@ -67,11 +67,14 @@
     &-about{
       background:#EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px;
     }
-    &-newslanding{
+    &-news{
       background:#4ac7e5 url(https://nickvolkert.sirv.com/dangerhuskie/works/005_happyrainbow.jpg) no-repeat center -180px;
     }
     &-shops{
-      background:#a2dcf9 url(https://nickvolkert.sirv.com/dangerhuskie/works/006_joy.jpg) no-repeat center -180px;
+      background:#7ecddd url(https://nickvolkert.sirv.com/dangerhuskie/works/012_cloudhugs.jpg) no-repeat center -180px;
+    }
+    &-works{
+      background:#56dad4 url(https://nickvolkert.sirv.com/dangerhuskie/works/011_oversized.jpg) no-repeat center -190px;
     }
   }
 @media only screen and (min-width: 1040px) {
@@ -113,11 +116,14 @@
       background-position: center -40px;
       background-size:100%;
     }
-    &-newslanding{
+    &-news{
       background-position: center -64px;
     }
     &-shops{
-      background-position: center -75px;
+      background-position: center -73px;
+    }
+    &-works{
+      background-position: center -86px;
     }
   }
 }

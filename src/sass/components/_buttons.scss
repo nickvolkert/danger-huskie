@@ -11,14 +11,14 @@
     line-height: 18px;
 
     &-primary {
-        background-color: $color-primary;
+        background-color: $color-a-tag;
         color: $color-white;
         text-transform: uppercase;
         padding: 15px 0 0 0;
         border: 3px solid $color-white;
 
         &:visited{
-          background-color: $color-primary;
+          background-color: $color-a-tag;
           color: $color-white;
           }
 
@@ -29,8 +29,8 @@
     }
     &-secondary-red {
         background-color: $color-white;
-        color: $color-primary;
-        border: 3px solid $color-primary;
+        color: $color-a-tag;
+        border: 3px solid $color-a-tag;
         padding: 12px 0 0 0;
 
         &:visited {

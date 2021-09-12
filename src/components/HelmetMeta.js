@@ -10,6 +10,7 @@ const HelmetMeta = props => (
             <title>{props.pageName + me}</title>
             <link rel="canonical" href={domain + props.pageLink} />
             <meta name="title" content={props.pageName + me} />
+            <meta name="keywords" content={props.pageTags} />
             <meta name="description" content={props.illoDescription} />
             <meta property="og:description" content={props.illoDescription} />
             <meta property="og:type" content="website"/>

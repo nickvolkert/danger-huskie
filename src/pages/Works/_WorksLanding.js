@@ -7,9 +7,11 @@ import DangerHuskie from "../../json/DangerHuskie.json";
 import Basiccard from "../../components/Basiccard";
 import Hero from "../../components/Hero";
 import HelmetMeta from "../../components/HelmetMeta";
+import SocialURLs from "../../json/SocialURLs.json";
 
 let source = DangerHuskie;
-let x = 3; //Varsity Pumpkin
+let x = 3;
+let y = 11; //Happy Rainbow
 let pagename = "Works";
 let subhead = "Vector works of DangerHuskie"
 let metadescription = "Complete gallery of vector works of DangerHuskie by Nick Volkert.";
@@ -27,11 +29,11 @@ const Home = () => (
     />
     <BodyClassName className="works"></BodyClassName>
     <Hero
-            heroClass="-varsitypumpkin"
+            heroClass="-works"
             heroH1={pagename}
-            heroImage={source[x].image}
-            heroDescription={source[x].title}
-            heroLink={source[x].link}
+            heroImage={source[y].image}
+            heroDescription={source[y].title}
+            heroLink={source[y].link}
         />
     <Content>
         <div id="breadcrumb">
@@ -44,7 +46,8 @@ const Home = () => (
         <div className="intro-text">
             <h2>Feeling Dangerous?</h2>
             <h3>DangerHuskie is a side project of vector illustrations I started during the covid pandemic lockdown in the Spring of our Discontent, the Year of our Lord, Year of Danger, 2020.</h3>
-            <p>Get daily updates at: <a href="http://dangerhuskie.tumblr.com/" target="_blank" rel="noopener noreferrer">Tumblr</a> or <a href="https://instagram.com/dangerhuskie/" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
+            <p>All works for sale. Click on a work to links to my shops!</p>
+            <p>Get daily updates at: <a href={SocialURLs[3].link} target="_blank" rel="noopener noreferrer">Tumblr</a> or <a href={SocialURLs[1].link} target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
             <div className="pipe"></div>
         </div>
     </Content>
@@ -61,6 +64,7 @@ const Home = () => (
                     cardimageTitle={postDetail.title}
                     cardDate={postDetail.date}
                     cardDescription={postDetail.description}
+                    cardBackground={postDetail.backgroundcolor}
                 />
             }).reverse()}
             <Clearfix />

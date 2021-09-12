@@ -17,6 +17,8 @@
     }
     .cardImage{
         width:100%;
+        min-width:320px;
+        min-height: 320px;
 
         a{
             color:$color-white;
@@ -28,13 +30,15 @@
         }
         img{
             width:100%;
+            max-width: none;
             height: auto;
-
+            float:left;
         }
     }
     .cardInfo{
         padding:27px 20px 22px;
         width:100%;
+        clear: both;
         .cardTitleLink{
             font-family: $font-heading-copy;
             font-size: 2.0rem;
@@ -214,7 +218,6 @@
         width:100%;
         margin: 0 0 20px 0;
     }
-    
 
         #projectwrapper{
             .projectInfo{
