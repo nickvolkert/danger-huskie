@@ -35,7 +35,7 @@ const Contact = () => (
         />
     <BodyClassName className="contact-page"></BodyClassName>
     <Hero
-            heroClass="-shops"
+            heroClass="-contact"
             heroH1={pagename}
             heroImage={source[y].image}
             heroDescription={source[y].title}

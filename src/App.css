@@ -509,10 +509,10 @@ footer {
     line-height: 39px; }
   .hero-homepage {
     background: #04495b url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_creepin.jpg) no-repeat center -150px; }
-  .hero-varsitypumpkin {
-    background: #53616e url(https://nickvolkert.sirv.com/dangerhuskie/works/004_varpump.jpg) no-repeat center -150px; }
   .hero-about {
     background: #EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px; }
+  .hero-contact {
+    background: #8cc8ed url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_mustard.jpg) no-repeat center -202px; }
   .hero-news {
     background: #4ac7e5 url(https://nickvolkert.sirv.com/dangerhuskie/works/005_happyrainbow.jpg) no-repeat center -180px; }
   .hero-shops {
@@ -543,11 +543,11 @@ footer {
       line-height: 44px; }
     .hero-homepage {
       background-position: center -50px; }
-    .hero-varsitypumpkin {
-      background-position: center -50px; }
     .hero-about {
       background-position: center -40px;
       background-size: 100%; }
+    .hero-contact {
+      background-position: center -91px; }
     .hero-news {
       background-position: center -64px; }
     .hero-shops {
