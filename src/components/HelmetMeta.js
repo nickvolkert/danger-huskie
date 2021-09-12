@@ -11,23 +11,23 @@ const HelmetMeta = props => (
             <link rel="canonical" href={domain + props.pageLink} />
             <meta name="title" content={props.pageName + me} />
             <meta name="keywords" content={props.pageTags} />
-            <meta name="description" content={props.illoDescription} />
-            <meta property="og:description" content={props.illoDescription} />
+            <meta name="description" content={props.pageDescription} />
+            <meta property="og:description" content={props.pageDescription} />
             <meta property="og:type" content="website"/>
             <meta property="og:site_name" content="DangerHuskie" />
 
             <meta property="og:type" content="website"></meta>
             <meta property="og:url" content={domain + props.pageLink} />
             <meta property="og:title" content={props.pageName + me}/>
-            <meta property="og:description" content={props.illoDescription}/>
+            <meta property="og:description" content={props.pageDescription}/>
             <meta property="og:image" content={props.metaImage}/>
 
             <meta property="twitter:card" content="summary_large_image"/>
             <meta property="twitter:url" content={domain + props.pageLink}/>
             <meta property="twitter:title" content={props.pageName + me}/>
-            <meta property="twitter:description" content={props.illoDescription}/>
+            <meta property="twitter:description" content={props.pageDescription}/>
             <meta property="twitter:image" content={props.metaImage}/>
-            <meta name="twitter:image:alt" content={props.illoAlt} />
+            <meta name="twitter:image:alt" content={props.pageAlt} />
         </Helmet>
     </>
   );
