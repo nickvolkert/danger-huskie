@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.dangerhuskie.com/sitemap.xml
+sitemap: https://a263126.sitemaphosting6.com/4244802/sitemap.xml
