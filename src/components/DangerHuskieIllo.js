@@ -23,7 +23,7 @@ const Renderedillo = props => (
         <div className="project">
             <Helmet>
                 <title>{props.illoTitle + me}</title>
-                <link rel="canonical" href={domain + props.pageLink} />
+                <link rel="canonical" href={domain + props.illoLink} />
                 <meta name="title" content={props.illoTitle + me} />
                 <meta name="keywords" content={props.illoTags} />
                 <meta name="description" content={props.illoDescription} />
