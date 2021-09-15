@@ -58,7 +58,7 @@ const About = () => (
                 <p>I love creating vector art and graphics, and needed an outlet for the list after list of ideas I had been cataloging over the years. Branching off all of these ideas into their own brand "DangerHuskie" then came to me.</p>
                 <p>Illustrator, as in vector graphics, have been a long long love/hate game for me. I love what I can create with with them, the scalability, and I hate how fickle they can often be. So after creating them for over 20 years, now on an almost daily basis, I'm going to show vector graphics who's boss!</p>
                 <p>"DangerHuskie" is going to be fun, scary, challenging, cute, and unrelenting. I'm glad you found it, and I hope you stay along for the ride. I have LOTS in store for you.</p>
-                <p>All works for sale at my shops. <Link to="/works">View gallery.</Link></p>
+                <p>All works for sale at my shops. <Link to={CoreSite[7].link}>View gallery.</Link></p>
                 <p>-Nick</p>
             </div>
             <Clearfix />
