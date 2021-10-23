@@ -1076,11 +1076,13 @@ footer .sociallinks {
     #linkspage .pbds:nth-child(3n) {
       margin-right: 0; }
     #linkspage .pbds img {
-      width: 100%; }
+      width: 100%;
+      float: left; }
     #linkspage .pbds .cardImage {
       margin: 0 0 6px 0; }
-    #linkspage .pbds .cardTitleLink {
-      font-weight: 800; }
+    #linkspage .pbds p.cardTitleLink {
+      font-weight: 800;
+      line-height: 4.8rem; }
     #linkspage .pbds .pbd-image-link {
       width: auto;
       height: auto; }

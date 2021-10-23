@@ -43,12 +43,14 @@
         }
         img{
             width:100%;
+            float: left;
         }
         .cardImage{
             margin:0 0 6px 0;
         }
-        .cardTitleLink{
+        p.cardTitleLink{
             font-weight: 800;
+            line-height: 4.8rem;
         }
         .pbd-image-link{
             width:auto;

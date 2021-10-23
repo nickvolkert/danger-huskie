@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import BodyClassName from 'react-body-classname';
 import LatestPBDs from "../components/LatestPBDs";
 import DangerHuskie from "../json/DangerHuskie";
+import SocialURLs from "../json/SocialURLs";
 import CoreSite from "../json/CoreSite.json";
 import Clearfix from "../components/Clearfix";
 import HelmetMeta from "../components/HelmetMeta";
@@ -48,7 +49,7 @@ const LinksPage = () => (
                 key={postDetail.id}
                 cardLink={postDetail.link}
                 cardID={postDetail.component}
-                cardImage={postDetail.image}
+                cardImage={postDetail.preview}
                 cardAlt={postDetail.alttext}
                 cardimageTitle={postDetail.title}
                 cardBackGround={postDetail.backgroundcolor}
@@ -60,21 +61,22 @@ const LinksPage = () => (
             <p>DangerHuskie Site!:</p>
             <Link className="btn" to="/">DangerHuskie.com</Link>
             <p>DangerHuskie Art Shops:</p>
-            <a href="https://dangerhuskie.redbubble.com" target="_blank" className="btn" rel="noopener noreferrer">Redbubble Shop</a>
-            <a href="https://society6.com/dangerhuskie" target="_blank" className="btn" rel="noopener noreferrer">Society6 Shop</a>
-            <a href="https://www.threadless.com/@dangerhuskie/activity" target="_blank" className="btn" rel="noopener noreferrer">Threadless Shop</a>
+            <a href={SocialURLs[6].link} target="_blank" className="btn" rel="noopener noreferrer">Redbubble</a>
+            <a href={SocialURLs[7].link} target="_blank" className="btn" rel="noopener noreferrer">Society6</a>
+            <a href={SocialURLs[8].link} target="_blank" className="btn" rel="noopener noreferrer">TeePublic</a>
+            <a href={SocialURLs[10].link} target="_blank" className="btn" rel="noopener noreferrer">Threadless</a>
             <p>Connect and Follow!</p>
-            <a href="https://www.instagram.com/dangerhuskie/" target="_blank" className="btn" rel="noopener noreferrer">Instagram</a>
-            <a href="https://dangerhuskie.tumblr.com/" target="_blank" className="btn" rel="noopener noreferrer">Tumblr</a>
-            <a href="https://www.facebook.com/dangerhuskie/" target="_blank" className="btn" rel="noopener noreferrer">Facebook</a>
-            <a href="https://twitter.com/dangerhuskie" target="_blank" className="btn" rel="noopener noreferrer">Twitter</a>
-            <a href="https://www.deviantart.com/dangerhuskie/" target="_blank" className="btn" rel="noopener noreferrer">DeviantArt</a>
+            <a href={SocialURLs[1].link} target="_blank" className="btn" rel="noopener noreferrer">Instagram</a>
+            <a href={SocialURLs[3].link} target="_blank" className="btn" rel="noopener noreferrer">Tumblr</a>
+            <a href={SocialURLs[0].link} target="_blank" className="btn" rel="noopener noreferrer">Facebook</a>
+            <a href={SocialURLs[2].link} target="_blank" className="btn" rel="noopener noreferrer">Twitter</a>
+            <a href={SocialURLs[5].link} target="_blank" className="btn" rel="noopener noreferrer">DeviantArt</a>
             <p>Nickv47 Shops:</p>
-            <a href="https://nickv47.redbubble.com" target="_blank" className="btn" rel="noopener noreferrer">Redbubble Shop</a>
-            <a href="https://society6.com/nickv47" target="_blank" className="btn" rel="noopener noreferrer">Society6 Shop</a>
-            <a href="https://nickv47.threadless.com/" target="_blank" className="btn" rel="noopener noreferrer">Threadless Shop</a>
-            <a href="https://www.teepublic.com/user/nickv47" target="_blank" className="btn" rel="noopener noreferrer">TeePublic Shop</a>
-            <a href="https://www.designbyhumans.com/shop/nickv47/" target="_blank" className="btn" rel="noopener noreferrer">Design by Humans Shop</a>
+            <a href="https://nickv47.redbubble.com" target="_blank" className="btn" rel="noopener noreferrer">Redbubble</a>
+            <a href="https://society6.com/nickv47" target="_blank" className="btn" rel="noopener noreferrer">Society6</a>
+            <a href="https://nickv47.threadless.com/" target="_blank" className="btn" rel="noopener noreferrer">Threadless</a>
+            <a href="https://www.teepublic.com/user/nickv47" target="_blank" className="btn" rel="noopener noreferrer">TeePublic</a>
+            <a href="https://www.designbyhumans.com/shop/nickv47/" target="_blank" className="btn" rel="noopener noreferrer">Design by Humans</a>
             <p>My personal portfolio of art and comics:</p>
             <a href="https://www.nickvolkert.com/" target="_blank" className="btn" rel="noopener noreferrer">nickvolkert.com</a>
           </div>
