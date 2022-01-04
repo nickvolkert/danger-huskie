@@ -12,7 +12,10 @@ footer{
     }
     #copyright{
         font-family: $font-link-copy;
-
+        width: 1040px;
+        margin:0 auto;
+        font-size:1.2rem;
+        line-height: 1.4rem;
         a{
             &:hover{
                 color:$color-white;
@@ -36,7 +39,7 @@ footer{
         padding:0;
         margin:0;
         li{
-            padding:0 5px;
+            padding:0 3px;
             margin:0;
             display: inline;
             a{
@@ -63,7 +66,7 @@ footer{
 }
 #footer-logo a{
     padding:0;
-    background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/centered-dh-logo.svg");
+    background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/Centered-with-TM.svg");
     background-repeat: no-repeat;
     filter: drop-shadow($dropshadow);
     display: block;
@@ -73,5 +76,15 @@ footer{
 
     span{
         display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    footer{
+        #copyright{
+            font-family: $font-link-copy;
+            width: auto;
+            padding: 0 20px;
+        }
     }
 }

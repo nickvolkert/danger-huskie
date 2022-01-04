@@ -416,7 +416,11 @@ footer {
   footer p.danger {
     font-size: 1.2rem; }
   footer #copyright {
-    font-family: "Roboto Mono", monospace; }
+    font-family: "Roboto Mono", monospace;
+    width: 1040px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.4rem; }
     footer #copyright a:hover {
       color: #FFF;
       border-bottom-color: #FFF; }
@@ -431,7 +435,7 @@ footer {
     padding: 0;
     margin: 0; }
     footer ul li {
-      padding: 0 5px;
+      padding: 0 3px;
       margin: 0;
       display: inline; }
       footer ul li a {
@@ -450,7 +454,7 @@ footer {
 
 #footer-logo a {
   padding: 0;
-  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/centered-dh-logo.svg");
+  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/Centered-with-TM.svg");
   background-repeat: no-repeat;
   filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
   display: block;
@@ -459,6 +463,12 @@ footer {
   border: none; }
   #footer-logo a span {
     display: none; }
+
+@media only screen and (max-width: 768px) {
+  footer #copyright {
+    font-family: "Roboto Mono", monospace;
+    width: auto;
+    padding: 0 20px; } }
 
 .page404page .hero {
   height: 600px;
@@ -566,7 +576,7 @@ footer {
 
 #nav-logo {
   padding: 0;
-  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/danger-huskie-onnavy.svg");
+  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/Inline-TM.svg");
   background-repeat: no-repeat;
   filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
   display: block; }

@@ -30,7 +30,8 @@ const Footer = () => (
             </div>
             
             <div id="copyright">
-                <p><span>Danger Huskie is</span> <span>©2021 Nick Volkert | <a href="https://nickvolkert.com/" alt="nick volkert portfolio link">nickvolkert.com</a></span></p>
+                <p className="copyrighttext"><span>Danger Huskie is</span> <span>©2021-2022 Nick Volkert | <a href="https://nickvolkert.com/" alt="nick volkert portfolio link">nickvolkert.com</a></span></p>
+                <p>All works of authorship on this medium are original and all rights thereto are reserved. Conveyance of this medium to a third party does not constitute a license to reproduce, use, or copy this work of authorship in any manner.</p>
             </div>
         </div>
     </footer>
