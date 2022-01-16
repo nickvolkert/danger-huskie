@@ -17,7 +17,14 @@
     .news-entry{
         margin-bottom:60px;
     }
-    .leftRailImage img{
+    .leftRailImage 
+    a{
+        &:hover{
+            border-bottom: none;
+        }
+    }
+    
+    img{
         width:300px;
         border-radius: 50%;
     }

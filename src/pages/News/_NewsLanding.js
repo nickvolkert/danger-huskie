@@ -53,11 +53,74 @@ const News = () => (
         <Content>
             
             <div id="news-body" className="body-copy">
+                {/* 06 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <a href="https://dribbble.com/shots/17274684-WIP-Annoyed-Bigfoot" rel="noopener noreferrer" target="_blank"><img src="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/news_wip-bigfoot.jpg" title="Bigfoot series WIP" alt="WIP of a new Bigfoot series by DangerHuskie" /></a>
+                        </div>
+                        <p className="caption">Annoyed Bigfoot WIP</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>Updated Annoyed Bigfoot WIP!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: January 14th, 2022</p>
+                        <p>New bigfoot (or sasqutach if ya fancy) series in the works on here. Check back soon for vector-y goodness.</p>
+                        <p><a href="https://dribbble.com/shots/17274684-WIP-Annoyed-Bigfoot" rel="noopener noreferrer" target="_blank">Check out this WIP on my dribbble!</a></p>
+                        <p><Link to="/works/">Check my current works here!</Link></p>
+                        <p>-Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+                {/* 05 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <a href="https://dribbble.com/shots/17249709-WIP-Annoyed-Yetis" rel="noopener noreferrer" target="_blank"><img src="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/news_wip-yeti.jpg" title="Yeti WIP" alt="WIP of a new Yeti series by DangerHuskie" /></a>
+                        </div>
+                        <p className="caption">Yeti series WIP</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>Yeti Series WIP!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: January 11th, 2022</p>
+                        <p>Annoyed Yeti? Yeah went back to the drawing board on this cryptid and updated the design.</p>
+                        <p><a href="https://dribbble.com/shots/17249709-WIP-Annoyed-Yetis" rel="noopener noreferrer" target="_blank">Check out this WIP of an upcoming series of annoyed crytpids on my dribbble!</a></p>
+                        <p><Link to="/works/">Check my current works here!</Link></p>
+                        <p>-Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+                {/* 04 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                        <a href="https://dribbble.com/shots/17200075-DH-Log-Series-WIP" rel="noopener noreferrer" target="_blank"><img src="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/news_wip-logs.jpg" title="Logs WIP" alt="WIP of a new Log series by DangerHuskie" /></a>
+                        </div>
+                        <p className="caption">Log series WIP</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>Log Series WIP!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: January 4th, 2022</p>
+                        <p>Hard at work on new items for DangerHuskie. These two handsome duders are a part of a vector log series I'm working on!</p>
+                        <p><a href="https://dribbble.com/shots/17200075-DH-Log-Series-WIP" rel="noopener noreferrer" target="_blank">Check out DangerHuskie out the full shot on my dribbble!</a></p>
+                        <p><Link to="/works/">Check my current works here!</Link></p>
+                        <p>-Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
                 {/* 03 */}
                 <div className="news-entry">
                     <div className="leftRail">
                         <div className="leftRailImage">
-                            <img src="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/pinterest-dangerhuskie.jpg" title="DangerHuskie on Pinterest" alt="Account snap of DangerHuskie on Pinterest" />
+                            <a href="https://www.pinterest.com/dangerhuskie/pins/" rel="noopener noreferrer" target="_blank"><img src="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/pinterest-dangerhuskie.jpg" title="DangerHuskie on Pinterest" alt="Account snap of DangerHuskie on Pinterest" /></a>
                         </div>
                         <p className="caption">DangerHuskie on Pinterest</p>
                     </div>
@@ -67,7 +130,7 @@ const News = () => (
                         <div className="news-entry-text">
                         <p>Date: June 26th, 2021</p>
                         <p>DangerHuskie has an account is posting away on Pinterest.</p>
-                        <p><a href="https://www.pinterest.com/dangerhuskie/pins/">Check out DangerHuskie out on Pinterest!</a></p>
+                        <p><a href="https://www.pinterest.com/dangerhuskie/pins/" rel="noopener noreferrer" target="_blank">Check out DangerHuskie out on Pinterest!</a></p>
                         <p><Link to="/works/">Check my works</Link> direct pin to a work!</p>
                         <p>-Nick</p>
                     </div>
@@ -78,7 +141,7 @@ const News = () => (
                 <div className="news-entry">
                     <div className="leftRail">
                         <div className="leftRailImage">
-                            <img src="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/dbhstore.png" title="DangerHuskie on DBH" alt="Storefront fo DangerHuskie on DBH" />
+                            <a href="https://www.designbyhumans.com/shop/dangerhuskie/" rel="noopener noreferrer" target="_blank"><img src="https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/dbhstore.png" title="DangerHuskie on DBH" alt="Storefront fo DangerHuskie on DBH" /></a>
                         </div>
                         <p className="caption">DangerHuskie on DBH</p>
                     </div>
@@ -89,7 +152,7 @@ const News = () => (
                         <p>Date: October 22nd, 2020</p>
                         <p>DangerHuskie is set up to sell on Design By Humans! Tees, mugs, stickers and mousepads for sale.</p>
                         <p><Link to="/works/">Check my works</Link> to link to my DBH store by designs.</p>
-                        <p>Or check <a href="https://www.designbyhumans.com/shop/dangerhuskie/">DangerHuskie out on DBH here!</a></p>
+                        <p>Or check <a href="https://www.designbyhumans.com/shop/dangerhuskie/" rel="noopener noreferrer" target="_blank">DangerHuskie out on DBH here!</a></p>
                         <p>-Nick</p>
                     </div>
                     </div>

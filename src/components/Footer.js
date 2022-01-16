@@ -3,12 +3,13 @@ import SocialLinks from "./SocialLinks";
 import { Link } from "react-router-dom";
 import FooterLogo from "./FooterLogo";
 import CoreSite from "../json/CoreSite.json";
+import Clearfix from "./Clearfix";
 
 const Footer = () => (
     <footer>
         <div id="footer-center">
             <div id="footer-top">
-                <FooterLogo />
+                <Link to="/"><FooterLogo /></Link>
                 <h4>Danger Huskie</h4>
                 <div id="footer_links">
                     <ul>
@@ -33,7 +34,9 @@ const Footer = () => (
                 <p className="copyrighttext"><span>Danger Huskie is</span> <span>©2021-2022 Nick Volkert | <a href="https://nickvolkert.com/" alt="nick volkert portfolio link">nickvolkert.com</a></span></p>
                 <p>All works of authorship on this medium are original and all rights thereto are reserved. Conveyance of this medium to a third party does not constitute a license to reproduce, use, or copy this work of authorship in any manner.</p>
             </div>
+            <Clearfix />
         </div>
+        <Clearfix />
     </footer>
 );
 

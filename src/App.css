@@ -407,12 +407,13 @@ a.btn {
 footer {
   background: #0A2240;
   width: 100%;
-  height: 692px;
+  height: auto;
   text-align: center;
   color: #FFF;
   background: linear-gradient(#0A2240, #EE283B);
   clear: both;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  padding: 0 0 120px 0; }
   footer p.danger {
     font-size: 1.2rem; }
   footer #copyright {
@@ -454,21 +455,25 @@ footer {
 
 #footer-logo a {
   padding: 0;
-  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/Centered-with-TM.svg");
   background-repeat: no-repeat;
   filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
   display: block;
   width: 220px;
   height: 245px;
   border: none; }
-  #footer-logo a span {
-    display: none; }
+
+#footer-logo span {
+  display: none; }
 
 @media only screen and (max-width: 768px) {
-  footer #copyright {
-    font-family: "Roboto Mono", monospace;
-    width: auto;
-    padding: 0 20px; } }
+  footer {
+    padding: 0 0 60px 0; }
+    footer #copyright {
+      font-family: "Roboto Mono", monospace;
+      width: auto;
+      padding: 0 20px; }
+    footer ul li {
+      padding: 0 1px; } }
 
 .page404page .hero {
   height: 600px;
@@ -518,7 +523,7 @@ footer {
     color: #FFF;
     line-height: 39px; }
   .hero-homepage {
-    background: #04495b url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_creepin.jpg) no-repeat center -150px; }
+    background: #44c5f7 url(https://nickvolkert.sirv.com/dangerhuskie/works/002_yeti.jpg) no-repeat center -150px; }
   .hero-about {
     background: #EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px; }
   .hero-contact {
@@ -576,12 +581,29 @@ footer {
 
 #nav-logo {
   padding: 0;
-  background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/Inline-TM.svg");
-  background-repeat: no-repeat;
-  filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7));
   display: block; }
   #nav-logo span {
     display: none; }
+  #nav-logo svg {
+    filter: drop-shadow(0 0.25rem 1rem rgba(10, 34, 64, 0.7)); }
+
+.st0 {
+  fill: #EE283B; }
+
+.st1 {
+  fill: #0A2240; }
+
+.st2 {
+  fill: #FFF; }
+
+.st3 {
+  fill: #EE509C; }
+
+.st4 {
+  fill: #D1E6F7; }
+
+.st5 {
+  fill: #0A2240; }
 
 @media only screen and (max-width: 768px) {
   #logo_wrapper {
@@ -1191,7 +1213,11 @@ footer .sociallinks {
 #news-landing .news-entry {
   margin-bottom: 60px; }
 
-#news-landing .leftRailImage img {
+#news-landing .leftRailImage
+a:hover {
+  border-bottom: none; }
+
+#news-landing img {
   width: 300px;
   border-radius: 50%; }
 

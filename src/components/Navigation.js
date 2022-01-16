@@ -6,7 +6,7 @@ import CoreSite from "../json/CoreSite.json";
 const Navigation = () => (
   <nav>
     <div id="nav_wrapper">
-      <Logo />
+      <Link to="/"><Logo /></Link>
       <div id="link_ribbon">
         <ul>
           <li><Link to={CoreSite[7].link}>Works</Link></li>

@@ -1,12 +1,13 @@
 footer{
     background: $color-navy;
     width:100%;
-    height: 692px;
+    height:auto;
     text-align: center;
     color:$color-white;
     background: linear-gradient($color-navy, $color-primary);
     clear: both;
     font-size:1.2rem;
+    padding:0 0 120px 0;
     p.danger{
         font-size: 1.2rem;
     }
@@ -64,16 +65,17 @@ footer{
     width:220px;
     height: auto;
 }
-#footer-logo a{
-    padding:0;
-    background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/Centered-with-TM.svg");
-    background-repeat: no-repeat;
-    filter: drop-shadow($dropshadow);
-    display: block;
-    width:220px;
-    height: 245px;
-    border:none;
 
+#footer-logo {
+    a{
+        padding:0;
+        background-repeat: no-repeat;
+        filter: drop-shadow($dropshadow);
+        display: block;
+        width:220px;
+        height: 245px;
+        border:none;
+    }
     span{
         display: none;
     }
@@ -81,10 +83,16 @@ footer{
 
 @media only screen and (max-width: 768px){
     footer{
+        padding:0 0 60px 0;
         #copyright{
             font-family: $font-link-copy;
             width: auto;
             padding: 0 20px;
+        }
+        ul{
+            li{
+                padding:0 1px;
+            }
         }
     }
 }

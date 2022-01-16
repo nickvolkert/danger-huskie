@@ -11,15 +11,23 @@
 
 #nav-logo{
     padding:0;
-    background-image: url("https://nickvolkert.sirv.com/dangerhuskie/site-graphics/SVG/Inline-TM.svg");
-    background-repeat: no-repeat;
-    filter: drop-shadow($dropshadow);
+    
     display: block;
 
     span{
         display: none;
     }
+    svg{
+        filter: drop-shadow($dropshadow);
+    }
 }
+
+.st0{fill:$color-primary;}
+    .st1{fill:$color-navy;}
+    .st2{fill:$color-white;}
+    .st3{fill:#EE509C;}
+    .st4{fill:#D1E6F7;}
+    .st5{fill:$color-navy;}
 
 @media only screen and (max-width: 768px){
     #logo_wrapper{
