@@ -1,195 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> 
-    <loc>https://www.dangerhuskie.com/</loc>
-    <lastmod>2021-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/about</loc>
-    <lastmod>2020-08-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/contact</loc>
-    <lastmod>2020-08-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/shops</loc>
-    <lastmod>2020-08-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/news</loc>
-    <lastmod>2020-12-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/links</loc>
-    <lastmod>2020-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>     
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works</loc>
-    <lastmod>2020-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/pencil-bear</loc>
-    <lastmod>2020-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/annoyed-yeti</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/annoyed-sasquatch</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>     
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/varsity-pumpkin</loc>
-    <lastmod>2020-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/happy-rainbow</loc>
-    <lastmod>2020-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/joyous-rainbow</loc>
-    <lastmod>2020-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>     
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/calendar-2020</loc>
-    <lastmod>2020-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/black-electric-cat</loc>
-    <lastmod>2020-11-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/white-electric-cat</loc>
-    <lastmod>2020-11-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/chicago-dog-with-flag</loc>
-    <lastmod>2020-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/pencil-bear-with-flag</loc>
-    <lastmod>2020-11-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/oversized-foam-cowboy-hat</loc>
-    <lastmod>2020-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/cloud-hug</loc>
-    <lastmod>2020-11-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/unhappy-rainbow</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/angry-rainbow</loc>
-    <lastmod>2020-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/dh-logo-with-text</loc>
-    <lastmod>2020-12-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/danger-huskie-head</loc>
-    <lastmod>2020-12-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/dh-hardcore-logo</loc>
-    <lastmod>2020-12-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/fighting-burger</loc>
-    <lastmod>2021-01-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/varsity-pumpkin-creepin</loc>
-    <lastmod>2021-04-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/varsity-pumpkin-grave</loc>
-    <lastmod>2021-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/da-chicago-mustard-dog</loc>
-    <lastmod>2021-07-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/da-chicago-shades-dog</loc>
-    <lastmod>2021-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/varsity-pumpkinhead</loc>
-    <lastmod>2021-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority> 
-</url>
-<url>
-    <loc>https://www.dangerhuskie.com/works/rubber-duckie</loc>
-    <lastmod>2021-08-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>    
-</url>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
+
+  <url>
+       <loc>https://dangerhuskie.com/</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/about</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/news</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/shops</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/contact</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/annoyed-yeti</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/rubber-duckie</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/varsity-pumpkinhead</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/da-chicago-shades-dog</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/da-chicago-mustard-dog</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/varsity-pumpkin-grave</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/varsity-pumpkin-creepin</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/links</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/oversized-foam-cowboy-hat</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/fighting-burger</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/dh-hardcore-logo</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/danger-huskie-head</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/dh-logo-with-text</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/angry-rainbow</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/unhappy-rainbow</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/cloud-hug</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/pencil-bear-with-flag</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/chicago-dog-with-flag</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/white-electric-cat</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/black-electric-cat</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/calendar-2020</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/joyous-rainbow</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/happy-rainbow</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/varsity-pumpkin</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/annoyed-sasquatch</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/pencil-bear</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
 </urlset>

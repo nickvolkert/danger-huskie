@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
+
+  <url>
+       <loc>https://dangerhuskie.com/</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_rubberduckie.jpg</image:loc>
+         <image:caption>A cute rubber duckie is surrounded by bubbles.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_varpumphead.jpg</image:loc>
+         <image:caption>A floating Jack O&apos;Lantern reaches out with a full moon, clouds, and bats in the background.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_shades.jpg</image:loc>
+         <image:caption>A dachshund is wearing shades, a stocking cap, and a cool Chicago Style Hot Dog costume.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_mustard.jpg</image:loc>
+         <image:caption>A dachshund smiles while wearing a stocking cap and Chicago style hot dog costume.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_varsitypumpkingrave.jpg</image:loc>
+         <image:caption>A man in a varsity jacket with a Jack O&apos;Lantern digs out of his own grave!</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_creepin.jpg</image:loc>
+         <image:caption>A man in a varsity jacket with a Jack O&apos;Lantern head approaches the viewer.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/18_preview_fightingburger.jpg</image:loc>
+         <image:caption>A burger with boxing gloves has his dukes up.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/17_preview_dh-hardcore.jpg</image:loc>
+         <image:caption>DangerHuskie logo centered over logo text.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/16_preview_dhhuskiehead.jpg</image:loc>
+         <image:caption>DangerHuskie logo centered over logo text.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/15_preview_dhlogotext.jpg</image:loc>
+         <image:caption>DangerHuskie logo centered over logo text.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/14_preview_angry.jpg</image:loc>
+         <image:caption>A dingy rainbow sports an angry grimace between to storm clouds.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/13_preview_unhappy.jpg</image:loc>
+         <image:caption>A dingy rainbow sports a frown between to storm clouds.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/012_preview_cloudhugs.jpg</image:loc>
+         <image:caption>A grumpy thunder cloud gets a hug from a fluffy white cloud and the sun.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/011_preview_oversized.jpg</image:loc>
+         <image:caption>An oversized foam cowboy hat sporting a sweet mustache.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/010_preview_pencilbearflag.jpg</image:loc>
+         <image:caption>A bear walks with a flag that is a pencil.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/009_preview_chicagodogflag.jpg</image:loc>
+         <image:caption>A dachshund carrying the flag of Chicago.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/008_preview_whitecat.jpg</image:loc>
+         <image:caption>A white cat with pink bolts purrs at the viewer.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/007_preview_blackcat.jpg</image:loc>
+         <image:caption>A black cat with yellow eyes and neon bolts is angry at the viewer.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/030_preview_2020calendar.jpg</image:loc>
+         <image:caption>A tear away calendar from 2020 is crazed and on fire.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/006_preview_joy.jpg</image:loc>
+         <image:caption>A joyous rainbow touching two clouds.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/005_preview_happyrainbow.jpg</image:loc>
+         <image:caption>A happy rainbow touching two clouds.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/004_preview_varpump.jpg</image:loc>
+         <image:caption>A man with a jack o&apos; lantern head is marching by in a varsity jacket in the dark.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/003_preview_sasquatch.jpg</image:loc>
+         <image:caption>A sasqutach is annoyed by a flower that landed on it&apos;s head.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/002_preview_yeti.jpg</image:loc>
+         <image:caption>A yeti is annoyed by a singing bird that landed on it&apos;s head.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/001-preview-pencilbear.jpg</image:loc>
+         <image:caption>A bear with a stocking cap and sweater is walking by with a giant number 2 pencil.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/news</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/news_wip-bigfoot.jpg</image:loc>
+         <image:caption>WIP of a new Bigfoot series by DangerHuskie</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/news_wip-yeti.jpg</image:loc>
+         <image:caption>WIP of a new Yeti series by DangerHuskie</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/news_wip-logs.jpg</image:loc>
+         <image:caption>WIP of a new Log series by DangerHuskie</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/pinterest-dangerhuskie.jpg</image:loc>
+         <image:caption>Account snap of DangerHuskie on Pinterest</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/site-graphics/blog/dbhstore.png</image:loc>
+         <image:caption>Storefront fo DangerHuskie on DBH</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/annoyed-yeti</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/002_yeti.jpg</image:loc>
+         <image:caption>A yeti is annoyed by a singing bird that landed on it&apos;s head.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/rubber-duckie</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_rubberduckie.jpg</image:loc>
+         <image:caption>A cute rubber duckie is surrounded by bubbles.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/varsity-pumpkinhead</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_varpumphead.jpg</image:loc>
+         <image:caption>A floating Jack O&apos;Lantern reaches out with a full moon, clouds, and bats in the background.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/da-chicago-shades-dog</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_shades.jpg</image:loc>
+         <image:caption>A dachshund is wearing shades, a stocking cap, and a cool Chicago Style Hot Dog costume.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/da-chicago-mustard-dog</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_mustard.jpg</image:loc>
+         <image:caption>A dachshund smiles while wearing a stocking cap and Chicago style hot dog costume.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/varsity-pumpkin-grave</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_varsitypumpkingrave.jpg</image:loc>
+         <image:caption>A man in a varsity jacket with a Jack O&apos;Lantern digs out of his own grave!</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/varsity-pumpkin-creepin</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_creepin.jpg</image:loc>
+         <image:caption>A man in a varsity jacket with a Jack O&apos;Lantern head approaches the viewer.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/oversized-foam-cowboy-hat</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/011_oversized.jpg</image:loc>
+         <image:caption>An oversized foam cowboy hat sporting a sweet mustache.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/fighting-burger</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/18_fightingburger.jpg</image:loc>
+         <image:caption>A burger with boxing gloves has his dukes up.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/dh-hardcore-logo</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/17_dh-hardcore.jpg</image:loc>
+         <image:caption>DangerHuskie logo centered over logo text.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/danger-huskie-head</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/16_dhhuskiehead.jpg</image:loc>
+         <image:caption>DangerHuskie logo centered over logo text.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/dh-logo-with-text</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/15_dhlogotext.jpg</image:loc>
+         <image:caption>DangerHuskie logo centered over logo text.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/angry-rainbow</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/14_angry.jpg</image:loc>
+         <image:caption>A dingy rainbow sports an angry grimace between to storm clouds.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/unhappy-rainbow</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/13_unhappy.jpg</image:loc>
+         <image:caption>A dingy rainbow sports a frown between to storm clouds.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/cloud-hug</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/012_cloudhugs.jpg</image:loc>
+         <image:caption>A grumpy thunder cloud gets a hug from a fluffy white cloud and the sun.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/pencil-bear-with-flag</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/010_pencilbearflag.jpg</image:loc>
+         <image:caption>A bear walks with a flag that is a pencil.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/chicago-dog-with-flag</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/009_chicagodogflag.jpg</image:loc>
+         <image:caption>A dachshund carrying the flag of Chicago.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/white-electric-cat</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/008_whitecat.jpg</image:loc>
+         <image:caption>A white cat with pink bolts purrs at the viewer.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/black-electric-cat</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/007_blackcat.jpg</image:loc>
+         <image:caption>A black cat with yellow eyes and neon bolts is angry at the viewer.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/calendar-2020</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/030_2020calendar.jpg</image:loc>
+         <image:caption>A tear away calendar from 2020 is crazed and on fire.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/joyous-rainbow</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/006_joy.jpg</image:loc>
+         <image:caption>A joyous rainbow touching two clouds.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/happy-rainbow</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/005_happyrainbow.jpg</image:loc>
+         <image:caption>A happy rainbow touching two clouds.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/varsity-pumpkin</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/004_varpump.jpg</image:loc>
+         <image:caption>A man with a jack o&apos; lantern head is marching by in a varsity jacket in the dark.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/annoyed-sasquatch</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/003_sasquatch.jpg</image:loc>
+         <image:caption>A sasqutach is annoyed by a flower that landed on it&apos;s head.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/pencil-bear</loc>
+       <lastmod>2022-02-10T18:11:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/001-thepencilbear.jpg</image:loc>
+         <image:caption>A bear with a stocking cap and sweater is walking by with a giant number 2 pencil.</image:caption>
+       </image:image>
+  </url>
+</urlset>
