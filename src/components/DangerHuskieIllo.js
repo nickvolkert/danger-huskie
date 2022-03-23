@@ -15,7 +15,7 @@ const Renderedillo = props => (
                 <ul>
                     <li><Link to="/" className="breadcrumb-home">Home</Link></li>
                     <li className="breadcrumb-divider">/</li>
-                    <li><Link to="/works">Works</Link></li>
+                    <li><Link to="/works/">Works</Link></li>
                     <li className="breadcrumb-divider">/</li>
                     <li>{props.illoTitle}</li>
                 </ul>

@@ -8,14 +8,15 @@ import Basiccard from "../../components/Basiccard";
 import Hero from "../../components/Hero";
 import HelmetMeta from "../../components/HelmetMeta";
 import SocialURLs from "../../json/SocialURLs.json";
+import CoreSite from "../../json/CoreSite.json"
 
 let source = DangerHuskie;
-let x = 3;
-let y = 11; //Happy Rainbow
-let pagename = "Works";
-let subhead = "Vector works of DangerHuskie"
-let metadescription = "Complete gallery of vector works of DangerHuskie by Nick Volkert.";
-let pagelinkurl = "/works";
+let x = 7; //Core site Works
+let y = 11; //Annoyed Sasquatch
+let pagename = CoreSite[x].title;
+let subhead = CoreSite[x].heading;
+let metadescription = CoreSite[x].description;
+let pagelinkurl = CoreSite[x].link;
 let metaimageurl = DangerHuskie[x].meta;
 
 const Home = () => (

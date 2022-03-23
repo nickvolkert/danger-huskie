@@ -11,7 +11,7 @@ import HelmetMeta from "../components/HelmetMeta";
 
 let source = DangerHuskie;
 let x = 0;
-let y = 1; //Annoyed Yeti
+let y = 12; //Cloud Hug
 
 let pagename = CoreSite[x].title;
 let subhead = CoreSite[x].heading;
