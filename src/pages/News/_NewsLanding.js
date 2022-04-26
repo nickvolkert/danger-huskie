@@ -53,6 +53,27 @@ const News = () => (
         <Content>
             
             <div id="news-body" className="body-copy">
+
+                {/* 07 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <a href={DangerHuskie[25].link} rel="noopener noreferrer" target="_blank"><img src={DangerHuskie[25].preview} title="Bigfoot series WIP" alt="First print of the Year! South Side Dog by DangerHuskie" /></a>
+                        </div>
+                        <p className="caption">First print of the year!</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>South Side Dog!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: April 26th, 2022</p>
+                        <p>It's been too long! Here's the South Side Dog, my first print of the year! Available as stickers, tees, patterns and more!</p>
+                        <p><a href={DangerHuskie[25].link}>Check out The South Side Dog here!</a></p>
+                        <p>-Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
                 {/* 06 */}
                 <div className="news-entry">
                     <div className="leftRail">

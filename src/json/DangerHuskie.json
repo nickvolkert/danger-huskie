@@ -673,5 +673,32 @@
         "backgroundcolor": "#20c9e8",
         "backgroundtype":"dark",
         "link": "/works/rubber-duckie"
+      },
+      {
+        "id": "25",
+        "component":"SouthSideDog",
+        "title": "South Side Dog",
+        "description": "Who's got the best dogs in Chicago? Well the South side does! This little green wiener dog is representing a little baseball team that wears black and white.",
+        "meta":"https://nickvolkert.sirv.com/dangerhuskie/works/meta_southsidedog.jpg",
+        "preview":"https://nickvolkert.sirv.com/dangerhuskie/works/preview_southsidedog.jpg",
+        "image":"https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_southsidedog.jpg",
+        "date": "April 26th, 2022",
+        "datenumber": "04.26.21",
+        "skills": "illustrator, vector art",
+        "redbubble": "https://www.redbubble.com/shop/ap/109118477",
+        "society6": "https://society6.com/product/south-side-dog_print",
+        "designbyhumans": "https://www.designbyhumans.com/shop/t-shirt/men/south-side-dog/1832167/",
+        "teepublic": "https://www.teepublic.com/t-shirt/29739770-south-side-dog",
+        "threadless": "https://dangerhuskie.threadless.com/designs/south-side-dog",
+        "deviantart": "#",
+        "tumblr": "#",
+        "pinterest": "#",
+        "designspiration":"#",
+        "tags": "vector, vector art, illustrator, illustration, wiener dog, south side, green, baseball, chicago dog, hot dog, dachshund, south side chicago, south side baseball, dog wearing a hot dog costume, dog wearing a chicago dog costume",
+        "alttext": "A smiling green dog wears a Chicago Dog costume while wearing a black baseball cap.",
+        "series": "Cute",
+        "backgroundcolor": "#12b259",
+        "backgroundtype":"dark",
+        "link": "/works/south-side-dog"
       }
 ]
