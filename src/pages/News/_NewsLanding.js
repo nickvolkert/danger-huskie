@@ -53,12 +53,33 @@ const News = () => (
         <Content>
             
             <div id="news-body" className="body-copy">
+                {/* 08 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <Link to={DangerHuskie[27].link}><img src={DangerHuskie[27].preview} title={DangerHuskie[27].title} alt={DangerHuskie[27].alttext} /></Link>
+                        </div>
+                        <p className="caption">HAIL TRUE METAL!</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>The HORNS</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: October 2nd, 2022</p>
+                        <p>Been a bit. Halloween MONTH is in effect so are some new DangerHuskie works!</p>
+                        <p><Link to={DangerHuskie[27].link}>Check out The Horns!</Link></p>
+                        <p><Link to="/works/">Check my latest works here!</Link></p>
+                        <p>-Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
 
                 {/* 07 */}
                 <div className="news-entry">
                     <div className="leftRail">
                         <div className="leftRailImage">
-                            <a href={DangerHuskie[25].link} rel="noopener noreferrer" target="_blank"><img src={DangerHuskie[25].preview} title="Bigfoot series WIP" alt="First print of the Year! South Side Dog by DangerHuskie" /></a>
+                            <Link to={DangerHuskie[25].link}><img src={DangerHuskie[25].preview} title="Bigfoot series WIP" alt="First print of the Year! South Side Dog by DangerHuskie" /></Link>
                         </div>
                         <p className="caption">First print of the year!</p>
                     </div>
@@ -68,12 +89,13 @@ const News = () => (
                         <div className="news-entry-text">
                         <p>Date: April 26th, 2022</p>
                         <p>It's been too long! Here's the South Side Dog, my first print of the year! Available as stickers, tees, patterns and more!</p>
-                        <p><a href={DangerHuskie[25].link}>Check out The South Side Dog here!</a></p>
+                        <p><Link to={DangerHuskie[25].link}>Check out The South Side Dog here!</Link></p>
                         <p>-Nick</p>
                     </div>
                     </div>
                     <Clearfix />
                 </div>
+                
                 {/* 06 */}
                 <div className="news-entry">
                     <div className="leftRail">

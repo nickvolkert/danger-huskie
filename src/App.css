@@ -3,18 +3,15 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
-  /*inherits body box-sizing declaration*/
+  box-sizing: inherit; /*inherits body box-sizing declaration*/
 }
 
 html {
-  font-size: 62.5%;
-  /* This Defines 1rem */
+  font-size: 62.5%; /* This Defines 1rem */
 }
 
 body {
-  box-sizing: border-box;
-  /*removes padding and margin to height and width*/
+  box-sizing: border-box; /*removes padding and margin to height and width*/
   background-color: #0A2240;
 }
 
@@ -93,15 +90,12 @@ footer {
 .sectionWrapper {
     width: 1040px;
   }
-
   .content {
     padding: 10px 0;
   }
-
   section {
     padding: 40px 0 60px 0;
   }
-
   section .content {
     padding-bottom: 0;
   }
@@ -113,12 +107,10 @@ footer {
 .sectionWrapper {
     width: 90%;
   }
-
   .content,
 section {
     padding: 10px 0 20px 0;
   }
-
   #breadcrumb {
     padding-bottom: 20px;
   }
@@ -129,7 +121,6 @@ section {
     float: left;
     margin-right: 0;
   }
-
   .leftRailImage {
     width: 200px;
     display: block;
@@ -137,7 +128,6 @@ section {
     float: none;
     margin: 0 auto;
   }
-
   .caption {
     margin: 10px 0 20px 0;
   }
@@ -147,21 +137,18 @@ section {
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
-  /*inherits body box-sizing declaration*/
+  box-sizing: inherit; /*inherits body box-sizing declaration*/
 }
 
 html {
-  font-size: 62.5%;
-  /* This Defines 1rem */
+  font-size: 62.5%; /* This Defines 1rem */
 }
 
 body {
   font-family: "Exo 2", sans-serif;
   font-weight: 400;
   font-style: normal;
-  box-sizing: border-box;
-  /*removes padding and margin to height and width*/
+  box-sizing: border-box; /*removes padding and margin to height and width*/
   text-align: left;
   font-size: 1.6rem;
   letter-spacing: 0.16rem;
@@ -276,19 +263,16 @@ a:hover {
     width: 800px;
     height: 220px;
   }
-
   h1 {
     font-size: 7rem;
     padding: 0 0 1.2rem 0;
     letter-spacing: 0.7rem;
   }
-
   h4 {
     font-size: 5rem;
     padding: 0 0 1.2rem 0;
     letter-spacing: 0.7rem;
   }
-
   #copyright p {
     font-size: 1.2rem;
     margin: 0 0 12px 0;
@@ -301,29 +285,24 @@ a:hover {
     height: 75px;
     background-size: 100%;
   }
-
   #intro-text {
     width: 90%;
     padding: 20px 0;
   }
-
   h1 {
     font-size: 4rem;
     padding: 0 0 1.2rem 0;
     letter-spacing: 0.4rem;
   }
-
   h4 {
     font-size: 3rem;
     padding: 0 0 1.2rem 0;
     letter-spacing: 0.3rem;
   }
-
   #copyright p {
     font-size: 1rem;
     margin: 0 0 12px 0;
   }
-
   #footer span::before {
     content: "\a";
     white-space: pre;
@@ -666,7 +645,7 @@ footer #footer-top {
   line-height: 39px;
 }
 .hero-homepage {
-  background: #7ecddd url(https://nickvolkert.sirv.com/dangerhuskie/works/012_cloudhugs.jpg) no-repeat center -170px;
+  background: #6163A6 url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_thehorns.jpg) no-repeat center -170px;
 }
 .hero-about {
   background: #EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px;
@@ -694,7 +673,6 @@ footer #footer-top {
   .projectpipe {
     padding: 0 5px;
   }
-
   .hero {
     height: 220px;
     padding: 80px 0 0 0;
@@ -778,10 +756,6 @@ footer #footer-top {
 }
 
 @media only screen and (max-width: 768px) {
-  #logo_wrapper {
-    padding-top: 19px;
-  }
-
   #logo_wrapper,
 #nav-logo {
     width: 320px;
@@ -1173,7 +1147,6 @@ nav #link_ribbon ul li.spacer {
     width: 100%;
     margin: 0 0 20px 0;
   }
-
   #projectwrapper .projectInfo {
     margin: 0 auto;
     padding: 0;
@@ -1302,7 +1275,6 @@ footer .sociallinks {
     margin: 0;
     padding: 0;
   }
-
   #about-dangerhuskie {
     background-position: -46px -17px;
     background-size: 145%;
@@ -1310,7 +1282,6 @@ footer .sociallinks {
     width: 200px;
     height: 200px;
   }
-
   #about-body {
     float: none;
     width: 100%;
@@ -1355,7 +1326,6 @@ footer .sociallinks {
     width: 90%;
     margin-bottom: 50px;
   }
-
   #contact-page section .content {
     padding-top: 20px;
   }

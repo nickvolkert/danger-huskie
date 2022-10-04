@@ -47,6 +47,7 @@ import VarsityPumpkinHead from "./pages/Works/VarsityPumpkinHead";
 import RubberDuckie from "./pages/Works/RubberDuckie";
 import SouthSideDog from "./pages/Works/SouthSideDog";
 import WinningUglyDog from "./pages/Works/WinningUglyDog";
+import TheHorns from "./pages/Works/TheHorns";
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -99,6 +100,7 @@ const App = () => (
           <Route exact path={DangerHuskie[24].link} component={RubberDuckie} />
           <Route exact path={DangerHuskie[25].link} component={SouthSideDog} />
           <Route exact path={DangerHuskie[26].link} component={WinningUglyDog} />
+          <Route exact path={DangerHuskie[27].link} component={TheHorns} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />

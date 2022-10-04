@@ -5,12 +5,12 @@ import NextandPrev from "../../json/NextandPrev.json";
 import NextPrev from "../../components/NextPrev";
 import BlockVectorIllos from "../../components/BlockVectorIllos";
 
-let y = 26;
+let y = 27;
 let prev = y - 1;
-let next = y + 1;
+let next = 0;
 let source = DangerHuskie;
 
-const WinningUglyDog = () => (
+const TheHorns = () => (
     <div id="danger-huskie-illo">
         <DangerHuskieIllo
                 illoID={source[y].id}
@@ -53,4 +53,4 @@ const WinningUglyDog = () => (
     </div>
     );
 
-export default WinningUglyDog;
+export default TheHorns;
