@@ -53,6 +53,29 @@ const News = () => (
         <Content>
             
             <div id="news-body" className="body-copy">
+
+                {/* 09 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <Link to={DangerHuskie[28].link}><img src={DangerHuskie[28].preview} title={DangerHuskie[28].title} alt={DangerHuskie[28].alttext} /></Link>
+                        </div>
+                        <p className="caption">A little cold, but still spooky</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>Chica-GHOST</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: October 9th, 2022</p>
+                        <p>Halloween MONTH. Check out this new spectre, the Chicaghost. A bit chilly, but still super spooky.</p>
+                        <p><Link to={DangerHuskie[28].link}>Check out {DangerHuskie[28].title}</Link></p>
+                        <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
+                        <p>-Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+
                 {/* 08 */}
                 <div className="news-entry">
                     <div className="leftRail">
@@ -68,7 +91,7 @@ const News = () => (
                         <p>Date: October 2nd, 2022</p>
                         <p>Been a bit. Halloween MONTH is in effect so are some new DangerHuskie works!</p>
                         <p><Link to={DangerHuskie[27].link}>Check out The Horns!</Link></p>
-                        <p><Link to="/works/">Check my latest works here!</Link></p>
+                        <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
                         <p>-Nick</p>
                     </div>
                     </div>
