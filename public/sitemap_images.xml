@@ -12,9 +12,17 @@
 
   <url>
        <loc>https://dangerhuskie.com/</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_chicaghost.jpg</image:loc>
+         <image:caption>A spooky floating ghost looks creepy but comfy with a stocking cap</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_thehorns.jpg</image:loc>
+         <image:caption>A disembodied hand flies through the air with the gesture of &apos;the horns&apos;.</image:caption>
+       </image:image>
        <image:image>
          <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_winningugly.jpg</image:loc>
          <image:caption>A smiling wiener dog wears a red, white and blue ballcap and a chicago-style hot dog costume.</image:caption>
@@ -31,6 +39,12 @@
          <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_varpumphead.jpg</image:loc>
          <image:caption>A floating Jack O&apos;Lantern reaches out with a full moon, clouds, and bats in the background.</image:caption>
        </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/</loc>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
        <image:image>
          <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_shades.jpg</image:loc>
          <image:caption>A dachshund is wearing shades, a stocking cap, and a cool Chicago Style Hot Dog costume.</image:caption>
@@ -39,12 +53,6 @@
          <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_mustard.jpg</image:loc>
          <image:caption>A dachshund smiles while wearing a stocking cap and Chicago style hot dog costume.</image:caption>
        </image:image>
-  </url>
-  <url>
-       <loc>https://dangerhuskie.com/works/</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
        <image:image>
          <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_varsitypumpkingrave.jpg</image:loc>
          <image:caption>A man in a varsity jacket with a Jack O&apos;Lantern digs out of his own grave!</image:caption>
@@ -132,7 +140,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/news</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -157,18 +165,28 @@
        </image:image>
   </url>
   <url>
-       <loc>https://dangerhuskie.com/works/cloud-hug</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <loc>https://dangerhuskie.com/works/the-horns</loc>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
-         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/012_cloudhugs.jpg</image:loc>
-         <image:caption>A grumpy thunder cloud gets a hug from a fluffy white cloud and the sun.</image:caption>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_thehorns.jpg</image:loc>
+         <image:caption>A disembodied hand flies through the air with the gesture of &apos;the horns&apos;.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/chicaghost</loc>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_chicaghost.jpg</image:loc>
+         <image:caption>A spooky floating ghost looks creepy but comfy with a stocking cap</image:caption>
        </image:image>
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/winning-ugly-dog</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -178,7 +196,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/south-side-dog</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -188,7 +206,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/rubber-duckie</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -198,7 +216,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/varsity-pumpkinhead</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -207,28 +225,8 @@
        </image:image>
   </url>
   <url>
-       <loc>https://dangerhuskie.com/works/da-chicago-shades-dog</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-       <image:image>
-         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_shades.jpg</image:loc>
-         <image:caption>A dachshund is wearing shades, a stocking cap, and a cool Chicago Style Hot Dog costume.</image:caption>
-       </image:image>
-  </url>
-  <url>
-       <loc>https://dangerhuskie.com/works/da-chicago-mustard-dog</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-       <image:image>
-         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_mustard.jpg</image:loc>
-         <image:caption>A dachshund smiles while wearing a stocking cap and Chicago style hot dog costume.</image:caption>
-       </image:image>
-  </url>
-  <url>
        <loc>https://dangerhuskie.com/works/oversized-foam-cowboy-hat</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -237,8 +235,28 @@
        </image:image>
   </url>
   <url>
+       <loc>https://dangerhuskie.com/works/da-chicago-shades-dog</loc>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_shades.jpg</image:loc>
+         <image:caption>A dachshund is wearing shades, a stocking cap, and a cool Chicago Style Hot Dog costume.</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/da-chicago-mustard-dog</loc>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_mustard.jpg</image:loc>
+         <image:caption>A dachshund smiles while wearing a stocking cap and Chicago style hot dog costume.</image:caption>
+       </image:image>
+  </url>
+  <url>
        <loc>https://dangerhuskie.com/works/varsity-pumpkin-grave</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -248,7 +266,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/varsity-pumpkin-creepin</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -258,7 +276,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/fighting-burger</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -268,7 +286,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/dh-hardcore-logo</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -278,7 +296,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/danger-huskie-head</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -288,7 +306,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/dh-logo-with-text</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -298,7 +316,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/angry-rainbow</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -308,7 +326,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/unhappy-rainbow</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -317,8 +335,18 @@
        </image:image>
   </url>
   <url>
+       <loc>https://dangerhuskie.com/works/cloud-hug</loc>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/012_cloudhugs.jpg</image:loc>
+         <image:caption>A grumpy thunder cloud gets a hug from a fluffy white cloud and the sun.</image:caption>
+       </image:image>
+  </url>
+  <url>
        <loc>https://dangerhuskie.com/works/pencil-bear-with-flag</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -328,7 +356,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/chicago-dog-with-flag</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -338,7 +366,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/white-electric-cat</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -348,7 +376,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/black-electric-cat</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -358,7 +386,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/calendar-2020</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -368,7 +396,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/joyous-rainbow</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -378,7 +406,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/happy-rainbow</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -388,7 +416,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/varsity-pumpkin</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -398,7 +426,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/annoyed-sasquatch</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -408,7 +436,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/annoyed-yeti</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -418,7 +446,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/pencil-bear</loc>
-       <lastmod>2022-05-01T18:29:08+00:00</lastmod>
+       <lastmod>2022-10-10T11:43:57+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
