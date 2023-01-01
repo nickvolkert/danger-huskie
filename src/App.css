@@ -131,6 +131,9 @@ section {
   .caption {
     margin: 10px 0 20px 0;
   }
+  .pipe {
+    width: 100%;
+  }
 }
 *,
 *::after,
@@ -186,7 +189,7 @@ h2 {
   font-size: 2.8rem;
   color: #FFF;
   text-transform: uppercase;
-  padding: 20px 0 10px 0;
+  margin: 20px 0;
   letter-spacing: 3px;
 }
 
@@ -211,6 +214,8 @@ h2 {
 h3 {
   color: #FFF;
   font-size: 1.6rem;
+  margin-bottom: 14px;
+  line-height: 2.4rem;
 }
 
 h4 {
@@ -222,6 +227,8 @@ h4 {
 
 p {
   color: #FFF;
+  margin-bottom: 10px;
+  line-height: 2.2rem;
 }
 
 .body-copy p {
@@ -255,6 +262,7 @@ a:hover {
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
   text-align: center;
+  line-height: 1.6rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -291,13 +299,16 @@ a:hover {
   }
   h1 {
     font-size: 4rem;
-    padding: 0 0 1.2rem 0;
+    padding: 0;
     letter-spacing: 0.4rem;
   }
   h4 {
     font-size: 3rem;
     padding: 0 0 1.2rem 0;
     letter-spacing: 0.3rem;
+  }
+  p {
+    margin-bottom: 0;
   }
   #copyright p {
     font-size: 1rem;
@@ -626,7 +637,7 @@ footer #footer-top {
   line-height: 14px;
   font-size: 1.2rem;
   color: #0A2240;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 .hero .project-info a:visited {
   color: #60AAFF;
@@ -645,7 +656,7 @@ footer #footer-top {
   line-height: 39px;
 }
 .hero-homepage {
-  background: #6163A6 url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_thehorns.jpg) no-repeat center -170px;
+  background: #a2dcf9 url(https://nickvolkert.sirv.com/dangerhuskie/works/009_chicagodogflag.jpg) no-repeat center -210px;
 }
 .hero-about {
   background: #EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px;
@@ -675,36 +686,47 @@ footer #footer-top {
   }
   .hero {
     height: 220px;
-    padding: 80px 0 0 0;
-    background-size: 70%;
+    padding: 60px 0 0 0;
+    background-size: 100%;
   }
-  .hero ul {
+  .hero .project-info {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    background: rgba(248, 251, 253, 0.9);
+  }
+  .hero .project-info ul {
     list-style: none;
-    padding: 0;
+    padding: 0 10px;
     margin: 0;
+    font-size: 1rem;
   }
-  .hero ul li {
-    letter-spacing: 3px;
+  .hero .project-info ul li {
+    letter-spacing: 1px;
+    font-size: 1rem;
   }
   .hero h1 {
     font-size: 3.8rem;
     line-height: 44px;
   }
   .hero-homepage {
-    background-position: center -70px;
+    background-position: center -102px;
   }
   .hero-about {
-    background-position: center -40px;
+    background-position: center -110px;
     background-size: 100%;
   }
   .hero-contact {
     background-position: center -91px;
   }
   .hero-news {
-    background-position: center -64px;
+    background-position: center -91px;
   }
   .hero-shops {
-    background-position: center -73px;
+    background-position: center -91px;
   }
   .hero-works {
     background-position: center -86px;
@@ -758,7 +780,7 @@ footer #footer-top {
 @media only screen and (max-width: 768px) {
   #logo_wrapper,
 #nav-logo {
-    width: 320px;
+    width: 280px;
     height: 78px;
   }
 }
@@ -1005,7 +1027,7 @@ nav #link_ribbon ul li.spacer {
 
 #breadcrumb {
   padding: 0;
-  font-size: 11px;
+  font-size: 1.2rem;
 }
 #breadcrumb ul {
   text-decoration: none;
@@ -1146,6 +1168,10 @@ nav #link_ribbon ul li.spacer {
   .card {
     width: 100%;
     margin: 0 0 20px 0;
+  }
+  .card .cardImage {
+    min-width: 100%;
+    min-height: 100%;
   }
   #projectwrapper .projectInfo {
     margin: 0 auto;

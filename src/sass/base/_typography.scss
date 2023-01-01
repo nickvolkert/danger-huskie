@@ -42,7 +42,7 @@ h2{
     font-size:2.8rem;
     color:$color-white;
     text-transform: uppercase;
-    padding:20px 0 10px 0;
+    margin:20px 0;
     letter-spacing: 3px;
 }
 #relatedDesigns h2{
@@ -63,7 +63,9 @@ h2{
 }
 h3{
     color:$color-white;
-    font-size:1.6rem;
+    font-size: 1.6rem;
+    margin-bottom: 14px;
+    line-height: 2.4rem;
 }
 h4{
     margin:0;
@@ -73,6 +75,8 @@ h4{
 }
 p{
     color:$color-white;
+    margin-bottom:10px;
+    line-height: 2.2rem;
 }
 .body-copy p{
     margin-bottom:20px;
@@ -102,6 +106,7 @@ a{
     font-family: $font-link-copy;
     font-size:1.0rem;
     text-align: center;
+    line-height: 1.6rem;
 }
 
 
@@ -121,6 +126,7 @@ a{
         padding:0 0 1.2rem 0;
         letter-spacing: 0.7rem;
     }
+    
     #copyright p{
         font-size: 1.2rem;
         margin:0 0 12px 0;
@@ -140,13 +146,16 @@ a{
     }
     h1{
         font-size:4.0rem;
-        padding:0 0 1.2rem 0;
+        padding:0;
         letter-spacing: 0.4rem;
     }
     h4{
         font-size:3.0rem;
         padding:0 0 1.2rem 0;
         letter-spacing: 0.3rem;
+    }
+    p{
+        margin-bottom: 0;
     }
     #copyright p{
         font-size: 1.0rem;

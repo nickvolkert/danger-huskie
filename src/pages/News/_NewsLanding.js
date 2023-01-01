@@ -54,6 +54,28 @@ const News = () => (
             
             <div id="news-body" className="body-copy">
 
+                {/* 10 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <Link to={DangerHuskie[9].link}><img src={DangerHuskie[9].preview} title={DangerHuskie[9].title} alt={DangerHuskie[9].alttext} /></Link>
+                        </div>
+                        <p className="caption">And a Happy New Year to you!</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>Happy Vector New Year!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: January 1st, 2023</p>
+                        <p>It's a New Year! On behalf of myself and the Chicago Dog, I wanted to wish you all a happy and safe 2023!</p>
+                        <p><Link to={DangerHuskie[9].link}>Check out {DangerHuskie[9].title}</Link></p>
+                        <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
+                        <p>~ Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+
                 {/* 09 */}
                 <div className="news-entry">
                     <div className="leftRail">
@@ -70,7 +92,7 @@ const News = () => (
                         <p>Halloween MONTH. Check out this new spectre, the Chicaghost. A bit chilly, but still super spooky.</p>
                         <p><Link to={DangerHuskie[28].link}>Check out {DangerHuskie[28].title}</Link></p>
                         <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
-                        <p>-Nick</p>
+                        <p>~ Nick</p>
                     </div>
                     </div>
                     <Clearfix />
@@ -92,7 +114,7 @@ const News = () => (
                         <p>Been a bit. Halloween MONTH is in effect so are some new DangerHuskie works!</p>
                         <p><Link to={DangerHuskie[27].link}>Check out The Horns!</Link></p>
                         <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
-                        <p>-Nick</p>
+                        <p>~ Nick</p>
                     </div>
                     </div>
                     <Clearfix />
@@ -113,7 +135,7 @@ const News = () => (
                         <p>Date: April 26th, 2022</p>
                         <p>It's been too long! Here's the South Side Dog, my first print of the year! Available as stickers, tees, patterns and more!</p>
                         <p><Link to={DangerHuskie[25].link}>Check out The South Side Dog here!</Link></p>
-                        <p>-Nick</p>
+                        <p>~ Nick</p>
                     </div>
                     </div>
                     <Clearfix />
@@ -135,7 +157,7 @@ const News = () => (
                         <p>New bigfoot (or sasqutach if ya fancy) series in the works on here. Check back soon for vector-y goodness.</p>
                         <p><a href="https://dribbble.com/shots/17274684-WIP-Annoyed-Bigfoot" rel="noopener noreferrer" target="_blank">Check out this WIP on my dribbble!</a></p>
                         <p><Link to="/works/">Check my current works here!</Link></p>
-                        <p>-Nick</p>
+                        <p>~ Nick</p>
                     </div>
                     </div>
                     <Clearfix />
@@ -156,7 +178,7 @@ const News = () => (
                         <p>Annoyed Yeti? Yeah went back to the drawing board on this cryptid and updated the design.</p>
                         <p><a href="https://dribbble.com/shots/17249709-WIP-Annoyed-Yetis" rel="noopener noreferrer" target="_blank">Check out this WIP of an upcoming series of annoyed crytpids on my dribbble!</a></p>
                         <p><Link to="/works/">Check my current works here!</Link></p>
-                        <p>-Nick</p>
+                        <p>~ Nick</p>
                     </div>
                     </div>
                     <Clearfix />
@@ -177,7 +199,7 @@ const News = () => (
                         <p>Hard at work on new items for DangerHuskie. These two handsome duders are a part of a vector log series I'm working on!</p>
                         <p><a href="https://dribbble.com/shots/17200075-DH-Log-Series-WIP" rel="noopener noreferrer" target="_blank">Check out DangerHuskie out the full shot on my dribbble!</a></p>
                         <p><Link to="/works/">Check my current works here!</Link></p>
-                        <p>-Nick</p>
+                        <p>~ Nick</p>
                     </div>
                     </div>
                     <Clearfix />
@@ -198,7 +220,7 @@ const News = () => (
                         <p>DangerHuskie has an account is posting away on Pinterest.</p>
                         <p><a href="https://www.pinterest.com/dangerhuskie/pins/" rel="noopener noreferrer" target="_blank">Check out DangerHuskie out on Pinterest!</a></p>
                         <p><Link to="/works/">Check my works</Link> direct pin to a work!</p>
-                        <p>-Nick</p>
+                        <p>~ Nick</p>
                     </div>
                     </div>
                     <Clearfix />
@@ -219,7 +241,7 @@ const News = () => (
                         <p>DangerHuskie is set up to sell on Design By Humans! Tees, mugs, stickers and mousepads for sale.</p>
                         <p><Link to="/works/">Check my works</Link> to link to my DBH store by designs.</p>
                         <p>Or check <a href="https://www.designbyhumans.com/shop/dangerhuskie/" rel="noopener noreferrer" target="_blank">DangerHuskie out on DBH here!</a></p>
-                        <p>-Nick</p>
+                        <p>~ Nick</p>
                     </div>
                     </div>
                     <Clearfix />
@@ -238,7 +260,7 @@ const News = () => (
                         <div className="news-entry-text">
                         <p>Date: September 31st, 2020</p>
                         <p>DangerHuskie is now live! Thanks for visting and check back soon with a LOT of art updates!</p>
-                        <p>-Nick</p>
+                        <p>~ Nick</p>
                     </div>
                     </div>
                     <Clearfix />
