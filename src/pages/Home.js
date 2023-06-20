@@ -11,7 +11,7 @@ import HelmetMeta from "../components/HelmetMeta";
 
 let source = DangerHuskie;
 let x = 0;
-let y = 9; //Chicago Dog with Flag
+let y = 29; //Chicago Dog with Flag
 
 let pagename = CoreSite[x].title;
 let subhead = CoreSite[x].heading;
