@@ -49,6 +49,8 @@ import SouthSideDog from "./pages/Works/SouthSideDog";
 import WinningUglyDog from "./pages/Works/WinningUglyDog";
 import TheHorns from "./pages/Works/TheHorns";
 import Chicaghost from "./pages/Works/Chicaghost";
+import DaChicagoHockeyGhost from './pages/Works/DaChicagoHockeyGhost';
+import AllAmericanDog from './pages/Works/AllAmericanDog';
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -58,7 +60,6 @@ import LinksPage from "./pages/LinksPage";
 
 //404
 import Page404 from "./pages/Page404";
-import AllAmericanDog from './pages/Works/AllAmericanDog';
 
 const App = () => (
   <Router>
@@ -105,6 +106,7 @@ const App = () => (
           <Route exact path={DangerHuskie[27].link} component={TheHorns} />
           <Route exact path={DangerHuskie[28].link} component={Chicaghost} />
           <Route exact path={DangerHuskie[29].link} component={AllAmericanDog} />
+          <Route exact path={DangerHuskie[30].link} component={DaChicagoHockeyGhost} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />
