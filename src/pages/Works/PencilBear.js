@@ -16,7 +16,7 @@ const PencilBear = () => (
         <DangerHuskieIllo
                 illoID={source[y].id}
                 illoImage={source[y].image}
-                illoMetaImage={source[y].meta}
+                illoMetaImage={source[y].metaimage}
                 illoMetaText={source[y].meta}
                 illoTitle={source[y].title}
                 illoLink={source[y].link}
