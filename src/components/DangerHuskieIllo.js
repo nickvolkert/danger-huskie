@@ -22,27 +22,27 @@ const Renderedillo = props => (
             </div>
         <div className="project">
             <Helmet>
-                <title>{props.illoTitle + me}</title>
-                <link rel="canonical" href={domain + props.illoLink} />
+            <title>{props.illoTitle + me}</title>
                 <meta name="title" content={props.illoTitle + me} />
+                <link rel="canonical" href={domain + props.illoLink} />
                 <meta name="keywords" content={props.illoTags} />
-                <meta name="description" content={props.illoDescription} />
-                <meta property="og:description" content={props.illoDescription} />
+                <meta name="description" content={props.illoMetaText} />
+                <meta property="og:description" content={props.illoMetaText} />
                 <meta property="og:type" content="website"/>
-                <meta property="og:site_name" content="DangerHuskie" />
+                <meta property="og:site_name" content="Nick Volkert" />
 
                 <meta property="og:type" content="website"></meta>
                 <meta property="og:url" content={domain + props.illoLink} />
                 <meta property="og:title" content={props.illoTitle + me}/>
-                <meta property="og:description" content={props.illoDescription}/>
-                <meta property="og:image" content={props.metaImage}/>
+                <meta property="og:description" content={props.illoMetaText}/>
+                <meta property="og:image" content={props.illoMetaImage}/>
 
                 <meta property="twitter:card" content="summary_large_image"/>
                 <meta property="twitter:url" content={domain + props.illoLink}/>
                 <meta property="twitter:title" content={props.illoTitle + me}/>
-                <meta property="twitter:description" content={props.illoDescription}/>
-                <meta property="twitter:image" content={props.metaImage}/>
-                <meta name="twitter:image:alt" content={props.illoAlt} />
+                <meta property="twitter:description" content={props.illoMetaText}/>
+                <meta property="twitter:image" content={props.illoMetaImage}/>
+                <meta name="twitter:image:alt" content={props.illoAlt}></meta>
             </Helmet>
             <BodyClassName className="dangerhuskie"></BodyClassName>
             <div className="projectImage" style={{"backgroundColor": props.illoBackGroundColor}}>

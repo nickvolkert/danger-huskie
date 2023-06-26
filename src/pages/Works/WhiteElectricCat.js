@@ -15,7 +15,8 @@ const WhiteElectricCat = () => (
         <DangerHuskieIllo
                 illoID={source[y].id}
                 illoImage={source[y].image}
-                metaImage={source[y].meta}
+                illoMetaImage={source[y].meta}
+                illoMetaText={source[y].meta}
                 illoTitle={source[y].title}
                 illoLink={source[y].link}
                 illoAlt={source[y].alttext}

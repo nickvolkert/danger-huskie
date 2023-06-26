@@ -15,13 +15,13 @@ const AnnoyedSasquatch = () => (
         <DangerHuskieIllo
                 illoID={source[y].id}
                 illoImage={source[y].image}
-                metaImage={source[y].meta}
+                illoMetaImage={source[y].meta}
+                illoMetaText={source[y].meta}
                 illoTitle={source[y].title}
                 illoLink={source[y].link}
                 illoAlt={source[y].alttext}
                 illoDate={source[y].date}
                 illoDescription={source[y].description}
-                illoSkills={source[y].skills}
                 Redbubble={source[y].redbubble}
                 Society6={source[y].society6}
                 Dbh={source[y].designbyhumans}
