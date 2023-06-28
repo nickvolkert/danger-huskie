@@ -9,8 +9,10 @@ import Clearfix from "../components/Clearfix";
 import HelmetMeta from "../components/HelmetMeta";
 
 let postDetail = DangerHuskie;
-let lastillo = [DangerHuskie.length];
-let threeillo = [DangerHuskie.length - 4];
+let latestillo = [DangerHuskie.length];
+let scndlatestillo = [DangerHuskie.length - 2];
+let thrdlatestillo = [DangerHuskie.length - 2]
+let frthlatestillo = [DangerHuskie.length - 4];
 
 let x = 3;
 
@@ -43,8 +45,8 @@ const LinksPage = () => (
           </div>
           <div id="latest-pbds">
             <p>My Latest Works:</p>
-
-              {postDetail.slice(threeillo, lastillo).map((postDetail) => {
+              <div>
+              {postDetail.slice(scndlatestillo, latestillo).map((postDetail) => {
                 return <LatestPBDs
                 key={postDetail.id}
                 cardLink={postDetail.link}
@@ -56,6 +58,21 @@ const LinksPage = () => (
             />
             }).reverse()}
             <Clearfix />
+            </div>
+            <div className="clearfix">
+                {postDetail.slice(frthlatestillo, thrdlatestillo).map((postDetail) => {
+                  return <LatestPBDs
+                  key={postDetail.id}
+                  cardLink={postDetail.link}
+                  cardID={postDetail.component}
+                  cardImage={postDetail.preview}
+                  cardAlt={postDetail.alttext}
+                  cardimageTitle={postDetail.title}
+                  cardBackGround={postDetail.backgroundcolor}
+              />
+              }).reverse()}
+              <Clearfix />
+            </div>
         </div>
           <div id="link-tree">
             <p>DangerHuskie Site!:</p>
