@@ -54,6 +54,28 @@ const News = () => (
             
             <div id="news-body" className="body-copy">
 
+                {/* 11 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <Link to={DangerHuskie[31].link}><img src={DangerHuskie[31].preview} title={DangerHuskie[31].title} alt={DangerHuskie[31].alttext} /></Link>
+                        </div>
+                        <p className="caption">Chicago Proud, no matter what air quality!</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>Chicago Dog reporting in!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: June 27th, 2023</p>
+                        <p>Summer is here, but this Chicago Dog still has his stocking cap on, just in case, who knows with this air quality thing. Despite all that, long live CHICAGO.</p>
+                        <p><Link to={DangerHuskie[31].link}>Check out {DangerHuskie[31].title}</Link></p>
+                        <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
+                        <p>~ Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+
                 {/* 10 */}
                 <div className="news-entry">
                     <div className="leftRail">
@@ -75,6 +97,7 @@ const News = () => (
                     </div>
                     <Clearfix />
                 </div>
+
 
                 {/* 09 */}
                 <div className="news-entry">
