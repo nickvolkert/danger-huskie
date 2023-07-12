@@ -22,7 +22,7 @@ let altmeta = CoreSite[x].alttext;
 let pageheadtags = CoreSite[x].tags;
 
 let lastillo = [DangerHuskie.length];
-let threeillo = [DangerHuskie.length - 6];
+let threeillo = [DangerHuskie.length - 9];
 
 const Home = () => (
   <div id="home">
