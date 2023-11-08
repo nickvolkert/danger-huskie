@@ -54,6 +54,28 @@ const News = () => (
             
             <div id="news-body" className="body-copy">
 
+                {/* 12 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <Link to={DangerHuskie[32].link}><img src={DangerHuskie[32].preview} title={DangerHuskie[32].title} alt={DangerHuskie[32].alttext} /></Link>
+                        </div>
+                        <p className="caption">If your local friendly log waves, you best wave back!</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>New work coming in "waves"...</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: November 7th, 2023</p>
+                        <p>DANGER TEAM: It's been a minute but I'm back from a tour of the local forest and have to report and record on all the interesting logs I've found! Starting with the waving {DangerHuskie[32].title}!</p>
+                        <p><Link to={DangerHuskie[32].link}>Check out {DangerHuskie[32].title} here!</Link></p>
+                        <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
+                        <p>~ Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+
                 {/* 11 */}
                 <div className="news-entry">
                     <div className="leftRail">

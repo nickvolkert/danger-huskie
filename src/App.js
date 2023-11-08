@@ -52,6 +52,7 @@ import Chicaghost from "./pages/Works/Chicaghost";
 import AllAmericanDog from './pages/Works/AllAmericanDog';
 import DaChicagoHockeyGhost from './pages/Works/DaChicagoHockeyGhost';
 import ChicagoStockingCapDogwFlag from './pages/Works/ChicagoStockingCapDogwFlag';
+import TheFriendlyLog from './pages/Works/TheFriendlyLog';
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -109,6 +110,7 @@ const App = () => (
           <Route exact path={DangerHuskie[29].link} component={AllAmericanDog} />
           <Route exact path={DangerHuskie[30].link} component={DaChicagoHockeyGhost} />
           <Route exact path={DangerHuskie[31].link} component={ChicagoStockingCapDogwFlag} />
+          <Route exact path={DangerHuskie[32].link} component={TheFriendlyLog} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />
