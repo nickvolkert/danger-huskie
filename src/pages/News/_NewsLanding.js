@@ -54,6 +54,28 @@ const News = () => (
             
             <div id="news-body" className="body-copy">
 
+                {/* 13 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <Link to={DangerHuskie[33].link}><img src={DangerHuskie[33].preview} title={DangerHuskie[33].title} alt={DangerHuskie[33].alttext} /></Link>
+                        </div>
+                        <p className="caption">Mustache gang doing a twirl on their superb 'staches.</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>Mo staches in November</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: November 11th, 2023</p>
+                        <p>DANGER TEAM: If you find yourself in the forest you may find yourself in a lowkey competition to see whom has the crispest mustache. Best come prepared!</p>
+                        <p><Link to={DangerHuskie[33].link}>Check out {DangerHuskie[33].title} here!</Link></p>
+                        <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
+                        <p>~ Danger Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+
                 {/* 12 */}
                 <div className="news-entry">
                     <div className="leftRail">
