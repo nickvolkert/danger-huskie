@@ -55,6 +55,7 @@ import ChicagoStockingCapDogwFlag from './pages/Works/ChicagoStockingCapDogwFlag
 import TheFriendlyLog from './pages/Works/TheFriendlyLog';
 import TheMustacheLog from './pages/Works/TheMustacheLog';
 import AnEvilEyedea from './pages/Works/AnEvilEyedea';
+import EvilEyeCaper from './pages/Works/EvilEyeCaper';
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -115,6 +116,7 @@ const App = () => (
           <Route exact path={DangerHuskie[32].link} component={TheFriendlyLog} />
           <Route exact path={DangerHuskie[33].link} component={TheMustacheLog} />
           <Route exact path={DangerHuskie[34].link} component={AnEvilEyedea} />
+          <Route exact path={DangerHuskie[35].link} component={EvilEyeCaper} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />
