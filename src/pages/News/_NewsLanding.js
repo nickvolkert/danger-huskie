@@ -54,6 +54,30 @@ const News = () => (
             
             <div id="news-body" className="body-copy">
 
+                {/* 17 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <Link to={DangerHuskie[37].link}>
+                                <img src={DangerHuskie[37].preview} title={DangerHuskie[37].title} alt={DangerHuskie[37].alttext} />
+                            </Link>
+                        </div>
+                        <p className="caption">Such a grand and lush leafy mullet on this little guy...</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>Mullet lovers say hey!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: December 14th, 2023</p>
+                        <p>DANGER TEAM: Mullets aren't just for people, the little logs in the forest are still rocking them too!</p>
+                        <p><Link to={DangerHuskie[37].link}>Check out {DangerHuskie[37].title} here!</Link></p>
+                        <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
+                        <p>~ Danger Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+
                 {/* 16 */}
                 <div className="news-entry">
                     <div className="leftRail">
@@ -110,7 +134,7 @@ const News = () => (
                                 <img src={DangerHuskie[34].preview} title={DangerHuskie[34].title} alt={DangerHuskie[34].alttext} />
                             </Link>
                         </div>
-                        <p className="caption">Mustache gang doing a twirl on their superb 'staches.</p>
+                        <p className="caption">An evil eye is on the prowl!</p>
                     </div>
                     <div className="rightRail">
                         <h2>Evil ideas incoming...</h2>
