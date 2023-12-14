@@ -55,7 +55,7 @@ const Renderedillo = props => (
             </div>
             <div className="projectInfo">
                 <div className="projectDesc">
-                    <p className="workPrehead">Danger Huskie #{props.illoID}</p>
+                    <p className="workPrehead">Danger Huskie Entry#{props.illoID}</p>
                     <h1>{props.illoTitle}</h1>
                     <p className="projectYear">Created: {props.illoDate}</p>
                     <p className="illoDescription">{props.illoDescription}</p>
