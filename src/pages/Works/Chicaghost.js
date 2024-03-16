@@ -7,7 +7,7 @@ import BlockVectorIllos from "../../components/BlockVectorIllos";
 
 let y = 28;
 let prev = y - 1;
-let next = 0;
+let next = y + 1;
 let source = DangerHuskie;
 
 const Chicaghost = () => (
