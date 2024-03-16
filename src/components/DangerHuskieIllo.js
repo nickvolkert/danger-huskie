@@ -48,6 +48,7 @@ const Renderedillo = props => (
             <div className="projectImage" style={{"backgroundColor": props.illoBackGroundColor}}>
                 <img src={props.illoImage} title={props.illoTitle + me} alt={props.illoAlt} />
                 <div className="socialBtnWrapper">
+                    <p>Get Social:</p>
                     <a href={props.DeviantArt} className="btn-ghost btn linkDevArt" target="_blank" rel="noopener noreferrer">DeviantArt</a>
                     <a href={props.Tumblr} className="btn-ghost btn linkTumblr" target="_blank" rel="noopener noreferrer">Tumblr</a>
                     <a href={props.Pinterest} className="btn-ghost btn linkPinterest" target="_blank" rel="noopener noreferrer">Pinterest</a>
@@ -55,11 +56,11 @@ const Renderedillo = props => (
             </div>
             <div className="projectInfo">
                 <div className="projectDesc">
-                    <p className="workPrehead">Danger Huskie Entry#{props.illoID}</p>
+                    <p className="workPrehead">Danger Huskie Entry #{props.illoID}</p>
                     <h1>{props.illoTitle}</h1>
                     <p className="projectYear">Created: {props.illoDate}</p>
                     <p className="illoDescription">{props.illoDescription}</p>
-                    <p className="projectSkills">Skills: Adobe Illustrator, Vector Art</p>
+                    <p className="projectSkills">Skills: <br/> Adobe Illustrator, Vector Art and Danger!</p>
                 </div>
                 <div className="projectLinks">
                     <p className="purchasePrint">Purchase a prints, tees, stickers and more:</p>
@@ -70,6 +71,7 @@ const Renderedillo = props => (
                     <a href={props.Threadless} className="btn-secondary-blue btn linkThreadless" target="_blank" rel="noopener noreferrer">Threadless</a>
                 </div>
                 <div className="socialBtnWrapper">
+                    <p>Get Social:</p>
                     <a href={props.DeviantArt} className="btn-ghost btn linkDevArt" target="_blank" rel="noopener noreferrer">DeviantArt</a>
                     <a href={props.Tumblr} className="btn-ghost btn linkTumblr" target="_blank" rel="noopener noreferrer">Tumblr</a>
                     <a href={props.Pinterest} className="btn-ghost btn linkPinterest" target="_blank" rel="noopener noreferrer">Pinterest</a>

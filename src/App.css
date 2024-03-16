@@ -418,6 +418,7 @@ a.btn {
   transition: all 0.2s;
   text-align: center;
   line-height: 1rem;
+  border-radius: 0.3rem;
 }
 a.btn:visited {
   border: 1px solid #60AAFF;
@@ -1045,7 +1046,6 @@ nav #link_ribbon ul li.spacer {
 
 #projectwrapper .workPrehead {
   font-size: 1.1rem;
-  letter-spacing: 0.5rem;
   font-family: "Roboto Mono", monospace;
   line-height: 2.2rem;
 }
@@ -1061,7 +1061,6 @@ nav #link_ribbon ul li.spacer {
 }
 #projectwrapper .projectYear {
   font-size: 1.1rem;
-  letter-spacing: 0.3rem;
   font-family: "Roboto Mono", monospace;
   line-height: 2.2rem;
   padding-bottom: 16px;
@@ -1214,6 +1213,9 @@ nav #link_ribbon ul li.spacer {
   #projectwrapper .socialBtnWrapper {
     width: 100%;
     margin: 0 auto;
+  }
+  #projectwrapper .socialBtnWrapper p {
+    margin-bottom: 10px;
   }
 }
 .sociallinks {
