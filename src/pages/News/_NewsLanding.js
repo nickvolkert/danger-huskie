@@ -54,6 +54,30 @@ const News = () => (
             
             <div id="news-body" className="body-copy">
 
+                {/* 20 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <Link to={DangerHuskie[40].link}>
+                                <img src={DangerHuskie[40].preview} title={DangerHuskie[40].title} alt={DangerHuskie[40].alttext} />
+                            </Link>
+                        </div>
+                        <p className="caption">Belated St. Patrick's Day Wishes!</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>That's one big Irish flag!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: March 23rd, 2024</p>
+                        <p>DANGER TEAM: St. Patrick's Day has come and gone, but the luck of the Irish is foreverrrr. Check out this Chicago-Style dog for instance!</p>
+                        <p><Link to={DangerHuskie[40].link}>Check out the {DangerHuskie[40].title} here!</Link></p>
+                        <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
+                        <p>~ Danger Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+
                 {/* 19 */}
                 <div className="news-entry">
                     <div className="leftRail">
