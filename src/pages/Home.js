@@ -11,14 +11,14 @@ import HelmetMeta from "../components/HelmetMeta";
 
 let source = DangerHuskie;
 let x = 0;
-let y = 29; //Chicago Dog with Flag
+let heroref = 33; //Mustache Log
 
 let pagename = CoreSite[x].title;
 let subhead = CoreSite[x].heading;
 let metadescription = CoreSite[x].description;
 let pagelinkurl = CoreSite[x].link;
-let metaimageurl = CoreSite[x].image;
-let altmeta = CoreSite[x].alttext;
+let metaimageurl = source[heroref].metaimage;
+let altmeta = source[heroref].alttext;
 let pageheadtags = CoreSite[x].tags;
 
 let lastillo = [DangerHuskie.length];
@@ -36,12 +36,12 @@ const Home = () => (
         pageTags={pageheadtags}
     />
     <Hero
-            heroClass="-homepage"
-            heroH1={pagename}
-            heroImage={source[y].image}
-            heroDescription={source[y].title}
-            heroLink={source[y].link}
-        />
+        heroClass="-homepage"
+        heroH1={pagename}
+        heroImage={source[heroref].image}
+        heroDescription={source[heroref].title}
+        heroLink={source[heroref].link}
+    />
     <Content>
       <div id="intro-text">
             <p>DangerHuskie is a side project of vector illustrations created by Chicagoland artist Nick Volkert. The project started during the covid pandemic lockdown in the Spring of our Discontent, the Year of our Lord, Year of Danger, 2020. <Link to="/about">Learn more.</Link></p>

@@ -11,8 +11,15 @@
     text-align: center;
     color:$color-white;
     text-transform: uppercase;
-    padding: 167px 0 0 0;
-    position: relative;
+
+    .heroWrapper{
+      max-width: 1440px;
+      width:auto;
+      margin:0 auto;
+      height: 400px;
+      position: relative;
+      padding: 167px 0 0 0;
+    }
 
     .project-info{
       width: auto;
@@ -59,10 +66,11 @@
       line-height: 39px;
     }
     &-homepage{
-      background:#63B0E5 url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_allamericandog.jpg) no-repeat center -210px;
+      background:#49bf84 url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_mustachelog.jpg) no-repeat center -196px;
     }
     &-about{
       background:#EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px;
+      padding: 167px 0 0 0;
     }
     &-contact{
       background:#8cc8ed url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_mustard.jpg) no-repeat center -202px;
@@ -91,9 +99,13 @@
   }
   .hero{
     height: 220px;
-    padding: 60px 0 0 0;
     background-size:100%;
     
+    .heroWrapper{
+      height: 220px;
+      padding: 80px 0 0 0;
+    }
+
       .project-info{
         width: auto;
         display:inline-block;
@@ -116,27 +128,28 @@
       }
     }
     h1{
-      font-size:3.8rem;
+      font-size:4rem;
       line-height: 44px;
     }
     &-homepage{
-      background-position: center -159px;
+      background-position: center center;
     }
     &-about{
-      background-position: center -42px;
+      background-position: center center;
       background-size:100%;
+      padding: 80px 0 0 0;
     }
     &-contact{
-      background-position: center -164px;
+      background-position: center center;
     }
     &-news{
-      background-position: center -143px;
+      background-position: center center;
     }
     &-shops{
-      background-position: center -148px;
+      background-position: center center;
     }
     &-works{
-      background-position: center -86px;
+      background-position: center center;
     }
   }
 }

@@ -1,4 +1,4 @@
-#news-landing{
+.news-entry{
     h2{
         font-size:6.0rem;
         line-height: 6.4rem;
@@ -35,7 +35,7 @@
 }
 
 @media only screen and (max-width: 768px){
-    #news-landing{
+    .news-entry{
         h2{
             font-size:3.8rem;
             line-height: 4.0rem;

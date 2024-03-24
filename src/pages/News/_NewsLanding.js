@@ -7,6 +7,7 @@ import Clearfix from "../../components/Clearfix";
 import DangerHuskie from "../../json/DangerHuskie.json";
 import CoreSite from "../../json/CoreSite.json";
 import HelmetMeta from "../../components/HelmetMeta";
+import BlockVectorIllos from "../../components/BlockVectorIllos";
 
 let source = DangerHuskie;
 let x = 6;
@@ -503,6 +504,7 @@ const News = () => (
                 </div>
             </div>
         </Content>
+        <BlockVectorIllos/>
         <Clearfix />
     </section>
     </div>

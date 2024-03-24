@@ -615,8 +615,14 @@ footer #footer-top {
   text-align: center;
   color: #FFF;
   text-transform: uppercase;
-  padding: 167px 0 0 0;
+}
+.hero .heroWrapper {
+  max-width: 1440px;
+  width: auto;
+  margin: 0 auto;
+  height: 400px;
   position: relative;
+  padding: 167px 0 0 0;
 }
 .hero .project-info {
   width: auto;
@@ -657,10 +663,11 @@ footer #footer-top {
   line-height: 39px;
 }
 .hero-homepage {
-  background: #63B0E5 url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_allamericandog.jpg) no-repeat center -210px;
+  background: #49bf84 url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_mustachelog.jpg) no-repeat center -196px;
 }
 .hero-about {
   background: #EE283B url(https://nickvolkert.sirv.com/dangerhuskie/site-graphics/00-dribblemasthead.jpg) no-repeat center -350px;
+  padding: 167px 0 0 0;
 }
 .hero-contact {
   background: #8cc8ed url(https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_mustard.jpg) no-repeat center -202px;
@@ -687,8 +694,11 @@ footer #footer-top {
   }
   .hero {
     height: 220px;
-    padding: 60px 0 0 0;
     background-size: 100%;
+  }
+  .hero .heroWrapper {
+    height: 220px;
+    padding: 80px 0 0 0;
   }
   .hero .project-info {
     width: auto;
@@ -710,27 +720,28 @@ footer #footer-top {
     font-size: 1rem;
   }
   .hero h1 {
-    font-size: 3.8rem;
+    font-size: 4rem;
     line-height: 44px;
   }
   .hero-homepage {
-    background-position: center -159px;
+    background-position: center center;
   }
   .hero-about {
-    background-position: center -42px;
+    background-position: center center;
     background-size: 100%;
+    padding: 80px 0 0 0;
   }
   .hero-contact {
-    background-position: center -164px;
+    background-position: center center;
   }
   .hero-news {
-    background-position: center -143px;
+    background-position: center center;
   }
   .hero-shops {
-    background-position: center -148px;
+    background-position: center center;
   }
   .hero-works {
-    background-position: center -86px;
+    background-position: center center;
   }
 }
 #logo_wrapper {
@@ -1520,27 +1531,27 @@ footer .sociallinks {
   color: #FFF;
 }
 
-#news-landing h2 {
+.news-entry h2 {
   font-size: 6rem;
   line-height: 6.4rem;
   letter-spacing: 0.6rem;
   color: #FFF;
   text-transform: uppercase;
 }
-#news-landing .pipe {
+.news-entry .pipe {
   margin: 40px 0;
 }
-#news-landing .rightRail {
+.news-entry .rightRail {
   float: left;
   width: 676px;
 }
-#news-landing .news-entry {
+.news-entry .news-entry {
   margin-bottom: 60px;
 }
-#news-landing .leftRailImage a:hover {
+.news-entry .leftRailImage a:hover {
   border-bottom: none;
 }
-#news-landing img {
+.news-entry img {
   width: 300px;
   border-radius: 50%;
 }
@@ -1550,21 +1561,21 @@ footer .sociallinks {
 }
 
 @media only screen and (max-width: 768px) {
-  #news-landing h2 {
+  .news-entry h2 {
     font-size: 3.8rem;
     line-height: 4rem;
   }
-  #news-landing #launch-dangerhuskie {
+  .news-entry #launch-dangerhuskie {
     background-size: 420%;
   }
-  #news-landing .rightRail {
+  .news-entry .rightRail {
     float: none;
     width: 90%;
   }
-  #news-landing .news-entry {
+  .news-entry .news-entry {
     margin-bottom: 20px;
   }
-  #news-landing .leftRailImage img {
+  .news-entry .leftRailImage img {
     width: 200px;
     border-radius: 50%;
   }

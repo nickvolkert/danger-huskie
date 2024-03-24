@@ -12,12 +12,14 @@ import CoreSite from "../../json/CoreSite.json"
 
 let source = DangerHuskie;
 let x = 7; //Core site Works
-let y = 11; //Annoyed Sasquatch
+let y = [DangerHuskie.length - 1]; //Whatever the latest work is
 let pagename = CoreSite[x].title;
 let subhead = CoreSite[x].heading;
 let metadescription = CoreSite[x].description;
 let pagelinkurl = CoreSite[x].link;
-let metaimageurl = DangerHuskie[x].meta;
+let metaimageurl = source[y].meta;
+let altmeta = source[y].alttext;
+let metakeywords = CoreSite[x].tags;
 
 const Home = () => (
   <div id="works-landing">
@@ -25,8 +27,10 @@ const Home = () => (
         pageName={pagename}
         pageSubhead = {subhead}
         pageDescription={metadescription}
+        pageKeywords={metakeywords}
         pageLink={pagelinkurl}
         metaImage={metaimageurl}
+        altText={altmeta}
     />
     <BodyClassName className="works"></BodyClassName>
     <Hero

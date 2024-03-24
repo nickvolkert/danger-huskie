@@ -5,15 +5,35 @@
 
   <url>
        <loc>https://dangerhuskie.com/</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
        <image:image>
-         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_caper-jackolantern.jpg</image:loc>
-         <image:caption>A spooky and sinister man with a Jack O&apos;Lantern head lunges by in a three-piece suit and a dashing cape!</image:caption>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_irishflagdog.jpg</image:loc>
+         <image:caption>A little weiener dog dressed as a Chicago-style hot dog waves an oversized flag of Ireland for St. Patrick&apos;s Day!</image:caption>
        </image:image>
        <image:image>
-         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_caper-jackolantern.jpg?scale.option=fill&amp;scale.width=432&amp;scale.height=432</image:loc>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_irishflagdog.jpg?scale.option=fill&amp;scale.width=432&amp;scale.height=432</image:loc>
+         <image:caption>A little weiener dog dressed as a Chicago-style hot dog waves an oversized flag of Ireland for St. Patrick&apos;s Day!</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_shamrockdog.jpg</image:loc>
+         <image:caption>A friendly dachsund decked out as a chicago-style hot dog wears a festive St. Patrick&apos;s Day themed top hat and presents a luck four leaf clover!</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_shamrockdog.jpg?scale.option=fill&amp;scale.width=432&amp;scale.height=432</image:loc>
+         <image:caption>A friendly dachsund decked out as a chicago-style hot dog wears a festive St. Patrick&apos;s Day themed top hat and presents a luck four leaf clover!</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_stpatricksdog.jpg</image:loc>
+         <image:caption>A smiling little dachshund is wearing green for St Patrick&apos;s Day in addition to a full sized Chicago-style hot dog costume!</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_mulletlog.jpg</image:loc>
+         <image:caption>A mullet stands proudly showing off his leafy and lush mullet!</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_caper-jackolantern.jpg</image:loc>
          <image:caption>A spooky and sinister man with a Jack O&apos;Lantern head lunges by in a three-piece suit and a dashing cape!</image:caption>
        </image:image>
        <image:image>
@@ -33,6 +53,21 @@
          <image:caption>A friendly log waves at the view with a big smile.</image:caption>
        </image:image>
        <image:image>
+         <image:loc>https://dangerhuskie.com/apple-touch-icon.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://dangerhuskie.com/favicon-32x32.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://dangerhuskie.com/favicon-16x16.png</image:loc>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/</loc>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
          <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_chicagostockingcapdogwithflag.jpg</image:loc>
          <image:caption>A friendly dachshund in a stocking cap with the colors of the Chicago flag and also sporting a costume with the toppings of the Chicago-style hot dog!</image:caption>
        </image:image>
@@ -48,21 +83,6 @@
          <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_chicaghost.jpg</image:loc>
          <image:caption>A spooky floating ghost looks creepy but comfy with a stocking cap</image:caption>
        </image:image>
-       <image:image>
-         <image:loc>https://dangerhuskie.com/apple-touch-icon.png</image:loc>
-       </image:image>
-       <image:image>
-         <image:loc>https://dangerhuskie.com/favicon-32x32.png</image:loc>
-       </image:image>
-       <image:image>
-         <image:loc>https://dangerhuskie.com/favicon-16x16.png</image:loc>
-       </image:image>
-  </url>
-  <url>
-       <loc>https://dangerhuskie.com/works/</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
        <image:image>
          <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/preview_thehorns.jpg</image:loc>
          <image:caption>A disembodied hand flies through the air with the gesture of &apos;the horns&apos;.</image:caption>
@@ -178,7 +198,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/news</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -204,7 +224,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/all-american-dog</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -213,10 +233,50 @@
        </image:image>
   </url>
   <url>
-       <loc>https://dangerhuskie.com/works/jack-o-lantern-in-a-cape</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <loc>https://dangerhuskie.com/works/big-irish-flag-chicago-dog</loc>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.9500</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_irishflagdog.jpg</image:loc>
+         <image:caption>A little weiener dog dressed as a Chicago-style hot dog waves an oversized flag of Ireland for St. Patrick&apos;s Day!</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/chicago-style-shamrock-dog</loc>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_shamrockdog.jpg</image:loc>
+         <image:caption>A friendly dachsund decked out as a chicago-style hot dog wears a festive St. Patrick&apos;s Day themed top hat and presents a luck four leaf clover!</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/four-leaf-clover-chicago-dog</loc>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_stpatricksdog.jpg</image:loc>
+         <image:caption>A smiling little dachshund is wearing green for St Patrick&apos;s Day in addition to a full sized Chicago-style hot dog costume!</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/the-mullet-log</loc>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_mulletlog.jpg</image:loc>
+         <image:caption>A mullet stands proudly showing off his leafy and lush mullet!</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/jack-o-lantern-in-a-cape</loc>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
        <image:image>
          <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_caper-jackolantern.jpg</image:loc>
          <image:caption>A spooky and sinister man with a Jack O&apos;Lantern head lunges by in a three-piece suit and a dashing cape!</image:caption>
@@ -224,7 +284,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/evil-eye-in-a-cape</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -234,7 +294,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/the-evil-eye</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -244,7 +304,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/the-mustache-log</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -254,7 +314,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/the-friendly-log</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
        <image:image>
@@ -263,38 +323,8 @@
        </image:image>
   </url>
   <url>
-       <loc>https://dangerhuskie.com/works/chicago-stocking-cap-dog-with-flag</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-       <image:image>
-         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_chicagostockingcapdogwithflag.jpg</image:loc>
-         <image:caption>A friendly dachshund in a stocking cap with the colors of the Chicago flag and also sporting a costume with the toppings of the Chicago-style hot dog!</image:caption>
-       </image:image>
-  </url>
-  <url>
-       <loc>https://dangerhuskie.com/works/da-chicago-hockey-ghost</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-       <image:image>
-         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_hockeyghost.jpg</image:loc>
-         <image:caption>A friendly floating ghost holding a hockey stick that&apos;s taped up, and hockey gloves, all while keeping warm with a stocking cap!</image:caption>
-       </image:image>
-  </url>
-  <url>
-       <loc>https://dangerhuskie.com/works/chicaghost</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-       <image:image>
-         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_chicaghost.jpg</image:loc>
-         <image:caption>A spooky floating ghost looks creepy but comfy with a stocking cap</image:caption>
-       </image:image>
-  </url>
-  <url>
        <loc>https://dangerhuskie.com/works/oversized-foam-cowboy-hat</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -303,8 +333,38 @@
        </image:image>
   </url>
   <url>
+       <loc>https://dangerhuskie.com/works/chicago-stocking-cap-dog-with-flag</loc>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_chicagostockingcapdogwithflag.jpg</image:loc>
+         <image:caption>A friendly dachshund in a stocking cap with the colors of the Chicago flag and also sporting a costume with the toppings of the Chicago-style hot dog!</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/da-chicago-hockey-ghost</loc>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_hockeyghost.jpg</image:loc>
+         <image:caption>A friendly floating ghost holding a hockey stick that&apos;s taped up, and hockey gloves, all while keeping warm with a stocking cap!</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://dangerhuskie.com/works/chicaghost</loc>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://nickvolkert.sirv.com/dangerhuskie/works/portfolio_chicaghost.jpg</image:loc>
+         <image:caption>A spooky floating ghost looks creepy but comfy with a stocking cap</image:caption>
+       </image:image>
+  </url>
+  <url>
        <loc>https://dangerhuskie.com/works/the-horns</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -314,7 +374,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/winning-ugly-dog</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -324,7 +384,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/south-side-dog</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -334,7 +394,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/rubber-duckie</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -344,7 +404,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/varsity-pumpkinhead</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -354,7 +414,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/da-chicago-shades-dog</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -364,7 +424,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/da-chicago-mustard-dog</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -374,7 +434,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/varsity-pumpkin-grave</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -384,7 +444,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/varsity-pumpkin-creepin</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -394,7 +454,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/fighting-burger</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -404,7 +464,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/dh-hardcore-logo</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -414,7 +474,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/danger-huskie-head</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -424,7 +484,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/dh-logo-with-text</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -434,7 +494,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/angry-rainbow</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -444,7 +504,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/unhappy-rainbow</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -454,7 +514,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/cloud-hug</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -464,7 +524,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/pencil-bear-with-flag</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -474,7 +534,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/chicago-dog-with-flag</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -484,7 +544,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/white-electric-cat</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -494,7 +554,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/black-electric-cat</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -504,7 +564,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/calendar-2020</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -514,7 +574,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/joyous-rainbow</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -524,7 +584,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/happy-rainbow</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -534,7 +594,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/varsity-pumpkin</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -544,7 +604,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/annoyed-sasquatch</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -554,7 +614,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/annoyed-yeti</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
@@ -564,7 +624,7 @@
   </url>
   <url>
        <loc>https://dangerhuskie.com/works/pencil-bear</loc>
-       <lastmod>2023-11-26T12:05:25+00:00</lastmod>
+       <lastmod>2024-03-24T12:31:27+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <image:image>
