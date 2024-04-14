@@ -58,7 +58,7 @@
         &:hover {
             color: $color-white;
             background-color:$color-a-tag;
-            border: 3px solid $color-a-tag;
+            border: 3px solid $color-white;
           }
       }
   }
@@ -105,15 +105,15 @@
       border: 1px solid $color-white;
   
       &:visited{
-        background-color: $color-primary;
-        border: 1px solid $color-primary;
+        background-color: $color-navy;
+        border: 1px solid $color-navy;
         color: $color-white;
         }
   
       &:hover{
-        background-color: $color-primary;
-        border: 1px solid $color-white;
-        color: $color-white;
+        background-color: $color-white;
+        border: 1px solid $color-navy;
+        color: $color-navy;
         }
     }
     &.btn-secondary-blue{
@@ -128,7 +128,7 @@
 
       &:hover {
         background-color: $color-primary;
-        border: 1px solid $color-primary;
+        border: 1px solid $color-white;
         color: $color-white;
       }
     }

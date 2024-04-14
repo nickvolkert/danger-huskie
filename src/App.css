@@ -390,7 +390,7 @@ a:hover {
 .btn__link-secondary-blue:hover {
   color: #FFF;
   background-color: #fa4b91;
-  border: 3px solid #fa4b91;
+  border: 3px solid #FFF;
 }
 
 .btn__wrapper {
@@ -438,15 +438,15 @@ a.btn .primary {
 }
 a.btn.btn-primary:visited,
 a.btn .primary:visited {
-  background-color: #EE283B;
-  border: 1px solid #EE283B;
+  background-color: #0A2240;
+  border: 1px solid #0A2240;
   color: #FFF;
 }
 a.btn.btn-primary:hover,
 a.btn .primary:hover {
-  background-color: #EE283B;
-  border: 1px solid #FFF;
-  color: #FFF;
+  background-color: #FFF;
+  border: 1px solid #0A2240;
+  color: #0A2240;
 }
 a.btn.btn-secondary-blue {
   color: #0A2240;
@@ -459,7 +459,7 @@ a.btn.btn-secondary-blue:visited {
 }
 a.btn.btn-secondary-blue:hover {
   background-color: #EE283B;
-  border: 1px solid #EE283B;
+  border: 1px solid #FFF;
   color: #FFF;
 }
 a.btn.btn-ghost {
@@ -1531,6 +1531,9 @@ footer .sociallinks {
   color: #FFF;
 }
 
+.news-entry {
+  margin-bottom: 2.4rem;
+}
 .news-entry h2 {
   font-size: 6rem;
   line-height: 6.4rem;
@@ -1561,6 +1564,9 @@ footer .sociallinks {
 }
 
 @media only screen and (max-width: 768px) {
+  .news-entry {
+    padding: 1.2rem 0;
+  }
   .news-entry h2 {
     font-size: 3.8rem;
     line-height: 4rem;

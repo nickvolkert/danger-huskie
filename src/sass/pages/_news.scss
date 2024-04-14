@@ -1,4 +1,5 @@
 .news-entry{
+    margin-bottom:2.4rem;
     h2{
         font-size:6.0rem;
         line-height: 6.4rem;
@@ -36,6 +37,7 @@
 
 @media only screen and (max-width: 768px){
     .news-entry{
+        padding: 1.2rem 0;
         h2{
             font-size:3.8rem;
             line-height: 4.0rem;

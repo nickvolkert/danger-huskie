@@ -61,6 +61,7 @@ import TheMulletLog from './pages/Works/TheMulletLog';
 import FourLeafCloverChicagoDog from './pages/Works/FourLeafCloverChicagoDog';
 import ChiStyleShamrockDog from './pages/Works/ChiStyleShamrockDog';
 import BigIrishFlagChicagoDog from './pages/Works/BigIrishFlagChicagoDog';
+import VampireFangs from './pages/Works/VampireFangs';
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -127,6 +128,7 @@ const App = () => (
           <Route exact path={DangerHuskie[38].link} component={FourLeafCloverChicagoDog} />
           <Route exact path={DangerHuskie[39].link} component={ChiStyleShamrockDog} />
           <Route exact path={DangerHuskie[40].link} component={BigIrishFlagChicagoDog} />
+          <Route exact path={DangerHuskie[41].link} component={VampireFangs} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />
