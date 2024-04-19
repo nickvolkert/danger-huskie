@@ -62,6 +62,7 @@ import FourLeafCloverChicagoDog from './pages/Works/FourLeafCloverChicagoDog';
 import ChiStyleShamrockDog from './pages/Works/ChiStyleShamrockDog';
 import BigIrishFlagChicagoDog from './pages/Works/BigIrishFlagChicagoDog';
 import VampireFangs from './pages/Works/VampireFangs';
+import TheMummy from './pages/Works/TheMummy';
 
 //News
 import _NewsLanding from "./pages/News/_NewsLanding";
@@ -129,6 +130,7 @@ const App = () => (
           <Route exact path={DangerHuskie[39].link} component={ChiStyleShamrockDog} />
           <Route exact path={DangerHuskie[40].link} component={BigIrishFlagChicagoDog} />
           <Route exact path={DangerHuskie[41].link} component={VampireFangs} />
+          <Route exact path={DangerHuskie[42].link} component={TheMummy} />
 
           {/* News Page */}
           <Route exact path="/news" component={_NewsLanding} />

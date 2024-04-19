@@ -55,6 +55,30 @@ const News = () => (
             
             <div id="news-body" className="body-copy">
 
+                {/* 22 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <Link to={DangerHuskie[42].link}>
+                                <img src={DangerHuskie[42].preview} title={DangerHuskie[42].title} alt={DangerHuskie[42].alttext} />
+                            </Link>
+                        </div>
+                        <p className="caption">Not your mom, but you're mummy!</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>A sarcophagus has opened!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: April 18th, 2024</p>
+                        <p>DANGER TEAM: An evil mummy is out of its tomb and looking to start a new kingdom in the modern world!</p>
+                        <p><Link to={DangerHuskie[42].link}>Check out the {DangerHuskie[42].title} here!</Link></p>
+                        <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
+                        <p>~ Danger Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+
                 {/* 21 */}
                 <div className="news-entry">
                     <div className="leftRail">
