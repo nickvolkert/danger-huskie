@@ -55,6 +55,30 @@ const News = () => (
             
             <div id="news-body" className="body-copy">
 
+                {/* 23 */}
+                <div className="news-entry">
+                    <div className="leftRail">
+                        <div className="leftRailImage">
+                            <Link to={DangerHuskie[43].link}>
+                                <img src={DangerHuskie[43].preview} title={DangerHuskie[43].title} alt={DangerHuskie[43].alttext} />
+                            </Link>
+                        </div>
+                        <p className="caption">The most patriotic dachshund!</p>
+                    </div>
+                    <div className="rightRail">
+                        <h2>Hot dogs and America!</h2>
+                        <div className="pipe"></div>
+                        <div className="news-entry-text">
+                        <p>Date: July 20th, 2024</p>
+                        <p>DANGER TEAM: Celebrate National Hot Dog Day and celebrate American patriotism with my sweet new Chicago-style hot dog design! USA! USA! USA!</p>
+                        <p><Link to={DangerHuskie[43].link}>Check out the {DangerHuskie[43].title} here!</Link></p>
+                        <p><Link to="/works/">Check out ALL my latest works here!</Link></p>
+                        <p>~ Danger Nick</p>
+                    </div>
+                    </div>
+                    <Clearfix />
+                </div>
+
                 {/* 22 */}
                 <div className="news-entry">
                     <div className="leftRail">
